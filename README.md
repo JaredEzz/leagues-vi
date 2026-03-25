@@ -87,62 +87,74 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 | **Desert** | Pick 2 | ToA (best scalable raid + Tumeken's Shadow), Ancient Magicks (Ice Barrage), Tempoross (Fishing alt) |
 | **Kandarin** | Pick 3 | Zenytes (Demonic Gorillas → Tormented Bracelet → Confliction Gauntlets), Barbarian Fishing, Lunar spells, chinchompas |
 
-### Mage Build — Key Gear
+### Mage Build — Full BIS Gear
 
-| Slot | Item | Source | Notes |
-|------|------|--------|-------|
-| **Weapon** | Eye of Ayak | Doom of Mokhaiotl (Varlamore) | 1H powered staff, fastest attack speed, special drains magic def |
-| **Gloves** | Confliction Gauntlets | Tormented Bracelet (zenyte, Kandarin) + Mokhaiotl Cloth (Varlamore) + 10k demon tears | BIS mage, passive re-rolls accuracy on miss. Only works with 1H weapons — perfect with Eye of Ayak |
-| **Swap weapon** | Tumeken's Shadow | ToA (Desert) | BIS raw damage but 2H — no Confliction passive. Use for content where raw DPS > accuracy |
-| **Prayer** | Augury | CoX (Kourend) | BIS mage prayer |
-| **Spellbook** | Ancient Magicks | Desert | Ice Barrage for Slayer + AoE, Blood spells for sustain |
+| Slot | Item | Stats | Source | Notes |
+|------|------|-------|--------|-------|
+| **Weapon** | Eye of Ayak | +30 magic atk, 3-tick speed | Doom of Mokhaiotl (V) | 1H powered staff, fastest attack speed, special drains magic def |
+| **Off-hand** | Elidinis' Ward (base) | +5 magic atk, +3% dmg | ToA (D) | Fortified version locked behind Corp (Wilderness). Base still gives damage % which synergizes with build — Confliction covers accuracy |
+| **Head** | Ancestral Hat | +8 magic atk, +3% dmg | CoX (Ko) | BIS mage helm |
+| **Body** | Ancestral Robe Top | +35 magic atk, +3% dmg | CoX (Ko) | BIS mage body |
+| **Legs** | Ancestral Robe Bottom | +26 magic atk, +3% dmg | CoX (Ko) | BIS mage legs |
+| **Gloves** | Confliction Gauntlets | +20 magic atk, +7% dmg | Tormented Bracelet (zenyte, Ka) + Mokhaiotl Cloth (V) + 10k demon tears | Passive re-rolls accuracy on miss. 1H weapons only — perfect with Eye of Ayak |
+| **Boots** | Avernic Treads | +11 magic atk, +1% dmg | Doom of Mokhaiotl (V) | Delve level 4+. Eternal upgrade (+2% dmg) locked behind Cerberus (Asgarnia) |
+| **Neck** | Occult Necklace | +12 magic atk, +5% dmg | Thermonuclear Smoke Devil (Ka) | Only necklace with magic damage %. 93 Slayer req for task |
+| **Prayer** | Augury | BIS mage prayer | CoX (Ko) | |
+| **Spellbook** | Ancient Magicks | Ice Barrage, Blood spells | Desert quest | AoE for Slayer, Blood for sustain |
+| **Swap: Barrage** | Kodai Wand | +28 magic atk, +15% dmg | Master Wand (MTA, D) + Kodai Insignia (CoX, Ko) | Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Use for burst/barrage Slayer |
+| **Swap: Raw DPS** | Tumeken's Shadow | BIS raw mage damage | ToA (D) | 2H — no Confliction passive. Use where raw DPS > accuracy |
 
-### Fastest 99 in Every Skill
+**Total magic damage bonus (Eye of Ayak setup): +22%** (Ancestral 9% + Confliction 7% + Occult 5% + Treads 1% + Ward 3%)
+**Total magic damage bonus (Kodai swap): +36%** (Ancestral 9% + Confliction 7% + Occult 5% + Treads 1% + Ward 3% + Kodai 15% — minus Eye of Ayak built-in spell)
 
-*Regions: Varlamore (V), Karamja (K), Kourend (Ko), Desert (D), Kandarin (Ka). Abundance relic assumed.*
+**All items farmable in your regions** except fortified ward upgrade (Corp) and Eternal treads upgrade (Cerberus). Base versions are still excellent.
+
+### Fastest 99 in Every Skill (Summary)
+
+*Regions: Varlamore (V), Karamja (K), Kourend (Ko), Desert (D), Kandarin (Ka). Abundance relic assumed. See [skills/](skills/) for detailed guides.*
 
 #### Combat Skills
 
-| Skill | Fastest Method | Region | Notes |
+| Skill | Fastest Method | Region | Guide |
 |-------|---------------|--------|-------|
-| **Attack** | Sulphur Naguas (AFK) → Slayer | V / Ko | Naguas early, Catacombs Slayer later |
-| **Strength** | Sulphur Naguas (AFK) → Slayer | V / Ko | Same as Attack, swap style |
-| **Defence** | Slayer (defensive casting with Ancient Magicks) | Ko + D | Barrage Slayer in Catacombs = Defence + Magic XP |
-| **Hitpoints** | Passive from all combat | — | Trained automatically through everything else |
-| **Ranged** | Chinchompas in MM2 tunnels | Ka | Chin Demonic Gorillas area. Alt: cannon Slayer |
-| **Magic** | Ice Barrage Slayer (Catacombs multi-combat) | Ko + D | Dust Devils / Nechryaels. Also trains Defence. Fastest mage XP in game |
-| **Prayer** | Ralos' Rise (Blessed Bone Shards → Libation Bowl) | V | Up to 1.2M XP/hr. Best method in the entire game, no region needed |
+| [Attack](skills/attack.md) | Sulphur Naguas (AFK) → Slayer | V / Ko | |
+| [Strength](skills/strength.md) | Sulphur Naguas (AFK) → Slayer | V / Ko | |
+| [Defence](skills/defence.md) | Defensive barrage Slayer (Catacombs) | Ko + D | |
+| [Hitpoints](skills/hitpoints.md) | Passive from all combat | — | |
+| [Ranged](skills/ranged.md) | Chinchompas in MM2 tunnels | Ka | |
+| [Magic](skills/magic.md) | Ice Barrage Slayer (Catacombs) | Ko + D | Dust Devils / Nechryaels |
+| [Prayer](skills/prayer.md) | Ralos' Rise (1.2M XP/hr) | V | Best method in game |
 
 #### Gathering Skills
 
-| Skill | Fastest Method | Region | Notes |
+| Skill | Fastest Method | Region | Guide |
 |-------|---------------|--------|-------|
-| **Mining** | Shooting Stars (AFK) / Calcified Rocks | V | Stars are great AFK. Calcified from 41+. Abundance GP means no need to sell |
-| **Fishing** | Barbarian Fishing (fastest XP) | Ka | Karambwans (K) as AFK alt. Tempoross (D) for supplies + pet |
-| **Woodcutting** | Redwood trees (90+) | Ko | Forestry (V) to 90, then Redwoods AFK to 99 |
-| **Farming** | Tree + herb runs (1-min ticks!) | Any | Buy seeds with Abundance GP. 1-min farming ticks = plant constantly. Tithe Farm (Ko) as backup |
-| **Hunter** | Moonlight Moths / Varlamore creatures | V | Herbiboar not accessible (Fossil Island needs Misthalin). Moths are solid |
+| [Mining](skills/mining.md) | Shooting Stars / Calcified Rocks | V | |
+| [Fishing](skills/fishing.md) | Barbarian Fishing / Karambwans (AFK) | Ka / K | |
+| [Woodcutting](skills/woodcutting.md) | Forestry → Redwoods (90+) | V → Ko | |
+| [Farming](skills/farming.md) | Contracts + tree/herb runs (1-min ticks) | Ko | Farming Guild is the hub |
+| [Hunter](skills/hunter.md) | Hunters' Rumours → Moonlight Moths/Antelope | V | Full creature list in guide |
 
-#### Artisan / Buyable Skills
+#### Artisan Skills
 
-| Skill | Fastest Method | Region | Notes |
+| Skill | Fastest Method | Region | Guide |
 |-------|---------------|--------|-------|
-| **Cooking** | Cook fish from Fishing training | Ka / K | Cook Karambwans + Barb Fishing drops as you catch them. Monster drops too |
-| **Smithing** | Blast Furnace (buy ores from BF shop) | Ko | BF ore shop + non-depleting league shops. Fastest Smithing XP |
-| **Crafting** | Gem trader (Al Kharid) + tan hides | D | Buy gems with Abundance GP. Need 83 Crafting + 70 Smithing for Confliction Gauntlets |
-| **Fletching** | Vale Totems / chop logs + spin flax | V / Ka | Flax near Seers (Kandarin) for bowstrings. Vale Totems for combined Con XP |
-| **Herblore** | Farm herbs (1-min ticks!) + shop secondaries | Any | Start at lvl 3 (+10 Abundance = 13). Grow your own herbs, buy what secondaries you can |
-| **Construction** | Chop logs → sawmill → build in POH | V | Auburnvale sawmill closest to bank. Vale Totems as alt |
-| **Firemaking** | Wintertodt | Ko | 4x minigame points. Great XP + supplies. Alt: Forestry events (V) |
-| **Runecraft** | Sunfire Runecrafting (33-98) → Blood runes (77+) | V / Ko | Sunfire is excellent. Blood/Soul altars in Kourend for 77+ |
+| [Cooking](skills/cooking.md) | Cook fish from Fishing training | Ka / K | Ironman — cook what you catch |
+| [Smithing](skills/smithing.md) | Blast Furnace | Ko | BF ore shop, non-depleting |
+| [Crafting](skills/crafting.md) | Gem cutting (Al Kharid trader) | D | Need 83 for Confliction Gauntlets |
+| [Fletching](skills/fletching.md) | Vale Totems / bows (flax from Seers) | V / Ka | |
+| [Herblore](skills/herblore.md) | Mastering Mixology (Aldarin) | V | Main plan, 60 Herblore req (50 boosted) |
+| [Construction](skills/construction.md) | Vale Totems → planks in POH | V | GP from Abundance scales with XP, not unlimited |
+| [Firemaking](skills/firemaking.md) | Wintertodt | Ko | 4x minigame points |
+| [Runecraft](skills/runecraft.md) | Sunfire RC → Blood runes (77+) | V → Ko | |
 
 #### Support Skills
 
-| Skill | Fastest Method | Region | Notes |
+| Skill | Fastest Method | Region | Guide |
 |-------|---------------|--------|-------|
-| **Agility** | Colossal Wyrm Agility Course | V | Req 50 Agility. Best course available without Morytania (no Sepulchre) |
-| **Thieving** | Ardy Knights (55+) / Bazaar pickpocketing | Ka / V | Knights are classic fast XP. Bazaar Street Urchin windows as alt |
-| **Slayer** | Catacombs of Kourend (burst/barrage) | Ko + D | Multi-combat = barrage tasks. 5x Slayer points + 1/50 superiors in leagues |
+| [Agility](skills/agility.md) | Colossal Wyrm Course | V | |
+| [Thieving](skills/thieving.md) | Blackjacking (Desert) / Ardy Knights / Bazaar | D / Ka / V | Multiple options |
+| [Slayer](skills/slayer.md) | Barrage Slayer (Catacombs) | Ko + D | May need Slayer relic — TBD |
 
 ### Maxing Phases
 
@@ -208,7 +220,7 @@ To get all must-haves + nice-to-haves, target **Dragon tier** minimum (likely ~1
 | Date | Reveal | Notes |
 |------|--------|-------|
 | 2026-03-23 | Tier 1 relics teased | "A powerful choice of three, perfectly chosen for where you begin... Varlamore" |
-| ... | ... | ... |
+| 2026-03-24 | **Tier 8 relic: Minion** | Summons a minion (30 min duration). 3-10 damage, 1.8s attack speed. AoE in multi-combat. Consumes up to 5 Zamorak items for +2 max hit each. Auto-loots kills. No PvP or Yama. |
 
 ---
 
