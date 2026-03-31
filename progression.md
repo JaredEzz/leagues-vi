@@ -55,6 +55,14 @@
 - Mining + Agility + Hunter + Thieving + RC all generate task completions fast
 - Boss KC tasks (kill Doom once, kill Vardorvis once, etc.) are quick points
 
+### Echo Bosses Available
+
+| Echo Boss | Normal Version | Echo Drop | Drop Rate | Strategy |
+|-----------|---------------|-----------|-----------|----------|
+| **Echo Amoxliatl** | Amoxliatl (Varlamore) | Four-pronged weapon (TBD) | TBD | **Do early.** Normal Amoxliatl is easy enough to farm echo orbs. Gear isn't too rare |
+
+Other Varlamore bosses (Moons of Peril, Hueycoatl, etc.) may have echo variants revealed later. **Do normal versions early** — the drops are good for your account and not too rare. Save hard-grind boss farming for T4 (5x drop rate).
+
 ### Decision Point: Doom of Mokhaiotl Early?
 
 **Pro:** Eye of Ayak early = your mage weapon for the rest of the league. Avernic Treads + Mokhaiotl Cloth too.
@@ -105,6 +113,13 @@ Pick now. See [relics.md](relics.md) for full analysis. Leaning Hotfoot (solves 
 - CoX completions = boss tasks
 - **T3 Evil Eye (1,500 pts):** Boss teleports. Instant travel to CoX, Doom of Mokhaiotl, every boss. Huge efficiency gain.
 
+### Echo Bosses Available
+
+| Echo Boss | Echo Drop | Drop Rate | Strategy |
+|-----------|-----------|-----------|----------|
+| **Echo Amoxliatl** | Four-pronged weapon (TBD) | TBD | Continue from Phase 1 |
+| **Echo Hespori** | Nature's Reprisal (3-style weapon) | 1/15, guaranteed at 30 KC | Easy farm. Kill Hespori whenever it grows. Nature's Reprisal is a fun multi-style weapon |
+
 ### Bossing Options
 
 At this phase you have Varlamore bosses + CoX. With Abundance +10 and some combat training:
@@ -114,7 +129,7 @@ At this phase you have Varlamore bosses + CoX. With Abundance +10 and some comba
 | CoX solos/duos | Once combat stats are decent (~70s-80s) | Ancestral, Kodai insignia, Augury. Start learning |
 | Doom of Mokhaiotl | Ongoing from Phase 1 | Eye of Ayak, Avernic Treads. Better with higher delve levels |
 | Fight Caves | Early (easy with leagues buffs) | Fire Cape. Quick task completion |
-| Hespori | Every Hespori seed | Tree seeds for Farming |
+| Hespori + Echo Hespori | Every Hespori seed | Tree seeds + Nature's Reprisal (echo). Farming Guild |
 
 ---
 
@@ -171,17 +186,25 @@ At this phase you have Varlamore bosses + CoX. With Abundance +10 and some comba
 | **Doom of Mokhaiotl** | Now with 5x drops | Eye of Ayak, Avernic Treads, Mokhaiotl Cloth. Much better rates |
 | Inferno attempts | If you're feeling it | Infernal Cape. Hard but Flask of Fervour is still 2 tiers away |
 
+### Echo Boss Strategy
+
+**Do early (before T4 5x drops):** Normal Amoxliatl, Moons of Peril, Hespori — drops are useful and not too rare. Farm echo orbs from normal versions, attempt echo variants for bonus drops.
+
+**Wait for T4 5x drops (2,500 pts):** Doom of Mokhaiotl (Eye of Ayak, Avernic Treads), CoX (Ancestral), ToA (Shadow, Ward). Rare drops benefit massively from 5x multiplier.
+
+**Wait for Kandarin (Phase 4):** Echo Thermonuclear Smoke Devil → Devil's element (potential BIS offhand, see below).
+
 ### Key Gear Milestone
 
 By mid-Phase 3 you could have:
-- Eye of Ayak + Avernic Treads (Doom of Mokhaiotl)
+- Eye of Ayak + Avernic Treads (Doom of Mokhaiotl, especially with 5x drops)
 - Ancestral pieces (CoX)
 - Kodai Wand (MTA Master Wand + CoX insignia)
 - Augury (CoX)
 - Elidinis' Ward base (ToA)
 - Ancient Magicks (Desert quest)
 
-**Missing:** Confliction Gauntlets (need zenyte from Kandarin), Occult Necklace (need 93 Slayer + Kandarin for Thermy)
+**Missing:** Confliction Gauntlets (need zenyte from Kandarin), Occult Necklace (need 93 Slayer + Kandarin), **Devil's element** (Echo Thermy, Kandarin)
 
 ---
 
@@ -235,7 +258,7 @@ Full setup now available:
 |------|----------------------|-------|
 | **Demonic Gorillas** | Zenyte shards, Ballista pieces | Priority #1. Need zenytes for Confliction Gauntlets |
 | **Thermonuclear Smoke Devil** | Occult Necklace | 93 Slayer. Use Culling Spree to choose Smoke Devil tasks |
-| **Echo Thermy** | Echo rewards (TBD) | Harder variant |
+| **Echo Thermonuclear Smoke Devil** | **Devil's Element** (offhand: +20 magic atk, +6% dmg, unlimited elemental runes, doubles NPC weaknesses) | 1/25 drop, guaranteed at 50 KC. **Potentially BIS offhand** — beats Elidinis' Ward base. Confirm it returns in Demonic Pacts |
 | **Kraken** | Trident of the Seas | 87 Slayer. Decent mage weapon / collection |
 | **Zulrah** | — | Tirannwn locked. NOT available |
 

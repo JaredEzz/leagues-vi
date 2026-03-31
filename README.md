@@ -94,7 +94,8 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 | Slot | Item | Stats | Source | Notes |
 |------|------|-------|--------|-------|
 | **Weapon** | Eye of Ayak | +30 magic atk, 3-tick speed | Doom of Mokhaiotl (V) | 1H powered staff, fastest attack speed, special drains magic def |
-| **Off-hand** | Elidinis' Ward (base) | +5 magic atk, +3% dmg | ToA (D) | Fortified version locked behind Corp (Wilderness). Base still gives damage % which synergizes with build — Confliction covers accuracy |
+| **Off-hand** | Devil's Element | +20 magic atk, +6% dmg | Echo Thermy (Ka) | 1/25 drop, guaranteed at 50 KC. Unlimited elemental runes. Doubles NPC elemental weaknesses. **Confirm it returns in Demonic Pacts** |
+| **Off-hand (alt)** | Elidinis' Ward (base) | +5 magic atk, +3% dmg | ToA (D) | Use until Devil's Element. Fortified locked behind Corp (Wilderness) |
 | **Head** | Ancestral Hat | +8 magic atk, +3% dmg | CoX (Ko) | BIS mage helm |
 | **Body** | Ancestral Robe Top | +35 magic atk, +3% dmg | CoX (Ko) | BIS mage body |
 | **Legs** | Ancestral Robe Bottom | +26 magic atk, +3% dmg | CoX (Ko) | BIS mage legs |
