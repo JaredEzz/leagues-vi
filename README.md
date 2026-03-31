@@ -77,6 +77,8 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 
 **Progression:** See [progression.md](progression.md) for phase-by-phase region unlock order, boss timing, and what carries you between tiers.
 
+**Dependencies:** See [dependencies.md](dependencies.md) for prerequisite chains (mermaid flowcharts on GitHub).
+
 **Build:** Mage — Eye of Ayak + Confliction Gauntlets. Always picks mage combat masteries when available.
 
 ### Region Unlocks
