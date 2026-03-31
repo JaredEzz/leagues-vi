@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Region:** Kourend
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~4.2 hrs |
+| With Abundance | **~2.7 hrs** (+10 boost → BF at 50 real. GP buys ores from BF shop, saves ~1 hr gathering) |
+
+**Abundance saves ~1.5 hrs** (+10 boost + GP for ore purchases). +2/drop = +1.2% (negligible). Hotfoot auto-smelt barely helps since Mining plan uses Calcified Rocks/Stars, not standard ore.
+
 ## Primary Method: Blast Furnace
 
 **Location:** Kelvian (Kourend)

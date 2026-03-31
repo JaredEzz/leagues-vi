@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Start:** Level 3 (+10 Abundance boost = effective 13)
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~5 hrs |
+| With Abundance | **~2.5 hrs** (+10 boost → Mixology at 50 real. GP buys secondaries. Nature's Accord 10x herb yield eliminates supply issues) |
+
+**Abundance saves ~2.5 hrs** (+10 boost = Mixology 10 levels earlier, skipping slow potion phase. GP buys secondaries from NPC shops). +2/drop = +1% (negligible).
+
 ## Primary Method: Mastering Mixology
 
 **Location:** Aldarin, Varlamore (available from start)

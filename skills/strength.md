@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Regions:** Varlamore → Kourend
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x) | ~3.5 hrs |
+| With Abundance | **~3.5 hrs** (combat skill — no +10 boost) |
+
+**Abundance saves ~5 min**. Trained passively through Slayer.
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

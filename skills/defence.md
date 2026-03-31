@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Regions:** Kourend + Desert
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x) | ~3 hrs |
+| With Abundance | **~3 hrs** (combat skill — no +10 boost) |
+
+**Abundance saves ~5 min**. Trained passively through defensive barrage Slayer (Magic + Defence simultaneously).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

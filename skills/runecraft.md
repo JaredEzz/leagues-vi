@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Regions:** Varlamore → Kourend
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~5 hrs |
+| With Abundance | **~4 hrs** (+10 boost → Blood runes at 67 real, Sunfire RC at 23 real) |
+
+**Abundance saves ~1 hr** (+10 boost = earlier access to Blood/Soul altars in Kourend).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

@@ -73,7 +73,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 
 **Goal:** 99 in every skill + max points for cosmetics
 
-**Relic:** Abundance — permanent +10 non-combat boost, 2 bonus XP per drop, 2 coins per XP (unlimited GP)
+**Relic:** Abundance — permanent +10 non-combat boost, 2 bonus XP per drop, 2 coins per XP. See [relics.md](relics.md) for full tier-by-tier relic plan.
 
 **Build:** Mage — Eye of Ayak + Confliction Gauntlets. Always picks mage combat masteries when available.
 
@@ -154,7 +154,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 |-------|---------------|--------|-------|
 | [Agility](skills/agility.md) | Colossal Wyrm Course | V | |
 | [Thieving](skills/thieving.md) | Blackjacking (Desert) / Ardy Knights / Bazaar | D / Ka / V | Multiple options |
-| [Slayer](skills/slayer.md) | Barrage Slayer (Catacombs) | Ko + D | May need Slayer relic — TBD |
+| [Slayer](skills/slayer.md) | Barrage Slayer (Catacombs) + Culling Spree | Ko + D | T6 relic: choose tasks, free Slayer helm (wear Ancestral!), superior chains |
 
 ### Maxing Phases
 
@@ -217,10 +217,19 @@ To get all must-haves + nice-to-haves, target **Dragon tier** minimum (likely ~1
 
 *Jagex is revealing details daily until April 15. Track new info here.*
 
+*All relics revealed as of 2026-03-31. See [relics.md](relics.md) for full breakdown + picks. Combat pacts still TBD.*
+
 | Date | Reveal | Notes |
 |------|--------|-------|
-| 2026-03-23 | Tier 1 relics teased | "A powerful choice of three, perfectly chosen for where you begin... Varlamore" |
-| 2026-03-24 | **Tier 8 relic: Minion** | Summons a minion (30 min duration). 3-10 damage, 1.8s attack speed. AoE in multi-combat. Consumes up to 5 Zamorak items for +2 max hit each. Auto-loots kills. No PvP or Yama. |
+| 2026-03-23 | T1: Endless Harvest, Barbarian Gathering, Abundance | **Pick: Abundance** |
+| 2026-03-24 | T8: Minion | Combat pet, AoE, auto-loot |
+| 2026-03-25 | T6: Culling Spree | Free Slayer helm, task choice, superior chains |
+| 2026-03-26 | T3: Evil Eye | Boss teleport item |
+| 2026-03-27 | T2: Woodsman + Echo Amoxliatl | Hunter/WC/FM/Fletch relic |
+| 2026-03-28 | T4: Conniving Clues + Echo Thermy | Clue mega-relic, pairs with Culling Spree |
+| 2026-03-29 | T8: Flask of Fervour + Echo Hespori | Full restore + invuln, alternative to Minion |
+| 2026-03-30 | T5: Nature's Accord + Echo DKs | Farming 10x yield, fairy mushroom tele |
+| 2026-03-31 | T2: Hotfoot | Auto-cook, auto-smelt, passive Agility XP |
 
 ---
 

@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Regions:** Kandarin, Desert, Varlamore
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~4 hrs |
+| With Abundance | **~3 hrs** (+10 boost → Ardy Knights at 45 real, higher success rates everywhere) |
+
+**Abundance saves ~1 hr** (+10 boost = better success rates = fewer fails = faster XP).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

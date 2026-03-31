@@ -2,6 +2,17 @@
 
 **Target:** 99 | **Region:** Primarily Varlamore, with Kandarin + Kourend support
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~9 hrs |
+| With Abundance only | **~6.5 hrs** (+10 boost → Master rumours at 81 real, skip slower Expert phase) |
+| With Abundance + Hotfoot | ~6.5 hrs (Hotfoot doesn't affect Hunter) |
+| With Abundance + Woodsman | **~3 hrs** (100% success + 2x XP/loot + auto seeds) |
+
+**Abundance saves ~2.5 hrs** (+10 boost is big here — Master rumours at 81 instead of 91). +2/drop = +0.5% (negligible — few catches/hr).
+
 ## Key Location
 
 **Hunter Guild** — NW Avium Savannah, just outside Civitas illa Fortis (Varlamore). Requires 46 Hunter to enter (not boostable).

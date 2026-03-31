@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Regions:** Kourend + Desert | **BUILD SKILL — mage main**
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~6 hrs |
+| With Abundance | **~6 hrs** (Abundance +10 doesn't apply to combat skills) |
+
+**Abundance saves ~5 min**. Combat skill — no +10 boost. +2/drop = +0.5% (negligible). Magic trains passively through barrage Slayer anyway.
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

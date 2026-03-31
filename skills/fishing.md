@@ -2,6 +2,16 @@
 
 **Target:** 99 | **Regions:** Kandarin, Karamja, Desert | **Mostly AFK**
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~8 hrs |
+| With Abundance | **~7.5 hrs** (+10 boost → higher fish earlier) |
+| 3-tick barb fishing at 16x | **~7-8 hrs** (you're good at this) |
+
+**Abundance saves ~30 min** (+10 boost = access to higher fish earlier).
+
 ## Progression Plan
 
 ### Phase 1: Angler's Outfit (Fishing Trawler)

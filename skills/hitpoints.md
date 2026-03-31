@@ -2,8 +2,10 @@
 
 **Target:** 99 | **Region:** Passive
 
-## Methods
+## Time Estimates
 
-Trained passively through all combat. No dedicated training needed.
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| All scenarios | **0 hrs** (fully passive) |
 
-Every Attack, Strength, Defence, Ranged, and Magic XP drop also gives Hitpoints XP. You'll hit 99 HP naturally while training other combat skills.
+**Abundance saves 0 min**. Combat skill, trained automatically through all other combat training. No dedicated time needed.

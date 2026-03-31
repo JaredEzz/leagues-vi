@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Region:** Varlamore
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~4 hrs |
+| With Abundance | **~3.5 hrs** (+10 boost → Calcified Rocks earlier) |
+
+**Abundance saves ~30 min** (+10 boost = earlier access to Calcified Rocks).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

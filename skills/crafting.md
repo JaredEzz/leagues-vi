@@ -2,6 +2,15 @@
 
 **Target:** 99 (need 83 for Confliction Gauntlets) | **Regions:** Desert, Any
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~5 hrs |
+| With Abundance | **~2 hrs** (+10 boost → Confliction craftable at 73 real. GP buys gems from Al Kharid, saves ~2 hrs gathering) |
+
+**Abundance saves ~3 hrs** (biggest saver: GP funding gem purchases from Al Kharid gem trader, eliminating gathering time. +10 boost gives earlier access to higher-tier crafting).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Primary Region:** Varlamore
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~4 hrs |
+| With Abundance | **~2 hrs** (+10 boost → higher furniture earlier. GP funds planks/sawmill costs, saves ~1.5 hrs) |
+
+**Abundance saves ~2 hrs** (+10 boost + GP covering plank costs).
+
 ## POH Access
 
 Estate agents available in:

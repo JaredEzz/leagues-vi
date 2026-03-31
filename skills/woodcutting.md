@@ -2,6 +2,16 @@
 
 **Target:** 99 | **Regions:** Varlamore → Kourend
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~8 hrs |
+| With Abundance | **~6.5 hrs** (+10 boost → Redwoods at 80 real instead of 90, skip slower methods) |
+| With Woodsman | ~6.5 hrs (same WC time, but FM trains simultaneously for free) |
+
+**Abundance saves ~1.5 hrs** (+10 boost = Redwoods 10 levels earlier).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

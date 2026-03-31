@@ -2,6 +2,15 @@
 
 **Target:** 99 | **Region:** Kandarin
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~7 hrs |
+| With Abundance | **~7 hrs** (Abundance +10 doesn't apply to combat skills) |
+
+**Abundance saves ~5 min**. Combat skill — no +10 boost.
+
 ## Methods
 
 | Level Range | Method | Region | Notes |

@@ -2,6 +2,16 @@
 
 **Target:** 99 | **Region:** Kourend (Farming Guild)
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~3 hrs |
+| With Abundance | **~2 hrs** (+10 boost → higher patches earlier. Nature's Accord T5 = 10x yield, plants never die) |
+| With Woodsman (indirect) | ~1.5 hrs (auto herb/tree seeds from Hunter traps supplement contracts) |
+
+**Abundance saves ~1 hr** (+10 boost = earlier access to high-tier patches/contracts). Nature's Accord (T5) is the real game-changer for Farming, not Abundance.
+
 ## Key Mechanic: 1-Minute Farming Ticks
 
 Farming ticks every 1 minute (instead of 5) in leagues. This means:

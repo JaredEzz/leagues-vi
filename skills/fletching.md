@@ -2,6 +2,17 @@
 
 **Target:** 99 | **Regions:** Varlamore, Kandarin
 
+## Time Estimates
+
+| Scenario | Est. Time to 99 |
+|----------|-----------------|
+| Base (16x, no relic) | ~4.3 hrs |
+| With Abundance only | **~4 hrs** (+10 boost = higher recipes earlier) |
+| With Abundance + Hotfoot | ~4 hrs (Hotfoot doesn't affect Fletching) |
+| With Abundance + Woodsman | **~0.5-1 hr** (all items process simultaneously, stackable 10x per action) |
+
+**Abundance saves ~20 min** (+10 boost = earlier recipe access). +2/drop = +1% (negligible).
+
 ## Methods
 
 | Level Range | Method | Region | Notes |
