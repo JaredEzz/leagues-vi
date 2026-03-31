@@ -77,7 +77,7 @@ Pick now. See [relics.md](relics.md) for full analysis. Leaning Hotfoot (solves 
 
 | Skill | Method | Notes |
 |-------|--------|-------|
-| Firemaking | **Wintertodt** | If Hotfoot: need this. If Woodsman: skip. Low HP = less damage if you rush it now |
+| Firemaking | **Wintertodt** | HP doesn't matter (warmth meter). Need a rune axe. Do whenever, bank carts, open later with high Farming (67+) / Herblore (56+) for best seeds/herbs. If Woodsman: skip WT but miss supply rewards |
 | Woodcutting | Redwoods (80 real with Abundance) | AFK to 99. If Woodsman: also trains FM |
 | Smithing | **Blast Furnace** | Abundance GP buys ores from BF shop |
 | Farming | **Farming Guild contracts** | Seed pipeline starts. Hespori. Master Farmer. This compounds over time — start ASAP |
@@ -94,7 +94,7 @@ Pick now. See [relics.md](relics.md) for full analysis. Leaning Hotfoot (solves 
 | **Alchemical Hydra** | Hydra leather, Hydra's eye/fang/heart | Req 95 Slayer. Endgame boss — not yet |
 | **Sarachnis** | Cudgel, Giant egg sac | Easy mid-game boss |
 | **Skotizo** | Dark totem pieces from Catacombs | Totem drops → Skotizo kill = tasks |
-| **Wintertodt** | Seeds, herbs, ores, logs | Minigame boss. Supply dump |
+| **Wintertodt** | Seeds, herbs, ores, logs, Dragon Axe (1/10k), Tome of Fire (1/1k), Phoenix pet (1/5k) | Rewards scale with skills. Bank carts, open at Farming 67+/Herblore 56+ real. Rates improve massively at T4 (5x drops). Do whenever you have a rune axe |
 | **Hespori** | Tree seeds | Farming Guild. Plant Hespori seed → kill → seeds |
 
 ### What Carries You Forward
