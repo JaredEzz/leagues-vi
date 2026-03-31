@@ -27,7 +27,7 @@
 
 ### Why Abundance
 
-- +10 non-combat boost = access Mixology at 50 Herblore (instead of 60), Blast Furnace at 50 Smithing, Redwoods at 80 WC, etc.
+- +10 non-combat boost = access Mixology at 50 Herblore (instead of 60), Giants' Foundry higher bars earlier, Redwoods at 80 WC, etc.
 - GP generation funds Crafting (gems), Smithing (BF ores), Construction (planks)
 - Bonus XP is multiplicative with league multiplier — scales hard at 16x
 - Covers the widest range of skills for a maxing goal
@@ -45,7 +45,7 @@
 
 **Hotfoot pros:**
 - Auto-cook fish = Fishing + Cooking trained simultaneously (huge for Karambwan AFK)
-- Auto-smelt ore = Mining + Smithing overlap (less impactful since we're doing Blast Furnace)
+- Auto-smelt ore = Mining + Smithing overlap (smelts ores into bars while mining — bars feed Giants' Foundry)
 - Passive Agility XP while running everywhere = Agility practically trains itself
 - 100% Agility success = Colossal Wyrm course becomes effortless
 - Stacks with our Fishing plan (Trawler → Karambwans → Tempoross)

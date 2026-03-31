@@ -85,7 +85,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 |--------|------|-----|
 | **Varlamore** | Start | Eye of Ayak + Confliction components (Doom of Mokhaiotl), 7 bosses, most skills covered |
 | **Karamja** | Auto | Karambwans (Fishing), TzHaar (Obsidian gear, Fight Caves) |
-| **Kourend & Kebos** | Pick 1 | Redwoods (WC), Blast Furnace (Smithing), Wintertodt (FM), Catacombs (burst Slayer), CoX (Augury + raid practice), Hydra |
+| **Kourend & Kebos** | Pick 1 | Redwoods (WC), Wintertodt (FM + supplies), Catacombs (burst Slayer), CoX (Augury + raid practice), Farming Guild, Hydra |
 | **Desert** | Pick 2 | ToA (best scalable raid + Tumeken's Shadow), Ancient Magicks (Ice Barrage), Tempoross (Fishing alt) |
 | **Kandarin** | Pick 3 | Zenytes (Demonic Gorillas → Tormented Bracelet → Confliction Gauntlets), Barbarian Fishing, Lunar spells, chinchompas |
 
@@ -142,7 +142,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 | Skill | Fastest Method | Region | Guide |
 |-------|---------------|--------|-------|
 | [Cooking](skills/cooking.md) | Cook fish from Fishing training | Ka / K | Ironman — cook what you catch |
-| [Smithing](skills/smithing.md) | Blast Furnace | Ko | BF ore shop, non-depleting |
+| [Smithing](skills/smithing.md) | Giants' Foundry | D | Desert. ~4.4M/hr at 16x with rune bars. BF is Fremennik (locked) |
 | [Crafting](skills/crafting.md) | Gem cutting (Al Kharid trader) | D | Need 83 for Confliction Gauntlets |
 | [Fletching](skills/fletching.md) | Vale Totems / bows (flax from Seers) | V / Ka | |
 | [Herblore](skills/herblore.md) | Mastering Mixology (Aldarin) | V | Main plan, 60 Herblore req (50 boosted) |
@@ -164,7 +164,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 Prayer (Ralos' Rise), Agility (Colossal Wyrm), Thieving (Bazaar), Mining (Calcified/Stars), Runecraft (Sunfire), Construction + Fletching (Vale Totems), Hunter (Moths), Cooking, Herblore, Crafting — all buyable/trainable. Start combat at Sulphur Naguas.
 
 **Phase 2 — First Region Unlock → Kourend + Karamja auto-unlock (Day 3-4):**
-Firemaking (Wintertodt), Woodcutting (start Redwoods at 90), Smithing (Blast Furnace), Slayer (Catacombs). Fishing (Karambwans on Karamja as AFK).
+Firemaking (Wintertodt), Woodcutting (start Redwoods at 90), Slayer (Catacombs). Fishing (Karambwans on Karamja as AFK).
 
 **Phase 3 — Desert Unlock:**
 Ancient Magicks → Ice Barrage Slayer in Catacombs (Magic + Defence). Start ToA for Tumeken's Shadow. Farming via constant runs with 1-min ticks.

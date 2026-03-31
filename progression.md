@@ -32,7 +32,7 @@
 | Melee combat | Sulphur Naguas (AFK) | Great early melee XP |
 | Ranged | Slayer / bone crossbow | Limited options until chins (Kandarin) |
 | Magic | Combat spells / Slayer | Limited until Ancients (Desert) |
-| Smithing | Varlamore anvils with mined ores | Waiting for Blast Furnace (Kourend) |
+| Smithing | Varlamore anvils with mined ores | Waiting for Giants' Foundry (Desert) |
 | Crafting | Basic leather/gems from combat | Waiting for Al Kharid gem trader (Desert) |
 
 ### Bosses Available
@@ -79,7 +79,7 @@ Pick now. See [relics.md](relics.md) for full analysis. Leaning Hotfoot (solves 
 |-------|--------|-------|
 | Firemaking | **Wintertodt** | HP doesn't matter (warmth meter). Need a rune axe. Do whenever, bank carts, open later with high Farming (67+) / Herblore (56+) for best seeds/herbs. If Woodsman: skip WT but miss supply rewards |
 | Woodcutting | Redwoods (80 real with Abundance) | AFK to 99. If Woodsman: also trains FM |
-| Smithing | **Blast Furnace** | Abundance GP buys ores from BF shop |
+| Smithing | Anvil smithing (Kourend furnaces) | BF is Fremennik (locked). Giants' Foundry comes with Desert (Phase 3) |
 | Farming | **Farming Guild contracts** | Seed pipeline starts. Hespori. Master Farmer. This compounds over time — start ASAP |
 | Runecraft | Blood runes (67 real) / Soul runes (80 real) | AFK endgame RC |
 | Slayer | **Catacombs of Kourend** | Multi-combat melee Slayer. No barrage yet (waiting for Desert + Culling Spree) |
@@ -140,6 +140,7 @@ At this phase you have Varlamore bosses + CoX. With Abundance +10 and some comba
 |-------|--------|-------|
 | Magic | **Ancient Magicks** for combat. Save full barrage Slayer for Culling Spree (T6) | Can still burst/barrage outside Catacombs or use for general bossing |
 | Crafting | **Al Kharid gem trader** + Abundance GP | Push to 83 for Confliction Gauntlets |
+| Smithing | **Giants' Foundry** (Giants' Plateau) | Finally unlocked! ~4.4M/hr at 16x with rune bars. Feed it bars + recycled equipment |
 | Thieving | Blackjacking (Pollnivneach) | Faster than Ardy Knights if you want |
 | Herblore | Nature's Accord 10x herb yield = unlimited supply → **Mixology** | Supply bottleneck gone |
 | Farming | Nature's Accord + Farming contracts = **trivially fast** | 10x yield, plants never die, 20% seed save |
