@@ -75,6 +75,8 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 
 **Relic:** Abundance — permanent +10 non-combat boost, 2 bonus XP per drop, 2 coins per XP. See [relics.md](relics.md) for full tier-by-tier relic plan.
 
+**Progression:** See [progression.md](progression.md) for phase-by-phase region unlock order, boss timing, and what carries you between tiers.
+
 **Build:** Mage — Eye of Ayak + Confliction Gauntlets. Always picks mage combat masteries when available.
 
 ### Region Unlocks
