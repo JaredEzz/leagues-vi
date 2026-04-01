@@ -28,9 +28,76 @@
 ### Why Abundance
 
 - +10 non-combat boost = access Mixology at 50 Herblore (instead of 60), Giants' Foundry higher bars earlier, Redwoods at 80 WC, etc.
-- GP generation funds Crafting (gems), Smithing (BF ores), Construction (planks)
+- GP generation funds Crafting (gems), Smithing (platelegs from shops), Construction (planks)
 - Bonus XP is multiplicative with league multiplier — scales hard at 16x
 - Covers the widest range of skills for a maxing goal
+
+### Full T1 Comparison — Every Skill That Matters
+
+*Re-evaluate if new relics/pacts change the picture. Assumes Hotfoot as T2 pick.*
+
+#### Smithing (Key Concern)
+
+| | Abundance + Hotfoot | Endless Harvest + Hotfoot | Barbarian Gathering + Hotfoot |
+|---|-------------------|--------------------------|-------------------------------|
+| Strategy | Buy addy/mith platelegs from shops → Giants' Foundry. **No mining, no smelting** | Mine ore rocks → 2x ores → auto-smelted by Hotfoot → auto-banked → Giants' Foundry. **No smelting but must mine ores** | Mine ores (crystal pick equiv) → auto-smelted by Hotfoot → Giants' Foundry. Must mine ores |
+| Extra time for mats | **0** (just buy) | ~1-2 hrs mining ore rocks (2x output though) | ~2-3 hrs mining (faster with crystal pick, but 1x output) |
+| GP cost | 1.9-7.5M (trivial) | 0 | 0 |
+| Access to addy+rune | **75 real** (85 eff) | 85 real (no boost) | 85 real (no boost) |
+
+Abundance wins: skip the entire supply chain. EH + Hotfoot is viable but costs mining time.
+
+#### All Skills Impact
+
+| Skill | Abundance | Endless Harvest | Barbarian Gathering |
+|-------|-----------|----------------|-------------------|
+| **Agility** | +10 → Ardougne at 80 real. Saves ~2 hrs | No help | +10% Agi XP while gathering. Small |
+| **Mining** | +10 → Calcified Rocks earlier | **2x shards/ores auto-banked.** 2x Prayer shards from Calcified Rocks | Crystal pick equiv. 50% fail recovery |
+| **Fishing** | +10 → higher fish earlier | **2x fish auto-banked.** Cooking supply solved. Never bank during Barb Fishing | Bare-hand fishing. +10% Str/Agi |
+| **Woodcutting** | +10 → Redwoods at 80 real | **2x logs auto-banked.** Fletching/Construction mats solved | Crystal axe equiv. +10% Str/Agi |
+| **Smithing** | **GP buys platelegs. No smelting** | 2x ores + Hotfoot auto-smelt = free bars. Must mine ores | Must mine ores + Hotfoot smelts |
+| **Crafting** | **GP buys gems from Al Kharid** | No help — must gather gems | No help |
+| **Herblore** | **GP buys secondaries. +10 → Mixology at 50 real** | No help | No help |
+| **Construction** | GP for sawmill. +10 boost | 2x logs → more planks | No help |
+| **Fletching** | +10 boost | 2x logs for bows | No help |
+| **Cooking** | +10 → fewer burns | **2x fish auto-banked = Cooking supply free** | No help |
+| **Prayer** | +10 → Ralos at 20 real | **2x blessed bone shards from Calcified Rocks** | No help |
+| **Hunter** | +10 → Guild at 36 real, Master rumours at 81 real | No help | No help |
+| **Thieving** | +10 → higher success rates | No help | No help |
+| **Runecraft** | +10 → Blood runes at 67 real | No help | No help |
+| **Farming** | +10 → higher patches earlier | No help | No help |
+| **Firemaking** | +10 → WT at 40 real | No help (but logs help if burning manually) | No help |
+| **Combat** | +2/drop (negligible) | No help | No help |
+
+#### Quantified: Total Hours to Max
+
+| Skill | Abundance | Endless Harvest | Barb Gathering | Notes |
+|-------|-----------|----------------|---------------|-------|
+| Agility | 12 hrs | 14 hrs | 13.5 hrs | Abundance +10 → Ardougne at 80 |
+| Hunter | 6.5 hrs | 9 hrs | 9 hrs | Abundance +10 → Master rumours at 81 |
+| Herblore | 2.5 hrs | 4.5 hrs | 4.5 hrs | Abundance +10 + GP for secondaries |
+| Crafting | 2 hrs | 4 hrs | 4 hrs | Abundance GP buys gems |
+| Smithing | 3.3-6 hrs | 3.3 hrs + 1.5 hrs mining ores | 3.3 hrs + 2.5 hrs mining | EH + Hotfoot closes gap |
+| Cooking | 3.5 hrs | **0 hrs** (2x fish auto-banked) | 3.5 hrs | EH wins here |
+| Prayer | 1.25 hrs | **1 hr** (2x shards) | 1.25 hrs | EH slightly faster |
+| WC | 6.5 hrs | 8 hrs | 7.5 hrs | Abundance +10 → Redwoods at 80 |
+| RC | 4 hrs | 5 hrs | 5 hrs | Abundance +10 → Bloods at 67 |
+| Construction | 2 hrs | 2 hrs | 2 hrs | EH 2x logs ~= Abundance GP |
+| Fishing | 7.5 hrs | 7.5 hrs | 7.5 hrs | Same catch rate, EH just auto-banks |
+| Remaining | ~45 hrs | ~47 hrs | ~47 hrs | +10 boost missed everywhere for EH/BG |
+| **TOTAL** | **~97 hrs** | **~106 hrs** | **~110 hrs** | |
+
+**Abundance saves ~9 hrs over EH, ~13 hrs over Barbarian Gathering.** EH's wins (Cooking, Prayer, free bars with Hotfoot) total ~5 hrs saved. Abundance's +10 boost across 12+ skills saves ~14 hrs. Net: Abundance ahead by ~9 hrs.
+
+#### When to Reconsider
+
+Re-evaluate Abundance vs EH if:
+- A new relic/pact gives a free +10 skill boost (making Abundance's boost redundant)
+- A new relic/pact generates GP (making Abundance's GP redundant)
+- Smithing gets a better solve that doesn't need GP or ores
+- The +2 XP/drop bonus becomes relevant for a specific activity (hasn't happened yet — it's ~0.5-2% everywhere)
+
+**Current pick: Abundance. Comfortable margin.**
 
 ---
 
