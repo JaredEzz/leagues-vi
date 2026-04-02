@@ -10,7 +10,7 @@
 | 2 | XP → 8x | **Hotfoot** / Woodsman | Discussion below |
 | 3 | 1.5x combat XP, free Bigger & Badder, 5x Slayer pts, 1/50 superiors | **Evil Eye** (only option) | **Evil Eye** |
 | 4 | Items 5x more common, 8x minigame pts | **Conniving Clues** (only option) | **Conniving Clues** |
-| 5 | XP → 12x | **Nature's Accord** (only option) | **Nature's Accord** |
+| 5 | XP → 12x | **Nature's Accord** / Larcenist | **Nature's Accord** |
 | 6 | None | **Culling Spree** (only option) | **Culling Spree** |
 | 7 | XP → 16x | None revealed | — |
 | 8 | None | **Minion** / Flask of Fervour | Discussion below |
@@ -169,7 +169,14 @@ Grants the evil eye item for instant teleportation to any boss, raid, or Barrows
 
 ---
 
-## Tier 5 — Nature's Accord (Only Option)
+## Tier 5 — CHOOSE: Nature's Accord vs Larcenist
+
+| Relic | Key Effects |
+|-------|------------|
+| **Nature's Accord** | Fairy mushroom teleport (fairy rings, spirit trees, leprechauns). 10x noted farming yield. Plants never die. 20% seed save. No farming level reqs. Auto-completes Tree Gnome Village quest. |
+| **Larcenist** | 100% Thieving success. Auto-pickpocket + auto-steal (fully AFK). 10x noted pickpocket/stall loot. 10x coin pouch capacity. Stalls never deplete. Guards ignore you. |
+
+### Nature's Accord
 
 | Perk | Effect |
 |------|--------|
@@ -181,18 +188,50 @@ Grants the evil eye item for instant teleportation to any boss, raid, or Barrows
 | Tithe Farm | 20% seed save + any seed at level 1 + 10x yield |
 | Auto-completes | Tree Gnome Village quest |
 
-### Why This Is Broken for Farming
+### Larcenist
 
-- 10x noted yield from every patch = insane resources (herbs for Herblore, tree seeds to replant)
-- Plants never die = zero maintenance, just plant and come back
-- No level reqs = plant magic trees at level 1 if you have the saplings
-- 20% seed save = stretches limited seed supply further
-- Fairy mushroom = best teleport network in the game, covers all regions
-- With 1-min farming ticks, this is absurd — 10x yield every minute from every patch
+| Perk | Effect |
+|------|--------|
+| 100% success | All Thieving actions never fail |
+| Auto-pickpocket | Automatically re-pickpockets NPCs. Fully AFK |
+| Auto-steal stalls | Automatically re-steals. Stalls never deplete |
+| 10x loot | Pickpocketing + stall loot multiplied 10x, noted |
+| 10x coin pouch | 10x carrying capacity |
+| Guards ignore you | Never caught stealing from stalls |
 
-**Completely changes Farming plan.** With Nature's Accord + 1-min ticks + Farming contracts, Farming 99 becomes trivially fast. Also massively boosts Herblore (10x herb yield = unlimited potion supplies).
+### Comparison for Our Build
 
-Updates needed: [skills/farming.md](skills/farming.md) and [skills/herblore.md](skills/herblore.md)
+| | Nature's Accord | Larcenist |
+|---|----------------|-----------|
+| **Primary skill solved** | Farming (10x yield, zero maintenance) | Thieving (AFK auto-pickpocket, 100% success) |
+| **Secondary benefit** | Herblore supply (10x herbs from patches) | GP + seed supply (10x Master Farmer loot) |
+| **Teleport** | **Fairy mushroom** (fairy rings + spirit trees + leprechauns) | None |
+| **Seed supply** | 10x yield = seeds go 10x further. Still need source | 10x Master Farmer pickpocket = drowning in seeds |
+| **GP** | None | Massive (10x noted coins/loot from pickpocketing) |
+| **Farming time** | ~0.5 hrs (trivial) | ~2 hrs (normal, but seeds are free from Master Farmer) |
+| **Herblore time** | ~2 hrs (10x herb supply) | ~2.5 hrs (herbs from pickpocket loot?) |
+| **Thieving time** | ~3 hrs (normal) | **~1 hr** (AFK auto-pickpocket) |
+| **Travel savings** | ~2-3 hrs over league (fairy mushroom) | None |
+| **Total hours saved** | **~5-6 hrs** | **~3.5 hrs + extra GP** |
+
+### Why Nature's Accord Wins
+
+1. **Fairy mushroom teleport is irreplaceable** — fairy rings + spirit trees + leprechauns. Best travel network in the game. No other relic gives this. Used hundreds of times over 8 weeks.
+2. **10x herb yield solves Herblore supply** — Larcenist doesn't directly help Herblore.
+3. **Plants never die + no level reqs** — zero-maintenance Farming from level 1.
+4. **Abundance already covers GP** — Larcenist's 10x pickpocket GP is nice but redundant with Abundance.
+5. **Thieving is already easy without a relic** — Ardy Knights, Bazaar, blackjacking are all ~3 hrs. Larcenist saves ~2 hrs on a skill that isn't painful.
+
+### When Larcenist Would Win
+
+- If you didn't have Abundance (GP generation would be huge)
+- If Thieving had more tasks/content gated behind it
+- If seed supply was a bigger bottleneck (but Farming contracts + Hespori cover it)
+- If fairy rings were available through another relic or pact
+
+**PICK: Nature's Accord.** Fairy mushroom + 10x farming + Herblore supply is more broadly impactful than AFK Thieving + GP you don't need.
+
+*Re-evaluate if: a pact or other relic grants fairy ring access, making Nature's Accord's teleport redundant.*
 
 ---
 
@@ -308,5 +347,6 @@ If Grimoire (all spellbooks + prayers, no quest/area reqs) is offered as a pact:
 | 2026-03-29 | 8 | Flask of Fervour | Echo Hespori |
 | 2026-03-30 | 5 | Nature's Accord | Echo Dagannoth Kings |
 | 2026-03-31 | 2 | Hotfoot | |
+| 2026-04-02 | 5 | Larcenist | AFK Thieving + 10x loot. Competes with Nature's Accord. Pick: Nature's Accord |
 
-*All relics now revealed. Combat pacts still TBD.*
+*Combat pacts still TBD. More relics may still be revealed.*
