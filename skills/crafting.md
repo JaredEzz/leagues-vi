@@ -40,19 +40,34 @@ Toci's has 1 ruby in base stock = infinite in leagues. **Skip sapphires/emeralds
 | T5 (12x) | ~6.1 hrs | ~2.9 hrs | +47M |
 | **T7 (16x)** | **~4.6 hrs** | **~2.1 hrs** | **+35M** |
 
-## Verdict: Diamonds Win Sequential, Dragonstones Win With Auto-Cast
+## Verdict: Dragonstones (Parallel Confirmed)
 
-| | Diamond (1 step) | Dragonstone (5 steps) |
-|---|------------------|----------------------|
-| Sequential time at 16x | **~3.4 hrs** | ~4.6 hrs |
-| Auto-cast time at 16x | ~2.7 hrs | **~2.1 hrs** |
-| GP | +9.8M | +34.8M |
-| Complexity | 1 transmute step, shop sellback | 5 transmute steps, high alch |
+**Plan: Ruby → Dragonstone → Cut → High Alch via Footpedal**
+
+Parallel execution is confirmed — Jared has a **footpedal for auto-alching** and can run transmutation in the background on noted items while doing Slayer/Hunter/etc.
+
+| | Diamond (1 step) | **Dragonstone (5 steps) ✅** |
+|---|------------------|----------------------------|
+| Sequential time at 16x | ~3.4 hrs | ~4.6 hrs |
+| **Parallel time at 16x** | ~2.7 hrs | **~2.1 hrs** |
+| GP | +9.8M | **+34.8M** |
+| Alching needed | No (Toci's sellback) | Yes (footpedal handles it) |
 | Transmute casts (99) | 756 | 2,950 |
 
-**Default plan: Ruby → Diamond → Cut → Sell at Toci's.** Simple, 1.2 hrs faster sequentially, ~10M GP profit.
+**Why dragonstones win:**
+- **Parallel transmute** (~2.5 hrs of casts) runs in the background during Slayer/Hunter — effectively free time
+- **Parallel alching** via footpedal automates disposal
+- **Effective crafting time: ~2.1 hrs** (just the cutting itself)
+- **+25M extra GP** vs diamond path
+- 36 min faster than diamonds
 
-**Switch to dragonstones only if:** auto-cast on noted items works fast enough to process ~3k casts in the background while you do other skills. Test at launch.
+**Workflow:**
+1. Bulk-buy rubies from Toci's (build stockpile over time since base stock is 1)
+2. Note them and let Transmutation ledger auto-cast them up to dragonstones in background
+3. While transmute is running: Slayer, Hunter, whatever
+4. Come back, cut dragonstones (2.1 hrs at 16x)
+5. Footpedal auto-alches cut dragonstones for ~6,000 gp each
+6. +34.8M GP profit, 99 Crafting done
 
 ## The Method: Transmuted Diamonds → Dragonstones
 
