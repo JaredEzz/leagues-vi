@@ -106,7 +106,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 | **Neck** | Occult Necklace | +12 magic atk, +5% dmg | Thermonuclear Smoke Devil (Ka) | Only necklace with magic damage %. 93 Slayer req for task |
 | **Ring (Slayer)** | Brimstone Ring | +6 magic atk, 0% dmg | Alchemical Hydra (Ko, 95 Slayer) | Best raw mage stats ring in your regions. Magus + Seers (i) locked (Fremennik) |
 | **Ring (Bossing)** | Lightbearer | 0 stats | ToA chest (D) | **2x spec attack regen.** Synergy with Eye of Ayak's spec (drains target magic def). Apply debuff 2x as often = better DPS on hard targets |
-| **Ring (Tank)** | Ring of Suffering (i) | +20 def all, +4 prayer, recoil | Drop + NMZ imbue (Yanille, Ka) | Tank ring for Inferno, Sol Heredit, ToA expert+. Recoil scales with leagues damage modifiers |
+| **Ring (Tank)** | Ring of Suffering (i) | +20 def all, +4 prayer, recoil | Zenyte ring (Demonic Gorillas, Ka) + Lvl-7 Enchant → imbue at NMZ (Yanille, Ka) or Emir's Arena (Al Kharid, D) | Base ring craftable from zenyte. Imbue available in your regions but NMZ quest-boss access may be limited. Recoil scales with leagues damage modifiers |
 | **Prayer** | Augury | BIS mage prayer | CoX (Ko) | |
 | **Spellbook** | Ancient Magicks | Ice Barrage, Blood spells | Desert quest | AoE for Slayer, Blood for sustain |
 | **Swap: Barrage** | Kodai Wand | +28 magic atk, +15% dmg | Master Wand (MTA, D) + Kodai Insignia (CoX, Ko) | Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Use for burst/barrage Slayer |
