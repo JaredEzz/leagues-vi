@@ -381,6 +381,85 @@
     font-weight: 500;
   }
 
+  /* Boss progression cards */
+  .boss-card {
+    background: var(--md-sys-color-surface-container-low);
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease;
+  }
+
+  .boss-card:hover {
+    transform: translateY(-2px);
+    background: var(--md-sys-color-surface-container);
+  }
+
+  .boss-card.priority {
+    border-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-surface-container);
+  }
+
+  .boss-img-wrap {
+    width: 100%;
+    height: 140px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boss-img-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+
+  .boss-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface);
+  }
+
+  .boss-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .boss-tag {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boss-tag.phase1 { background: rgba(165, 214, 167, 0.18); color: var(--color-fast); }
+  .boss-tag.phase2 { background: rgba(128, 222, 234, 0.18); color: var(--color-free); }
+  .boss-tag.phase3 { background: rgba(255, 213, 79, 0.18); color: var(--color-medium); }
+  .boss-tag.phase4 { background: rgba(208, 188, 255, 0.2); color: var(--md-sys-color-primary); }
+  .boss-tag.shortcut { background: rgba(239, 184, 200, 0.18); color: var(--md-sys-color-tertiary); }
+  .boss-tag.essential { background: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container); }
+
+  .boss-info {
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface-variant);
+    line-height: 1.45;
+  }
+
+  .boss-info strong {
+    color: var(--md-sys-color-on-surface);
+    font-weight: 500;
+  }
+
   .footnote {
     text-align: center;
     padding: 32px 16px;
@@ -1003,6 +1082,316 @@
         <span class="source-name">Tombs of Amascut (Desert)</span>
       </div>
     </div>
+  </div>
+
+</div>
+
+<!-- BOSS PROGRESSION -->
+<div class="category-header">
+  <h2 class="headline-medium">Boss Progression</h2>
+</div>
+
+<p class="body-medium" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 16px; max-width: 720px;">
+  Bosses you'll farm, ordered by phase availability. <strong style="color: var(--md-sys-color-primary);">Highlighted = essential for build</strong>. Shortcut tags mean Map of Alacrity gives you teleport access nearby.
+</p>
+
+<!-- Phase 1 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 12px;">Phase 1 — Varlamore + Karamja (Day 1)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt=""></div>
+    <div class="boss-name">Doom of Mokhaiotl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Pillar Shortcut 75</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Eye of Ayak, Avernic Treads, Mokhaiotl Cloth. <strong>Strategy:</strong> Casual KCs early for tasks. Hard farm at T4 (5x drops). Higher delves = better drop rates.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Hueycoatl.png" alt=""></div>
+    <div class="boss-name">Hueycoatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dragon Hunter Wand (1/105), Sunfire Splinters (17-350 per drop). <strong>Strategy:</strong> Farm for splinters (Prayer training). DHW is huge for CoX/Hydra.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt=""></div>
+    <div class="boss-name">Sol Heredit (Colosseum)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dizana's Quiver, Sunfire Fanatic set, splinters. <strong>Strategy:</strong> Hard practice content. Late Phase 1 with decent gear. You already practice this — keep doing it.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Vardorvis.png" alt=""></div>
+    <div class="boss-name">Vardorvis</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Ultor ring (melee), Executioner's Axe. <strong>Strategy:</strong> Less relevant for mage build. Do for KC tasks + points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Blood_Moon.png" alt=""></div>
+    <div class="boss-name">Moons of Peril</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Blood/Eclipse/Blue Moon sets, moon keys (250 splinters each). <strong>Strategy:</strong> Easy early farm. Splinters feed Prayer training.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Amoxliatl.png" alt=""></div>
+    <div class="boss-name">Amoxliatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tonalztics of Ralos (throwing). <strong>Strategy:</strong> Easy farm for KC tasks. Echo orb for Echo Amoxliatl.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Amoxliatl.png" alt=""></div>
+    <div class="boss-name">Echo Amoxliatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Four-pronged echo weapon (TBD). <strong>Strategy:</strong> Need echo orb from normal Amoxliatl first. Easy farm.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Gemstone_crab.png" alt=""></div>
+    <div class="boss-name">Gemstone Crab</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Uncut gems. <strong>Strategy:</strong> Crafting supply backup. Toci's diamonds via Transmutation is better, but useful early.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzTok-Jad.png" alt=""></div>
+    <div class="boss-name">TzTok-Jad (Fight Caves)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Fire Cape, Tzrek-jad pet. <strong>Strategy:</strong> Easy with leagues buffs. Quick task completion.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzKal-Zuk.png" alt=""></div>
+    <div class="boss-name">TzKal-Zuk (Inferno)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Infernal Cape, Jal-nib-rek pet. <strong>Strategy:</strong> Very hard. Save for Phase 5 with full BIS + Flask of Fervour. Big practice goal.</p>
+  </div>
+
+</div>
+
+<!-- Phase 2 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 2 — + Kourend</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt=""></div>
+    <div class="boss-name">Chambers of Xeric</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Mt Quidamortem Shortcut</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Ancestral set, Kodai Insignia, Augury, Dragon Hunter Crossbow, Twisted Bow. <strong>Strategy:</strong> Start with solos at decent stats. Farm continuously for mage gear. T4 5x drops makes farming much faster.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Wintertodt.png" alt=""></div>
+    <div class="boss-name">Wintertodt</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Pyromancer outfit, Tome of Fire, Dragon Axe (1/10k), Phoenix pet, supply crates. <strong>Strategy:</strong> Bank carts, open at Farming 67+/Herblore 56+ real for best rewards.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Hespori.png" alt=""></div>
+    <div class="boss-name">Hespori</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tree seeds (magic, celastrus, redwood), bottomless compost bucket. <strong>Strategy:</strong> Plant Hespori seed → 1-min ticks make this fast → kill → repeat. Free tree seeds.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Hespori.png" alt=""></div>
+    <div class="boss-name">Echo Hespori</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Nature's Reprisal (3-style weapon, 1/15, guaranteed at 30 KC). <strong>Strategy:</strong> Easy farm via repeated Hespori plants. Quick guaranteed unique.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Skotizo.png" alt=""></div>
+    <div class="boss-name">Skotizo</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag shortcut">Catacombs Shortcut</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dark claws, Jar of darkness, Skotos pet. <strong>Strategy:</strong> Catacombs drops dark totem fragments → Skotizo kill = task points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sarachnis.png" alt=""></div>
+    <div class="boss-name">Sarachnis</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Sarachnis cudgel, Giant egg sac. <strong>Strategy:</strong> Easy mid-game boss. Cudgel is melee. Do for tasks.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra.png" alt=""></div>
+    <div class="boss-name">Alchemical Hydra</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag shortcut">Karuulm Shortcut</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Hydra leather, hydra eye/fang/heart, Brimstone ring. <strong>Strategy:</strong> 95 Slayer required. Late Phase 2/3. Dragon Hunter Wand makes this much easier.</p>
+  </div>
+
+</div>
+
+<!-- Phase 3 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 3 — + Desert</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Tombs_of_Amascut.png" alt=""></div>
+    <div class="boss-name">Tombs of Amascut</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Stepping Stones 60</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tumeken's Shadow, Elidinis' Ward, Masori armor, Lightbearer ring. <strong>Strategy:</strong> Scalable invocations. Start at entry mode, push to expert. Evil Eye teleports you here (or Reloaded grab).</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Tempoross.png" alt=""></div>
+    <div class="boss-name">Tempoross</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Spirit Angler outfit (recolor), Spirit Flakes, Tiny Tempor pet, Big Harpoonfish. <strong>Strategy:</strong> Easy fishing minigame. 8x minigame points at T4.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Kalphite_Queen.png" alt=""></div>
+    <div class="boss-name">Kalphite Queen</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dragon chainbody, Dragon 2h, KQ head (diary). <strong>Strategy:</strong> Mid-tier task boss. Mage form / melee form swap.</p>
+  </div>
+
+</div>
+
+<!-- Phase 4 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 4 — + Kandarin</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt=""></div>
+    <div class="boss-name">Demonic Gorillas</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Crash Site Shortcut</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Zenyte shards, Heavy/Light/Light frame ballista pieces, Hydrix. <strong>Strategy:</strong> PRIORITY #1 in Phase 4. Need zenytes for Confliction Gauntlets. Switch combat styles to bypass prayer flicks.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt=""></div>
+    <div class="boss-name">Thermonuclear Smoke Devil</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Smoke Dungeon Shortcut</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Occult Necklace (BIS mage neck), Smoke battlestaff. <strong>Strategy:</strong> 93 Slayer needed. Use Culling Spree to choose Smoke Devil tasks. Get the echo orb here for Echo Thermy.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt=""></div>
+    <div class="boss-name">Echo Thermonuclear Smoke Devil</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Devil's Element (1/25, guaranteed at 50 KC). <strong>Strategy:</strong> Need Thermy echo orb first. Devil's Element = potential BIS offhand (+20 mage atk, +6% dmg, doubles NPC elemental weakness).</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Cave_kraken.png" alt=""></div>
+    <div class="boss-name">Kraken</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Trident of the Seas, Kraken tentacle, Jar of dirt. <strong>Strategy:</strong> 87 Slayer. Trident is a fun mage swap, also nice for ornament kit goal.</p>
+  </div>
+
+</div>
+
+<!-- Phase 5 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 5 — Endgame (T8 Flask of Fervour)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzKal-Zuk.png" alt=""></div>
+    <div class="boss-name">Inferno (Push)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Infernal Cape. Flask of Fervour makes learning much more forgiving. Hard practice goal you can finally complete with full BIS.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Tombs_of_Amascut.png" alt=""></div>
+    <div class="boss-name">ToA High Invocations</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Push invocation levels for points + Shadow farming. Flask handles survivability.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt=""></div>
+    <div class="boss-name">Sol Heredit (Sweat)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Colosseum at higher modifiers. Flask + Eye of Ayak max DPS. Big sweat content for points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt=""></div>
+    <div class="boss-name">CoX Challenge Mode</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Harder CoX runs. Better drop rates. Twisted ancestral kit.</p>
   </div>
 
 </div>
