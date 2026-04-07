@@ -4,45 +4,55 @@
 
 **Key relic: Transmutation (T4)** — turns Crafting into the fastest GP-positive 99 in the league.
 
-## Time Estimates (Transmuted Diamonds → Dragonstones)
+## Key Insight: The Transmutation Gem Chain is NOT in Tier Order
 
-**Cut-only time (assumes auto-cast handles transmutes in background):**
+The chain is: **Sapphire ↔ Emerald ↔ Ruby ↔ Diamond ↔ Opal ↔ Jade ↔ Red Topaz ↔ Dragonstone**
 
-| Multiplier Tier | XP/hr at Dragonstones | Time to 99 | GP (high alching) |
-|----------------|----------------------|-----------|-------------------|
-| T1 (5x) | ~1.91M | ~6.8 hrs | +112M |
-| T2 (8x) | ~3.06M | ~4.3 hrs | +70M |
-| T5 (12x) | ~4.59M | ~2.9 hrs | +47M |
-| T7 (16x) | ~6.12M | **~2.1 hrs** | +35M |
+You can't skip. To go from Ruby to Dragonstone you pass through Diamond → Opal → Jade → Red Topaz → Dragonstone = **5 transmute steps**.
 
-**Inline transmute + cut time (if auto-cast is slow or unavailable):**
+This means **Dragonstone is expensive to reach via transmutation** — way more casts than going to Diamond.
 
-| Multiplier Tier | Effective Rate | Time to 99 |
-|----------------|---------------|-----------|
-| T1 (5x) | ~340k/hr | ~17 hrs |
-| T7 (16x) | ~1.1M/hr | **~5.4 hrs** |
+### Transmute Rate
 
-### The Transmute Overhead Problem
+**1 cast per 5 ticks (3 seconds), 10 items per cast = 12,000 items/hour throughput.**
 
-Each dragonstone requires **4 transmute steps** (sapphire → emerald → ruby → diamond → dragonstone). With 28-slot inventory cycles and 3s per cast, inline flow gives roughly:
+This is both active casting and auto-cast on noted items. The rate is fixed — the only question is whether auto-cast runs in parallel with other skilling or blocks you.
 
-- ~36s transmuting + ~56s cutting per 28 dragonstones
-- Effective: ~1,100 dragonstones/hr (vs 2,780 cutting-only)
-- **Roughly 2.5x slower than pure cut time**
+## Time Estimates (Buy Rubies → Transmute → Cut)
 
-### Auto-Cast Escape Hatch
+Toci's has 1 ruby in base stock = infinite in leagues. **Skip sapphires/emeralds, start directly from rubies.**
 
-Transmutation ledger auto-casts on noted items in the background: *"Noted items auto-cast over time if resources remain available"*
+### Option A: Ruby → Diamond (1 transmute step) — RECOMMENDED
 
-**Ideal play:** Bank noted sapphires, let auto-cast process them overnight/while doing other skills, withdraw dragonstones, cut them. Transmute time becomes effectively free.
+| Multiplier | Sequential Time | Parallel Time | GP via Toci's Sellback |
+|-----------|-------------|----------------|------------------------|
+| T1 (5x) | ~10.8 hrs | ~8.7 hrs | +9.8M |
+| T2 (8x) | ~6.8 hrs | ~5.4 hrs | +9.8M |
+| T5 (12x) | ~4.5 hrs | ~3.6 hrs | +9.8M |
+| **T7 (16x)** | **~3.4 hrs** | **~2.7 hrs** | **+9.8M** |
 
-**Unknown:** The auto-cast rate. If slow (1 item per tick), background processing still takes hours. If fast/instant, it's the clear winner. Test at launch.
+### Option B: Ruby → Dragonstone (5 transmute steps)
 
-### Strategic Recommendation
+| Multiplier | Sequential Time | Parallel Time | GP via High Alch |
+|-----------|-------------|----------------|------------------|
+| T1 (5x) | ~14.8 hrs | ~6.8 hrs | +112M |
+| T2 (8x) | ~9.2 hrs | ~4.3 hrs | +70M |
+| T5 (12x) | ~6.1 hrs | ~2.9 hrs | +47M |
+| **T7 (16x)** | **~4.6 hrs** | **~2.1 hrs** | **+35M** |
 
-**Wait for T7 (16x) to grind Crafting 99.** Best case ~2.1 hours, worst case ~5.4 hours. Either way it's in the lower half of your skill totals.
+## Verdict: Diamonds Win Sequential, Dragonstones Win With Auto-Cast
 
-**If transmute time is painful:** Stop at diamonds (3 transmute steps, GP positive via Toci's sellback, simpler flow). See comparison below.
+| | Diamond (1 step) | Dragonstone (5 steps) |
+|---|------------------|----------------------|
+| Sequential time at 16x | **~3.4 hrs** | ~4.6 hrs |
+| Auto-cast time at 16x | ~2.7 hrs | **~2.1 hrs** |
+| GP | +9.8M | +34.8M |
+| Complexity | 1 transmute step, shop sellback | 5 transmute steps, high alch |
+| Transmute casts (99) | 756 | 2,950 |
+
+**Default plan: Ruby → Diamond → Cut → Sell at Toci's.** Simple, 1.2 hrs faster sequentially, ~10M GP profit.
+
+**Switch to dragonstones only if:** auto-cast on noted items works fast enough to process ~3k casts in the background while you do other skills. Test at launch.
 
 ## The Method: Transmuted Diamonds → Dragonstones
 
@@ -120,7 +130,7 @@ At 16x, need ~5,900 dragonstones for 99 → **~+35M GP profit**
 
 Cheaper to cut at lower multipliers (more dragonstones = more profit), but time efficiency wins. Grind at 16x unless you desperately need GP.
 
-## Alternative: Stop at Diamonds (Maybe Better Inline)
+## Alternative: Stop at Diamonds (Maybe Better Sequential)
 
 Staying on diamonds (3 transmute steps) may actually be better when transmute overhead is factored in:
 
@@ -128,12 +138,12 @@ Staying on diamonds (3 transmute steps) may actually be better when transmute ov
 |---|------------------------|----------------------------|
 | XP/hr base | 299k | 382k |
 | Auto-cast time to 99 at 16x | 2.7 hrs | **2.1 hrs** |
-| Inline time to 99 at 16x | **~3.5 hrs** | 5.4 hrs |
+| Sequential time to 99 at 16x | **~3.5 hrs** | 5.4 hrs |
 | GP per cut | +1,200 (sell at Toci's) | +5,975 (high alch) |
 | GP for 99 | +9.6M | +35M |
 | Flow complexity | Simple (sell) | Requires alching |
 
-**Dragonstones win if auto-cast works well. Diamonds win if you have to transmute inline.**
+**Dragonstones win if auto-cast works well. Diamonds win if you have to transmute sequentially.**
 
 For now, **plan for dragonstones at T7** and fall back to diamonds if transmute overhead kills the rate.
 
