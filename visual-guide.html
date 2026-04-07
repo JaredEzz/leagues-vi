@@ -169,14 +169,23 @@
   .chip {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 14px;
+    gap: 8px;
+    padding: 6px 14px 6px 6px;
     background: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-on-secondary-container);
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 14px;
     font-weight: 500;
     border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .chip img.relic-icon {
+    width: 32px;
+    height: 32px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 8px;
+    padding: 4px;
+    image-rendering: pixelated;
   }
 
   .chip .tier {
@@ -364,14 +373,38 @@
 <div class="relic-strip">
   <h2 class="title-large">Relic Plan</h2>
   <div class="relic-chips">
-    <div class="chip"><span class="tier">T1</span>Abundance</div>
-    <div class="chip"><span class="tier">T2</span>Hotfoot</div>
-    <div class="chip"><span class="tier">T3</span>Map of Alacrity</div>
-    <div class="chip"><span class="tier">T4</span>Transmutation</div>
-    <div class="chip"><span class="tier">T5</span>Nature's Accord</div>
-    <div class="chip"><span class="tier">T6</span>Culling Spree</div>
-    <div class="chip"><span class="tier">T7</span>Reloaded → Conniving Clues</div>
-    <div class="chip"><span class="tier">T8</span>Flask of Fervour</div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Abundance_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T1</span>Abundance
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Hotfoot_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T2</span>Hotfoot
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Map_of_Alacrity_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T3</span>Map of Alacrity
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Transmutation_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T4</span>Transmutation
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Nature%27s_Accord_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T5</span>Nature's Accord
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Culling_Spree_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T6</span>Culling Spree
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Reloaded_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T7</span>Reloaded → Conniving Clues
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Flask_of_Fervour_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T8</span>Flask of Fervour
+    </div>
   </div>
 </div>
 
@@ -801,6 +834,18 @@
       </div>
     </div>
     <p class="method">+28 mage atk, +15% mage dmg. Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Barrage Slayer swap.</p>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Dragon_hunter_wand.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Dragon Hunter Wand</h3>
+        <span class="time-badge fast">Varlamore — Day 1</span>
+      </div>
+    </div>
+    <p class="method">+16 mage atk, +10% mage dmg. **+75% accuracy, +40% damage vs dragons.** 1H, autocasts Ancients. Stacks with Slayer helm. From Hueycoatl (1/105). HUGE for CoX (Vasa, Tekton-adjacent dragons) and Hydra Slayer.</p>
+    <p class="body-small" style="color: var(--md-sys-color-on-surface-variant);">Source: Hueycoatl, Varlamore</p>
   </div>
 
   <div class="skill-card">

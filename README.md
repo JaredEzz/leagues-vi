@@ -107,6 +107,7 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 | **Prayer** | Augury | BIS mage prayer | CoX (Ko) | |
 | **Spellbook** | Ancient Magicks | Ice Barrage, Blood spells | Desert quest | AoE for Slayer, Blood for sustain |
 | **Swap: Barrage** | Kodai Wand | +28 magic atk, +15% dmg | Master Wand (MTA, D) + Kodai Insignia (CoX, Ko) | Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Use for burst/barrage Slayer |
+| **Swap: Dragons** | Dragon Hunter Wand | +16 magic atk, +10% dmg, **+75% accuracy +40% damage vs dragons** | Hueycoatl (V, 1/105) | 1H, autocasts Ancients. **Huge for CoX dragon room (Vasa, dragons in upper levels) and Hydra Slayer.** Stacks multiplicatively with Slayer helm |
 | **Swap: Raw DPS** | Tumeken's Shadow | BIS raw mage damage | ToA (D) | 2H — no Confliction passive. Use where raw DPS > accuracy |
 
 **Total magic damage bonus (Eye of Ayak setup): +22%** (Ancestral 9% + Confliction 7% + Occult 5% + Treads 1% + Ward 3%)
