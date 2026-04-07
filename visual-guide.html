@@ -339,6 +339,48 @@
     align-self: flex-start;
   }
 
+  .boss-source {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 10px;
+    margin-top: auto;
+    border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .boss-source img {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    background: var(--md-sys-color-surface-container);
+    flex-shrink: 0;
+  }
+
+  .boss-source .source-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .boss-source .source-label {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+
+  .boss-source .source-name {
+    font-size: 13px;
+    color: var(--md-sys-color-on-surface);
+    font-weight: 500;
+  }
+
   .footnote {
     text-align: center;
     padding: 32px 16px;
@@ -803,14 +845,20 @@
 
   <div class="skill-card highlight">
     <div class="skill-header">
-      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Eye_of_Ayak.png" alt=""></div>
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Eye_of_ayak.png" alt=""></div>
       <div class="skill-title">
         <h3>Eye of Ayak</h3>
         <span class="time-badge fast">Varlamore — Day 1</span>
       </div>
     </div>
     <p class="method">1H powered staff, 3-tick (fastest). Built-in spell, drains target magic defence on spec. Core mage weapon.</p>
-    <p class="body-small" style="color: var(--md-sys-color-on-surface-variant);">Source: Doom of Mokhaiotl (delve 3+)</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Doom of Mokhaiotl (delve 3+)</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card highlight">
@@ -822,7 +870,13 @@
       </div>
     </div>
     <p class="method">+20 mage atk, +7% mage dmg. Passive re-rolls accuracy on miss. Only works with 1H weapons — perfect with Eye of Ayak.</p>
-    <p class="body-small" style="color: var(--md-sys-color-on-surface-variant);">Zenyte (Ka) + Mokhaiotl Cloth (V) + 10k demon tears + 73 Crafting real</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Crafted From</span>
+        <span class="source-name">Zenyte (Demonic Gorillas) + Mokhaiotl Cloth</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -834,6 +888,13 @@
       </div>
     </div>
     <p class="method">+28 mage atk, +15% mage dmg. Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Barrage Slayer swap.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Chambers of Xeric (Kodai Insignia)</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card highlight">
@@ -844,8 +905,14 @@
         <span class="time-badge fast">Varlamore — Day 1</span>
       </div>
     </div>
-    <p class="method">+16 mage atk, +10% mage dmg. **+75% accuracy, +40% damage vs dragons.** 1H, autocasts Ancients. Stacks with Slayer helm. From Hueycoatl (1/105). HUGE for CoX (Vasa, Tekton-adjacent dragons) and Hydra Slayer.</p>
-    <p class="body-small" style="color: var(--md-sys-color-on-surface-variant);">Source: Hueycoatl, Varlamore</p>
+    <p class="method">+16 mage atk, +10% mage dmg. <strong>+75% accuracy, +40% damage vs dragons.</strong> 1H, autocasts Ancients. Stacks with Slayer helm. HUGE for CoX and Hydra.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/The_Hueycoatl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Hueycoatl (1/105)</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -857,6 +924,13 @@
       </div>
     </div>
     <p class="method">+69 mage atk, +9% mage dmg total. BIS mage armor. Wear the hat instead of Slayer helm (Culling Spree gives helm effect free).</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Chambers of Xeric (Great Olm)</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -868,6 +942,13 @@
       </div>
     </div>
     <p class="method">+11 mage atk, +1% mage dmg. Hybrid boots. From Doom of Mokhaiotl delve 4+. Eternal upgrade locked (Cerberus/Asgarnia).</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Doom of Mokhaiotl (delve 4+)</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -879,6 +960,13 @@
       </div>
     </div>
     <p class="method">+12 mage atk, +5% mage dmg. Only necklace with magic damage %. Drops from Thermonuclear Smoke Devil.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Thermonuclear Smoke Devil</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -890,6 +978,13 @@
       </div>
     </div>
     <p class="method">+20 mage atk, +6% mage dmg. Doubles NPC elemental weaknesses. Unlimited elemental runes. Potential BIS offhand.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Echo Thermonuclear Smoke Devil</span>
+      </div>
+    </div>
   </div>
 
   <div class="skill-card">
@@ -901,6 +996,13 @@
       </div>
     </div>
     <p class="method">2H raw DPS staff. No Confliction passive. Use for content where raw damage beats accuracy.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Tombs_of_Amascut.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Tombs of Amascut (Desert)</span>
+      </div>
+    </div>
   </div>
 
 </div>
