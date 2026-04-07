@@ -1,19 +1,21 @@
 # Relics — Tier-by-Tier Plan
 
-*Updated: 2026-03-31. All relics now revealed! Only T1 and T8 have choices; the rest are single-option.*
+*Updated: 2026-04-02. Most tiers now have multiple options. More reveals still coming — combat pacts TBD.*
 
 ## Tier Overview
 
 | Tier | Passive Effect | Relic Options | Pick |
 |------|---------------|---------------|------|
 | 1 | 5x XP, 2x drops, 4x minigame pts, 1-min farm ticks, unlimited run, stackable clues | Endless Harvest / Barbarian Gathering / **Abundance** | **Abundance** |
-| 2 | XP → 8x | **Hotfoot** / Woodsman | Discussion below |
-| 3 | 1.5x combat XP, free Bigger & Badder, 5x Slayer pts, 1/50 superiors | **Evil Eye** (only option) | **Evil Eye** |
-| 4 | Items 5x more common, 8x minigame pts | **Conniving Clues** (only option) | **Conniving Clues** |
-| 5 | XP → 12x | **Nature's Accord** / Larcenist | **Nature's Accord** |
-| 6 | None | **Culling Spree** (only option) | **Culling Spree** |
-| 7 | XP → 16x | None revealed | — |
-| 8 | None | **Minion** / Flask of Fervour | Discussion below |
+| 2 | XP → 8x | **Hotfoot** / Woodsman / Friendly Forager | **Hotfoot** |
+| 3 | 1.5x combat XP, free Bigger & Badder, 5x Slayer pts, 1/50 superiors | Evil Eye / **Map of Alacrity** | **Map of Alacrity** (TBD — may switch if new T3 drops) |
+| 4 | Items 5x more common, 8x minigame pts | **Transmutation** / Conniving Clues / Butler's Bell | **Transmutation** |
+| 5 | XP → 12x | **Nature's Accord** / Larcenist / Soul Harvest | **Nature's Accord** |
+| 6 | None | **Culling Spree** / Grimoire | **Culling Spree** (TBD — may switch if new T6 drops) |
+| 7 | XP → 16x | **Reloaded** (only option, pick another from T1-T6) | **Reloaded → ? (undecided)** |
+| 8 | None | Minion / **Flask of Fervour** | **Flask of Fervour** |
+
+**Current Reloaded leaning:** Conniving Clues (points engine, synergizes with Culling Spree). Holding off final pick — new T3 or T6 reveals may shift this.
 
 ---
 
@@ -134,20 +136,79 @@ For a maxing goal, **Woodsman** probably covers more skill-hours — it makes Hu
 
 ---
 
-## Tier 3 — Evil Eye (Only Option)
+## Tier 3 — CHOOSE: Evil Eye vs Map of Alacrity
 
-Grants the evil eye item for instant teleportation to any boss, raid, or Barrows entrance in your unlocked regions. Ignores wilderness restrictions.
+**Current pick: Map of Alacrity (tentative — watching for new T3 reveals)**
 
-### Why This Is Great
+| Relic | Effect |
+|-------|--------|
+| **Evil Eye** | Evil eye item for instant teleportation to any boss, raid, or Barrows entrance. Ignores wilderness restrictions |
+| **Map of Alacrity** | Teleport to Agility shortcuts across all regions. Ignores Agility level requirements for shortcuts. Ignores wilderness restrictions |
 
+### Evil Eye Analysis
 - Instant teleport to: ToA, CoX, Doom of Mokhaiotl, Hydra, Sol Heredit, Inferno, every boss
-- No need for specific teleport items/spells to reach bosses
 - Saves huge amounts of travel time for boss farming
-- Ignores wilderness restrictions (not that we have Wilderness, but nice for accessible wildy bosses)
+- Best for bossing-heavy builds
+
+### Map of Alacrity Analysis
+- Agility shortcut network access across all regions
+- Bypasses Agility level reqs for shortcuts
+- Unique travel options (specific locations only reachable via shortcuts)
+- Pairs with Nature's Accord's fairy mushroom for comprehensive travel coverage
+
+### Leaning
+
+**Map of Alacrity** tentatively — the shortcut teleport network adds coverage that Nature's Accord (fairy rings/spirit trees) doesn't hit. Evil Eye's boss teleports are huge for bossing, but:
+- You can grab Evil Eye via Reloaded (T7) as a backup
+- Sepulchre/other Agility-gated shortcuts are locked anyway (Morytania)
+
+*Open decision. Could swap based on whether bossing frequency or unique shortcut access matters more.*
 
 ---
 
-## Tier 4 — Conniving Clues (Only Option)
+## Tier 4 — CHOOSE: Transmutation vs Conniving Clues vs Butler's Bell
+
+**Current pick: Transmutation**
+
+| Relic | Key Effects |
+|-------|------------|
+| **Transmutation** | Upgrade/downgrade items between tiers (gems, ores, seeds, fish, bones, ashes, hides, logs, compost). Infinite nature runes. 10 Magic XP per transmute. Alchemy spells become transmutation spells |
+| **Conniving Clues** | Clue drops from creatures at 1/15, casket chaining 1/4, min steps, max reward rolls, clue teleports |
+| **Butler's Bell** | Offline demon butler: 8 ore/min, 14 fish/min, 10 logs/min, 50 flax/min, 10 herbs/min. Processes at half rate (10 XP each) |
+
+### Transmutation Analysis (Current Pick)
+
+**Why it's huge for this build:**
+- **Solves Crafting diamond stock problem:** Buy infinite sapphires from Toci's (3 base stock) → transmute up to diamonds → cut for ~4.8M XP/hr
+- **Ore upgrades for Smithing:** Buy low-tier ores → upgrade to rune → Giants' Foundry
+- **Seed upgrades for Farming:** Low-tier seeds → high-tier tree seeds
+- **Infinite nature runes** = free high alch for GP or tech tricks
+- **Passive Magic XP** = 10 per transmute during skill training
+- Works across: hides, runes, ashes, gems, compost, seeds, logs, ores, bones, raw fish
+
+### Conniving Clues Analysis (Alternative — Best Reloaded Pick)
+
+- **Main league points engine** when paired with Culling Spree
+- Superiors drop 1-3 elite clues → min steps + max rewards → casket chains → more clues
+- 1/15 creature clue rate = drowning in clues during Slayer
+- Skilling clues 10x more likely
+- Generates massive points toward tier progression
+
+### Butler's Bell Analysis
+
+- Offline gathering = material bank grows while you're logged off
+- 14 fish/min × 60 min × 8 hours sleep = 6,720 fish
+- 8 ores/min × 480 min = 3,840 ores
+- Passive income for ironman
+- Good for casual players or supplementing other skilling
+
+### Verdict
+
+**Transmutation** wins for active gameplay — the upgrade chains solve multiple skill bottlenecks at once (Crafting, Smithing, Farming). **Conniving Clues is second best** and a strong Reloaded candidate since it generates points.
+
+---
+
+## Tier 4 — Conniving Clues (Alternative, Consider for Reloaded)
 
 | Perk | Effect |
 |------|--------|
@@ -235,34 +296,75 @@ Grants the evil eye item for instant teleportation to any boss, raid, or Barrows
 
 ---
 
-## Tier 6 — Culling Spree (Only Option)
+## Tier 6 — CHOOSE: Culling Spree vs Grimoire
 
-| Perk | Effect |
-|------|--------|
-| Choose your task | Pick from 3 options — always pick barrageable tasks |
-| Custom kill count | Set 5-200 kills per task |
-| Superior chaining | 50% chance to spawn another superior on death |
-| Elite clue drops | Superiors always drop 1-3 elite clues (stackable) |
-| Free Slayer helm | All Slayer helm effects without wearing one — **wear Ancestral Hat for +3% magic dmg** |
-| Free shop perks | All Slayer reward shop unlocks free |
-| Utility items | Rune pouch, Herb sack, Looting bag from Slayer store |
+**Current pick: Culling Spree (tentative — watching for new T6 reveals)**
 
-### Why Culling Spree
+| Relic | Key Effects |
+|-------|------------|
+| **Culling Spree** | Choose Slayer task from 3, custom kill count, 50% superior chaining, superiors drop 1-3 elite clues, free Slayer helm effects, all shop perks free, utility items |
+| **Grimoire** | Arcane grimoire: freely swap spellbooks, acts as book of the dead, unlocks all prayers and spells regardless of area/quest/diary requirements |
 
-- Free Slayer helm effect → wear Ancestral Hat = +3% magic damage for free
-- Task selection guarantees barrage tasks (Dust Devils, Nechs, Smoke Devils)
-- Superior chaining + elite clues → feeds into Conniving Clues (T4) for max reward chain
+### Culling Spree (Build-Defining)
+
+- **Free Slayer helm effect → wear Ancestral Hat** (+3% magic dmg for free)
+- Task selection = always barrage tasks (Dust Devils, Nechs, Smoke Devils)
+- Superior chaining + elite clues → feeds into Conniving Clues (if taken) for max reward chains
 - Custom kill count (5-200) = optimizable for points vs XP
+- Free shop perks = rune pouch, herb sack, looting bag
+
+### Grimoire (QoL Alternative)
+
+- Universal spellbook access (Standard, Ancients, Lunar, Arceuus)
+- All prayers unlocked regardless of quest/diary
+- Book of the dead effect
+- **Mostly redundant for our build** — we already have Ancients (Desert), Arceuus (Kourend), Magic Cape 5x/day swaps
+
+### Verdict
+
+**Culling Spree** wins decisively. The free Slayer helm effect alone (wear Ancestral Hat for +3% dmg) is worth more than Grimoire's entire package. Plus task selection unlocks the barrage Slayer engine which is our main XP + points generator.
 
 **The combo: Culling Spree + Conniving Clues = barrage Slayer → superiors → elite clues → max rewards → casket chains → more clues → repeat. Infinite value loop.**
 
 See [skills/slayer.md](skills/slayer.md) for full barrage Slayer strategy.
 
+*Could swap if a new T6 reveal significantly changes the calculus.*
+
 ---
 
-## Tier 7 — No Relic Revealed
+## Tier 7 — Reloaded (Only Option)
 
-Passive: XP multiplier increases to 16x (max). No relic choice at this tier.
+**Current pick: Reloaded → (undecided, leaning Conniving Clues)**
+
+**Passive:** XP multiplier increases to 16x (max).
+**Effect:** Choose another relic from any tier below this one.
+
+### Best Reloaded Candidates
+
+| Relic | Tier | Value |
+|-------|------|-------|
+| **Conniving Clues** | T4 | **Points engine.** Synergizes with Culling Spree (superiors → elite clues → max rewards). Saves hours of clue completion |
+| **Evil Eye** | T3 | Instant boss/raid teleports. Huge QoL for bossing farming |
+| **Butler's Bell** | T4 | Offline demon butler gathers resources. Passive ironman income |
+| **Grimoire** | T6 | Universal spellbook/prayer access. QoL but mostly redundant |
+| **Friendly Forager** | T2 | 4-dose pots, 90% secondary save, Herblore batch processing |
+| **Soul Harvest** | T5 | Bones/ashes → soul shards. Minor Prayer/RC help. **Doesn't stack with Nature's Accord** |
+
+### Current Leaning: Conniving Clues
+
+**Why:**
+1. We're taking Transmutation at T4, so Conniving Clues is skipped
+2. Conniving Clues is THE league points engine — hours saved and big points boost
+3. Synergizes with Culling Spree (superior clue chains)
+4. Points unlock tiers faster = T7/T8 multipliers active sooner
+
+### Secondary Pick: Evil Eye
+
+If we swap T3 to Map of Alacrity (shortcut teleports), Evil Eye becomes a strong Reloaded candidate for boss teleports. Both are valuable for different reasons.
+
+**HOLD:** Waiting for potential new T3 or T6 reveals before locking Reloaded. Current leaning is Conniving Clues regardless.
+
+*Re-evaluate if: new T1-T6 relic drops that offers better build synergy, or if Conniving Clues becomes locked-in at T4.*
 
 ---
 
@@ -348,5 +450,13 @@ If Grimoire (all spellbooks + prayers, no quest/area reqs) is offered as a pact:
 | 2026-03-30 | 5 | Nature's Accord | Echo Dagannoth Kings |
 | 2026-03-31 | 2 | Hotfoot | |
 | 2026-04-02 | 5 | Larcenist | AFK Thieving + 10x loot. Competes with Nature's Accord. Pick: Nature's Accord |
+| 2026-04-?? | 3 | **Map of Alacrity** | Agility shortcut teleports across all regions. Competes with Evil Eye. **Tentative pick** — key value is Zeah RC shortcuts + Nature Rune altar shortcut |
+| 2026-04-?? | 4 | **Transmutation** | Item upgrade/downgrade chains, infinite nature runes. Competes with Conniving Clues + Butler's Bell. **Pick** — solves Crafting/Smithing/Farming material chains |
+| 2026-04-?? | 4 | Butler's Bell | Offline demon butler gathers resources while logged off |
+| 2026-04-?? | 2 | Friendly Forager | Forager's pouch, 4-dose pots, 90% secondary save, Herblore batch processing |
+| 2026-04-?? | 5 | Soul Harvest | Bones/ashes → soul shards. Does NOT stack with Nature's Accord |
+| 2026-04-?? | 6 | Grimoire | Universal spellbook/prayer access. Competes with Culling Spree. Pick: Culling Spree |
+| 2026-04-?? | 7 | **Reloaded** | Pick another relic from T1-T6. Leaning: Conniving Clues |
+| 2026-04-02 | Echo boss | Echo Grotesque Guardians (Morytania) | 4-tick staff, earth/body runes, stacking mechanic. Morytania not in our regions |
 
 *Combat pacts still TBD. More relics may still be revealed.*

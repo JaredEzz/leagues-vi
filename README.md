@@ -244,3 +244,7 @@ To get all must-haves + nice-to-haves, target **Dragon tier** minimum (likely ~1
 - [Get Ready Blog Post](https://secure.runescape.com/m=news/get-ready-for-leagues-vi-demonic-pacts---april-15th?oldschool=1)
 - [OSRS Wiki — Demonic Pacts League](https://oldschool.runescape.wiki/w/Demonic_Pacts_League)
 - [Leagues Planner Tool](https://demonicpacts.com/)
+
+### Day 1 Starting Route
+
+- **[Starting Guide by Laef (Wiki)](https://oldschool.runescape.wiki/w/Guide:Leagues:_Demonic_pacts_starting_guide_by_Laef)** — Universal starting route, works with any relic/area choice. Covers T1→T4 progression via Yama Agility Course, Thieving, cake selling, Hunter 46, Slayer/Karamja diary, Fire Cape.
