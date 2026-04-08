@@ -46,6 +46,7 @@ Cross-verified against oldschool.runescape.wiki infoboxes (April 2026). Filtered
 | **Vespula** | Kourend (CoX) | **50%** | CoX raid speed |
 | **Kalphite Queen** | Desert | **40%** | Phase 2 fire-vulnerable |
 | **Kephri** | Desert (ToA) | **35-40%** | 35% aggressive / 40% shielded phase |
+| **Vardorvis** | Varlamore (DT2) | **35%** | Drops Virtus (1/3,264). +580 magic def is a huge accuracy wall — community standard is melee with Protect Melee. Mage viable but slow |
 | **Amoxliatl** | Varlamore | **30%** | Niche |
 
 ## Air-weak bosses
@@ -67,6 +68,7 @@ Cross-verified against oldschool.runescape.wiki infoboxes (April 2026). Filtered
 | **Akkha** | Desert (ToA) | Style rotation |
 | **Ba-Ba** | Desert (ToA) | High crush def — stab/slash |
 | **Zebak** | Desert (ToA) | Ranged-preferred |
+| **The Leviathan** | Desert (DT2) | Ranged-preferred. Mage workable for Virtus farming via Eye of Ayak raw stats |
 | **Tekton** | Kourend (CoX) | Melee-only, immune to ranged, 80% magic reduction |
 | **Vasa Nistirio** | Kourend (CoX) | No element weakness |
 | **Vanguards** (all 3) | Kourend (CoX) | No element weakness |

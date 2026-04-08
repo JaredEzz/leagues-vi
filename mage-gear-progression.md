@@ -138,20 +138,20 @@ CoX is the most mage-friendly raid in your unlocked content:
 | | Leviathan (Desert) | Vardorvis (Varlamore) |
 |---|---|---|
 | Virtus drop rate per piece | **1/2,304** | 1/3,264 |
-| **Elemental weakness** | **Yes — Jared confirmed (verify in-game on launch)** ⚠ wiki currently shows none | 35% fire |
+| Elemental weakness | None | 35% fire |
 | Magic defence | Moderate | **+580 (extreme — accuracy nightmare)** |
 | Best community style | Ranged | Melee with Protect Melee |
-| Mage main viability | **Workable** — EoA + F8 + Confliction + Devil's Element + Lightbearer carries, plus weakness exploitation if confirmed | Rough — extreme magic def fights every accuracy roll |
+| Mage main viability | **Workable** — EoA + F8 + Confliction + Devil's Element + Lightbearer carries by raw stats, no weakness needed | Rough — extreme magic def fights every accuracy roll |
 | **In your Phase 3 plan?** | **Yes — already farming Desert for ToA / Shadow / Masori / Lightbearer** | Yes but inefficient as primary path |
 
 **Why Leviathan wins as the Virtus source:**
 1. **30% better drop rate** per piece (1/2,304 vs 1/3,264)
 2. **You're already in Desert anyway** for ToA, Tumeken's Shadow, Masori, Lightbearer, Tempoross — Leviathan slots into the grind loop with zero overhead
-3. **Has an elemental weakness** (per Jared's claim — wiki currently shows none, may be a Demonic Pacts league change or recent patch the wiki hasn't caught) — pairs with the elemental engine in Option 2/3 builds
-4. **No +580 magic def wall** like Vardorvis has — accuracy is workable for mage
+3. **No +580 magic def wall** like Vardorvis has — accuracy is workable for mage even without an elemental weakness to lean on
+4. **Eye of Ayak's spec** (mage def drain) is the right weapon here — built-in spell isn't typed so it doesn't need a weakness to fire payloads, just raw mage damage stats
 5. **Lightbearer drops in the same region** so you can spec-spam Eye of Ayak farming Leviathan
 
-> ⚠ **Verify on launch:** confirm Leviathan's elemental weakness type and severity in-game. The wiki Leviathan page and Summer Sweep-Up update notes both say "no elemental weakness" as of April 2026, but Leagues VI may apply different rules.
+**No elemental weakness** means you lean on raw stats: F8 1-tick burst + +8% pact mage damage stacks + Confliction +7% + Devil's Element +6% (no weakness multiplier benefit, but the +6% base damage still stacks) + Occult +5% + Ancestral +9% + Augury. That's enough.
 
 ##### Vardorvis: secondary / opportunistic
 
