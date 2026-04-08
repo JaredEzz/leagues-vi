@@ -72,15 +72,18 @@ For 30 seeds (10 patches' worth):
 
 ### Allotment Patches in Your Regions
 
-| Location | Region |
-|----------|--------|
-| Civitas illa Fortis | Varlamore |
-| Aldarin (Mistrock) | Varlamore |
-| Hosidius (×2 patches) | Kourend |
-| Catherby | Kandarin |
-| Ardougne | Kandarin |
+| # | Location | Region | Gardener |
+|---|----------|--------|----------|
+| 1 | Civitas illa Fortis (west of city) | Varlamore | Harminia |
+| 2 | Catherby (north of city) | Kandarin | Dantaera |
+| 3 | Ardougne (north of city) | Kandarin | Kragen |
+| 4 | Hosidius (SW corner) | Kourend | Marisi |
+| 5 | Farming Guild (patch 1) | Kourend | Alan |
+| 6 | Farming Guild (patch 2) | Kourend | Alan |
 
-**5+ patches to rotate**, all reachable via Nature's Accord fairy mushroom (tool leprechauns are at allotment patches).
+**6 patches total**, all reachable via Nature's Accord fairy mushroom (tool leprechauns are at allotment patches = direct teleport).
+
+**Locked:** Falador (Asgarnia), Port Phasmatys / Harmony Island (Morytania), Prifddinas (Tirannwn).
 
 ### XP/hr Estimates (5 Patches Running)
 
