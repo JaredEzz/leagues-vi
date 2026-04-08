@@ -116,33 +116,66 @@ See [boss-weaknesses.md](boss-weaknesses.md), [pact-phasing.md](pact-phasing.md)
 
 **Phase 2 totals after Ancestral:** +69 mage atk, +9% mage damage. Compared to Blue Moon: **+11 mage atk, +6% mage damage** — a massive jump.
 
-#### Why Ancestral first (not Virtus)
+#### Ancestral path first (CoX, Phase 2) — Virtus path waits for Desert (Phase 3)
 
-Even though Vardorvis is Day 1 accessible, **CoX is the more practical Phase 2 grind for a mage main**:
+**Two parallel robe paths emerge:**
+- **Ancestral** from CoX (Kourend, Phase 2) — your Phase 2 priority
+- **Virtus** primarily from **Leviathan** in Desert (Phase 3) — better drop rate AND fits the ToA grind already happening
 
-1. **CoX is mage-friendly.** You're casting, doing prayer flicks, scaling with mage gear. Vardorvis is a melee fight (more on this below).
-2. **Pact task overlap:** "Equip Ancestral piece" + "25 Chambers of Xeric" + (eventually) Kodai Insignia + Augury — 4 builds-progress items in one boss.
-3. **Drop pacing:** CoX has many drop rolls per raid (uniques on raid completion). Vardorvis is single-roll per kill at 1/3,264 per Virtus piece — much slower.
-4. **Augury** is a non-negotiable BIS prayer for I1 (air spell damage per active prayer pact) and overall mage DPS. Comes from CoX.
+##### Ancestral via CoX (Phase 2 priority)
 
-#### Vardorvis as a Phase 2 side-grind (caveats)
+CoX is the most mage-friendly raid in your unlocked content:
 
-You explicitly want Virtus, and Vardorvis is in Varlamore (Day 1 accessible). Here's the honest read:
+1. **Pact task overlap:** "Equip Ancestral piece" + "25 Chambers of Xeric" + Kodai Insignia + Augury — 4 build items + 2 pact tasks in one raid loop.
+2. **Mage scales naturally** — you're casting, prayer flicking, in your element. Drop pacing is good (multiple unique rolls per raid).
+3. **Augury is non-negotiable** for I1 (air spell damage per active prayer pact) and overall mage DPS.
+4. **Kodai Insignia + Master Wand → Kodai Wand** — your barrage Slayer weapon fully comes online once Desert opens MTA.
+
+##### Virtus via Leviathan (Phase 3 priority — Desert unlock)
+
+**Leviathan is the better Virtus source than Vardorvis** for this build:
+
+| | Leviathan (Desert) | Vardorvis (Varlamore) |
+|---|---|---|
+| Virtus drop rate per piece | **1/2,304** | 1/3,264 |
+| **Elemental weakness** | **Yes — Jared confirmed (verify in-game on launch)** ⚠ wiki currently shows none | 35% fire |
+| Magic defence | Moderate | **+580 (extreme — accuracy nightmare)** |
+| Best community style | Ranged | Melee with Protect Melee |
+| Mage main viability | **Workable** — EoA + F8 + Confliction + Devil's Element + Lightbearer carries, plus weakness exploitation if confirmed | Rough — extreme magic def fights every accuracy roll |
+| **In your Phase 3 plan?** | **Yes — already farming Desert for ToA / Shadow / Masori / Lightbearer** | Yes but inefficient as primary path |
+
+**Why Leviathan wins as the Virtus source:**
+1. **30% better drop rate** per piece (1/2,304 vs 1/3,264)
+2. **You're already in Desert anyway** for ToA, Tumeken's Shadow, Masori, Lightbearer, Tempoross — Leviathan slots into the grind loop with zero overhead
+3. **Has an elemental weakness** (per Jared's claim — wiki currently shows none, may be a Demonic Pacts league change or recent patch the wiki hasn't caught) — pairs with the elemental engine in Option 2/3 builds
+4. **No +580 magic def wall** like Vardorvis has — accuracy is workable for mage
+5. **Lightbearer drops in the same region** so you can spec-spam Eye of Ayak farming Leviathan
+
+> ⚠ **Verify on launch:** confirm Leviathan's elemental weakness type and severity in-game. The wiki Leviathan page and Summer Sweep-Up update notes both say "no elemental weakness" as of April 2026, but Leagues VI may apply different rules.
+
+##### Vardorvis: secondary / opportunistic
+
+Vardorvis is still in Varlamore so it's accessible Day 1, BUT for a mage main it's a hard fight:
 
 | Stat | Vardorvis |
 |---|---|
-| HP | High |
-| **Magic defence** | **+580** (extreme — accuracy will be terrible even with all bonuses) |
-| **Fire weakness** | **35%** (exploitable!) |
-| Best style (community standard) | **Melee with Protect Melee** |
-| Drop rate per Virtus piece | **1/3,264** (each piece, both standard and awakened) |
-| Scaling mechanic | Defence drops as HP drops; Strength rises. Late-fight Vardorvis is glassier but hits harder |
+| **Magic defence** | **+580** (one of the highest in the game) |
+| **Fire weakness** | **35%** (exploitable with Fire Surge + Devil's Element → effective 70%) |
+| Drop rate per Virtus piece | 1/3,264 (worse than Leviathan) |
+| Scaling | Def drops as HP drops; Str rises. Late fight is glassier but hitter |
 
-**Why mage Vardorvis is rough:** the +580 magic defence is one of the highest in the game. Even with F1 (+35% acc) + 3× CA/CB/CC (+45% acc) + Confliction Gauntlets accuracy reroll passive + Devil's Element 2× weakness, your hit chance will be sub-50%. Compare to melee where slash defence is only +65 — huge accuracy gap.
+**Recommendation:** Don't grind Vardorvis primarily for Virtus as mage. **Do Vardorvis once (or to completion) for the pact task** ("Defeat Awakened Vardorvis" = 1 pact unlock) and any extra Virtus pieces are gravy. Your Virtus pieces should come from **Leviathan in Phase 3** while you're already in Desert raiding ToA.
 
-**Mage Vardorvis viability:** possible, not optimal. Use **Fire Surge** (native fire spell triggers I3 burn boost + L3 bounce when those pacts unlock) plus Devil's Element to double the 35% fire weakness to 70%. Stack everything you have.
+##### ToA group play factor
 
-**Recommendation:** Do Vardorvis as a *background* grind in Phase 2-3. Don't expect Virtus before Ancestral. If you want a fast Virtus farm, Phase 4 with full mage stack is when it actually works.
+Desert in Phase 3 also enables **ToA with friends**, which is significant:
+
+- Group ToA tolerates higher invocations (more loot, more XP, more league points per raid)
+- ToA is the most efficient league points generator in the game
+- Social factor — raiding with friends is more fun and consistent than solo grinds
+- Friend availability windows = if your friends raid in Phase 3, you want to be there
+
+**This solidifies Desert as your Phase 3 region pick.** No Kandarin swap needed.
 
 #### Phase 2 weapons / accessories
 
