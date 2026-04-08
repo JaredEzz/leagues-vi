@@ -79,6 +79,12 @@ Echo variants for all regional bosses. Unlocked by getting Echo Orbs from standa
 
 **Dependencies:** See [dependencies.md](dependencies.md) for prerequisite chains (mermaid flowcharts on GitHub).
 
+**Demonic Pacts:** See [pacts.md](pacts.md) for the combat mastery system (separate from relics). 40 active pacts at once, 130+ to choose from. Includes Eye of Ayak F8 math (2.27x DPS gain).
+
+**Visual Guide:** [jaredezz.github.io/leagues-vi/visual-guide.html](https://jaredezz.github.io/leagues-vi/visual-guide.html) — Material 3 styled overview with skill solves, BIS gear, boss progression, and pact tasks.
+
+**New conversation context:** See [HANDOFF.md](HANDOFF.md) for self-contained build summary to start a fresh chat.
+
 **Build:** Mage — Eye of Ayak + Confliction Gauntlets. Always picks mage combat masteries when available.
 
 ### Region Unlocks
