@@ -234,20 +234,19 @@ Leviathan caveats:
 | **Gloves** | **Confliction Gauntlets** | See open question below | +20 mage atk, +7% mage damage, accuracy reroll passive on 1H weapons |
 | **Cape** | **Trimmed Magic Cape** | Wizards' Guild (Yanille, Kandarin), 99 Magic + 99 in another skill | 0 mage atk but +4 prayer + spellbook teleport. Worn for utility/theme |
 
-#### Confliction Gauntlets — open question
+#### Confliction Gauntlets — likely drops fully assembled (cross-validated)
 
-**You said:** Confliction Gauntlets drop fully assembled from Doom of Mokhaiotl per a leagues modifier (Day 1 access).
-**Wiki shows:** Only **Mokhaiotl Cloth** drops from Doom (1/140); the gauntlets normally need Mokhaiotl Cloth + Zenyte (Kandarin) + 10k demon tears + 73 Crafting.
+**Your claim:** Compound items in Leagues VI drop fully assembled when their normal recipe requires a locked region's crafting station.
 
-**Plan for both scenarios:**
+**Cross-validation via Venator Ring:** The Venator Ring is a pact task ("Equip the Venator Ring") in Desert. Normally it requires combining the Venator Vestige (Leviathan drop) at the **Soulreaper Anvil** in Salve Graveyard, **Morytania — LOCKED** for you. For the pact task to be possible at all, the Venator Ring must drop fully assembled from Leviathan (or there must be an alternative anvil location). Same logic applies to all DT2 vestige rings.
 
-| Scenario | If Confliction drops fully from Doom (your claim) | If wiki is correct (cloth only) |
-|---|---|---|
-| **Phase 1 access?** | ✅ Yes — Day 1 | ❌ No (need Zenyte = Kandarin) |
-| **Region order matters?** | No — Confliction not Kandarin-gated | Yes — Kandarin advances build by 1 phase |
-| **Recommendation** | Original V+K → Ko → De → Ka order is fine | Strong case for V+K → Ko → Ka → De swap |
+**By extension, Confliction Gauntlets** very likely also drop fully from Doom of Mokhaiotl, even though the wiki Notable Drops page only lists Mokhaiotl Cloth. The wiki may be incomplete for league-specific drop tables.
 
-**Verify in-game on launch day** by checking Doom drop table or asking in the league Discord.
+**Working assumption (until verified in-game):**
+- ✅ Confliction Gauntlets drop fully assembled from Doom — Day 1 accessible
+- ✅ Venator Ring drops fully assembled from Leviathan — Phase 3 accessible
+- ✅ Original V+K → Ko → De → Ka region order is correct (no need to advance Kandarin for Confliction)
+- ⚠ Verify in-game on launch day; if wrong, advance Kandarin one phase
 
 #### Phase 4 totals (full endgame mage stack)
 
