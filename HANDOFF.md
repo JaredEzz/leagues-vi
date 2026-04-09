@@ -46,7 +46,7 @@
 | T4 | **Transmutation** | Item upgrade chains: Crafting (sapphire→dragonstone), Smithing, Farming seeds, infinite nature runes |
 | T5 | **Nature's Accord** | 10x noted farming yield, plants never die, fairy mushroom teleport network, no farming level reqs |
 | T6 | **Culling Spree** | Free Slayer helm effect (wear Ancestral!), choose tasks, 50% superior chaining, elite clue drops |
-| T7 | **Reloaded → Conniving Clues** | Pick another T1-T6 relic. Conniving Clues = 1/15 clue drops, max rewards, casket chaining (points engine) |
+| T7 | **Reloaded → Endless Harvest** | Pick another T1-T6 relic. EH stacks 2x gathering yield onto Hotfoot for 2x XP/hr in Fish/WC/Mining/Cook/Smith — perfect AFK post-99 grind for points |
 | T8 | **Flask of Fervour** | Full HP/Prayer/Spec restore on 1-2 min cooldown, 2.4s invulnerability, push hard content |
 
 See [relics.md](relics.md) for full analysis of each tier and the alternatives considered.

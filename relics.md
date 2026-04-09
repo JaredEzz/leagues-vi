@@ -12,10 +12,10 @@
 | 4 | Items 5x more common, 8x minigame pts | **Transmutation** / Conniving Clues / Butler's Bell | **Transmutation** |
 | 5 | XP → 12x | **Nature's Accord** / Larcenist / Soul Harvest | **Nature's Accord** |
 | 6 | None | **Culling Spree** / Grimoire | **Culling Spree** (TBD — may switch if new T6 drops) |
-| 7 | XP → 16x | **Reloaded** (only option, pick another from T1-T6) | **Reloaded → ? (undecided)** |
+| 7 | XP → 16x | **Reloaded** (only option, pick another from T1-T6) | **Reloaded → Endless Harvest** |
 | 8 | None | Minion / **Flask of Fervour** | **Flask of Fervour** |
 
-**Current Reloaded leaning:** Conniving Clues (points engine, synergizes with Culling Spree). Holding off final pick — new T3 or T6 reveals may shift this.
+**Current Reloaded pick:** Endless Harvest. Stacks 2x gathering yield onto Hotfoot auto-process for 2x XP/hr across Fishing, WC, Mining, Cooking, Smithing during post-99 grinds. Frees active time for harder grinds (Hunter, RC, Herblore) where AFK isn't an option. Conniving Clues remains a strong runner-up but its biggest value (passive elites from Culling Spree superiors) lands during Slayer regardless of whether CC is slotted.
 
 ---
 
@@ -186,7 +186,7 @@ For a maxing goal, **Woodsman** probably covers more skill-hours — it makes Hu
 - **Passive Magic XP** = 10 per transmute during skill training
 - Works across: hides, runes, ashes, gems, compost, seeds, logs, ores, bones, raw fish
 
-### Conniving Clues Analysis (Alternative — Best Reloaded Pick)
+### Conniving Clues Analysis (Alternative — Reloaded Runner-Up)
 
 - **Main league points engine** when paired with Culling Spree
 - Superiors drop 1-3 elite clues → min steps + max rewards → casket chains → more clues
@@ -204,7 +204,7 @@ For a maxing goal, **Woodsman** probably covers more skill-hours — it makes Hu
 
 ### Verdict
 
-**Transmutation** wins for active gameplay — the upgrade chains solve multiple skill bottlenecks at once (Crafting, Smithing, Farming). **Conniving Clues is second best** and a strong Reloaded candidate since it generates points.
+**Transmutation** wins for active gameplay — the upgrade chains solve multiple skill bottlenecks at once (Crafting, Smithing, Farming). **Conniving Clues is second best** here, but it lost the Reloaded slot to Endless Harvest (better fit for Jared's WFH AFK schedule).
 
 ---
 
@@ -334,37 +334,44 @@ See [skills/slayer.md](skills/slayer.md) for full barrage Slayer strategy.
 
 ## Tier 7 — Reloaded (Only Option)
 
-**Current pick: Reloaded → (undecided, leaning Conniving Clues)**
+**Current pick: Reloaded → Endless Harvest**
 
 **Passive:** XP multiplier increases to 16x (max).
 **Effect:** Choose another relic from any tier below this one.
 
-### Best Reloaded Candidates
+### Why Endless Harvest (not Conniving Clues)
+
+The T1 analysis (Abundance vs EH) was scored on *time-to-max*. Reloaded operates in a different regime: post-99 grinding for XP-based league points. In that regime EH wins decisively, because:
+
+- **Abundance's +10 boost is dead at 99.** It cashed in its full value pre-max. Picking EH at T7 doesn't compete with Abundance — they cover different phases of the league.
+- **EH's 2x gathering yield is still active at 200m XP.** It scales linearly with grind hours.
+- **Hotfoot synergy doubles 5 skills' XP rate from one slot:**
+  - Karambwans: 2x fish auto-banked + auto-cooked = **2x Fishing AND 2x Cooking XP** from one action
+  - Mining ore rocks: 2x ore auto-smelted = **2x Mining AND 2x Smithing supply**
+  - WC Redwoods: 2x logs = 2x Fletching/FM/Construction supply
+  - Calcified Rocks: 2x blessed bone shards = passive Prayer
+- **Fits a WFH AFK schedule.** Gathering skills can run in the background during work hours, freeing active sessions for harder non-AFK grinds (Hunter, RC, Herblore, Slayer).
+- **No depletion** = sit on high-tier nodes indefinitely without rotating spots.
+
+### Conniving Clues — Runner-Up (Why It Lost)
+
+CC is still the best alternative, and it's not a bad pick — but two things weakened it for this build:
+
+1. **Most of CC's value is already collected without slotting it.** Culling Spree's superiors drop 1-3 elite clues regardless of whether CC is taken. Barrage Slayer at 1/15 base clue rates already drowns you in clues. CC upgrades these to max rolls + casket chains, which is real value, but it's marginal on top of clues you'd already get.
+2. **CC's full value requires actually completing clues.** Jared explicitly doesn't enjoy clue completion and will only do them when forced. So a chunk of CC's theoretical points evaporates in practice.
+
+### Other Candidates (Lower Tier)
 
 | Relic | Tier | Value |
 |-------|------|-------|
-| **Conniving Clues** | T4 | **Points engine.** Synergizes with Culling Spree (superiors → elite clues → max rewards). Saves hours of clue completion |
-| **Evil Eye** | T3 | Instant boss/raid teleports. Huge QoL for bossing farming |
-| **Butler's Bell** | T4 | Offline demon butler gathers resources. Passive ironman income |
-| **Grimoire** | T6 | Universal spellbook/prayer access. QoL but mostly redundant |
-| **Friendly Forager** | T2 | 4-dose pots, 90% secondary save, Herblore batch processing |
-| **Soul Harvest** | T5 | Bones/ashes → soul shards. Minor Prayer/RC help. **Doesn't stack with Nature's Accord** |
+| **Conniving Clues** | T4 | Best runner-up. Casket chaining + max rewards on passive elites |
+| **Evil Eye** | T3 | Instant boss/raid teleports. Strong if T3 swaps to Map of Alacrity |
+| **Butler's Bell** | T4 | Offline demon butler. Less needed with EH already running 24/7 AFK |
+| **Grimoire** | T6 | Universal spellbook/prayer. Mostly redundant — we have Ancients + Arceuus |
+| **Friendly Forager** | T2 | Herblore batch processing. Tempting since Herblore is a remaining grind |
+| **Soul Harvest** | T5 | Bones/ashes → soul shards. **Doesn't stack with Nature's Accord** |
 
-### Current Leaning: Conniving Clues
-
-**Why:**
-1. We're taking Transmutation at T4, so Conniving Clues is skipped
-2. Conniving Clues is THE league points engine — hours saved and big points boost
-3. Synergizes with Culling Spree (superior clue chains)
-4. Points unlock tiers faster = T7/T8 multipliers active sooner
-
-### Secondary Pick: Evil Eye
-
-If we swap T3 to Map of Alacrity (shortcut teleports), Evil Eye becomes a strong Reloaded candidate for boss teleports. Both are valuable for different reasons.
-
-**HOLD:** Waiting for potential new T3 or T6 reveals before locking Reloaded. Current leaning is Conniving Clues regardless.
-
-*Re-evaluate if: new T1-T6 relic drops that offers better build synergy, or if Conniving Clues becomes locked-in at T4.*
+*Re-evaluate if: a new pact reveal grants 2x gathering yield natively (making EH redundant), or if Jared's playstyle shifts toward more active bossing time and less AFK gathering.*
 
 ---
 
@@ -456,7 +463,7 @@ If Grimoire (all spellbooks + prayers, no quest/area reqs) is offered as a pact:
 | 2026-04-?? | 2 | Friendly Forager | Forager's pouch, 4-dose pots, 90% secondary save, Herblore batch processing |
 | 2026-04-?? | 5 | Soul Harvest | Bones/ashes → soul shards. Does NOT stack with Nature's Accord |
 | 2026-04-?? | 6 | Grimoire | Universal spellbook/prayer access. Competes with Culling Spree. Pick: Culling Spree |
-| 2026-04-?? | 7 | **Reloaded** | Pick another relic from T1-T6. Leaning: Conniving Clues |
+| 2026-04-?? | 7 | **Reloaded** | Pick another relic from T1-T6. **Pick: Endless Harvest** (post-99 AFK gathering grind for points) |
 | 2026-04-02 | Echo boss | Echo Grotesque Guardians (Morytania) | 4-tick staff, earth/body runes, stacking mechanic. Morytania not in our regions |
 
 *Combat pacts still TBD. More relics may still be revealed.*
