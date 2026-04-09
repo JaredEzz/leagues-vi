@@ -448,6 +448,20 @@
   .boss-tag.phase4 { background: rgba(208, 188, 255, 0.2); color: var(--md-sys-color-primary); }
   .boss-tag.shortcut { background: rgba(239, 184, 200, 0.18); color: var(--md-sys-color-tertiary); }
   .boss-tag.essential { background: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container); }
+  .boss-tag.weakness {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--md-sys-color-on-surface-variant);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-transform: none;
+    letter-spacing: 0.2px;
+  }
+  .boss-tag.weakness img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  }
 
   .boss-info {
     font-size: 12px;
@@ -507,7 +521,7 @@
       <span class="tier">T3</span>Map of Alacrity
     </div>
     <div class="chip">
-      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Transmutation_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Transmutation_%28Demonic_Pacts_League%29.png" alt="">
       <span class="tier">T4</span>Transmutation
     </div>
     <div class="chip">
@@ -628,12 +642,14 @@
         <span class="time-badge free">~1 hr</span>
       </div>
     </div>
-    <p class="method">Ralos' Rise (Varlamore). 1.2M base XP/hr — fastest Prayer method in the game. Shards bank passively from Mining + Agility + Hunter.</p>
+    <p class="method">Ralos' Rise (Varlamore). 1.2M base XP/hr — fastest Prayer method in the game. Shards bank passively from Mining + Agility + Hunter. Also: get wyrmling bones from Moons of Peril and Transmute them to superior dragon bones for huge per-bone XP.</p>
     <div class="items-row">
-      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Blessed_bone_shard.png" alt="">Bone Shards</div>
-      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Sunfire_splinters.png" alt="">Sunfire</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Blessed_bone_shards.png" alt="">Bone Shards</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Sunfire_splinters_4.png" alt="">Sunfire</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Wyrmling_bones.png" alt="">Wyrmling Bones</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Superior_dragon_bones.png" alt="">Superior Dragon Bones</div>
     </div>
-    <span class="relic-tag">Abundance (+10 → 20 real)</span>
+    <span class="relic-tag">Abundance (+10 → 20 real) + Transmutation</span>
   </div>
 
 </div>
@@ -668,9 +684,9 @@
         <span class="time-badge medium">~7-8 hrs</span>
       </div>
     </div>
-    <p class="method">Trawler (Angler's outfit) → Karambwans AFK → Tempoross (Spirit Angler) → 3-tick Barb Fishing at 16x. Auto-cooks via Hotfoot.</p>
+    <p class="method">Tempoross (Spirit Angler outfit) → Karambwans AFK → 3-tick Barb Fishing at 16x. Auto-cooks via Hotfoot.</p>
     <div class="items-row">
-      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Angler%27s_hat.png" alt="">Angler's</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Tempoross.png" alt="">Tempoross</div>
       <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Raw_karambwan.png" alt="">Karambwans</div>
     </div>
     <span class="relic-tag">Hotfoot (auto-cook)</span>
@@ -700,10 +716,10 @@
         <span class="time-badge free">~0.5 hrs</span>
       </div>
     </div>
-    <p class="method">Nature's Accord = 10x noted yield, plants never die, no level reqs. Farming Guild contracts + Hespori + Transmutation seed upgrades.</p>
+    <p class="method">Nature's Accord = 10x noted yield, plants never die, no level reqs. Tithe Farm (Varlamore — golovanova fruit) + Farming Guild contract seed packs + Hespori + Transmutation seed upgrades.</p>
     <div class="items-row">
-      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Magic_seed.png" alt="">Tree Seeds</div>
-      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Ranarr_seed.png" alt="">Herb Seeds</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Golovanova_fruit.png" alt="">Tithe Farm</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Seed_pack.png" alt="">Seed Pack</div>
     </div>
     <span class="relic-tag">Nature's Accord</span>
   </div>
@@ -808,6 +824,7 @@
     <div class="items-row">
       <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Ranarr_potion_(unf).png" alt="">Potions</div>
       <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Grimy_ranarr_weed.png" alt="">Ranarr</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Aldarium.png" alt="">Mixology</div>
     </div>
     <span class="relic-tag">Nature's Accord + Transmutation</span>
   </div>
@@ -1112,7 +1129,7 @@
     </div>
     <p class="method">+6 magic atk, all-style attack/defence bonuses. Best raw mage stats ring in your regions. Use for barrage Slayer where you don't spec.</p>
     <div class="boss-source">
-      <img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra.png" alt="">
+      <img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra_%28serpentine%29.png" alt="">
       <div class="source-info">
         <span class="source-label">Crafted From</span>
         <span class="source-name">Alchemical Hydra (95 Slayer)</span>
@@ -1189,6 +1206,7 @@
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
       <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Dragon Hunter Wand (1/105), Sunfire Splinters (17-350 per drop). <strong>Strategy:</strong> Farm for splinters (Prayer training). DHW is huge for CoX/Hydra.</p>
   </div>
@@ -1207,6 +1225,7 @@
     <div class="boss-name">Vardorvis</div>
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Fire_Surge.png" alt="">Fire weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Ultor ring (melee), Executioner's Axe. <strong>Strategy:</strong> Less relevant for mage build. Do for KC tasks + points.</p>
   </div>
@@ -1225,6 +1244,7 @@
     <div class="boss-name">Amoxliatl</div>
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Fire_Surge.png" alt="">Fire weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Tonalztics of Ralos (throwing). <strong>Strategy:</strong> Easy farm for KC tasks. Echo orb for Echo Amoxliatl.</p>
   </div>
@@ -1239,7 +1259,7 @@
   </div>
 
   <div class="boss-card">
-    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Gemstone_crab.png" alt=""></div>
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Gemstone_Crab.png" alt=""></div>
     <div class="boss-name">Gemstone Crab</div>
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
@@ -1252,6 +1272,7 @@
     <div class="boss-name">TzTok-Jad (Fight Caves)</div>
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Fire Cape, Tzrek-jad pet. <strong>Strategy:</strong> Easy with leagues buffs. Quick task completion.</p>
   </div>
@@ -1261,6 +1282,7 @@
     <div class="boss-name">TzKal-Zuk (Inferno)</div>
     <div class="boss-tags">
       <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Infernal Cape, Jal-nib-rek pet. <strong>Strategy:</strong> Very hard. Save for Phase 5 with full BIS + Flask of Fervour. Big practice goal.</p>
   </div>
@@ -1279,12 +1301,13 @@
       <span class="boss-tag phase2">Phase 2</span>
       <span class="boss-tag essential">Essential</span>
       <span class="boss-tag shortcut">Mt Quidamortem Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Ancestral set, Kodai Insignia, Augury, Dragon Hunter Crossbow, Twisted Bow. <strong>Strategy:</strong> Start with solos at decent stats. Farm continuously for mage gear. T4 5x drops makes farming much faster.</p>
   </div>
 
   <div class="boss-card">
-    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Wintertodt.png" alt=""></div>
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Wintertodt_%281%29.png" alt=""></div>
     <div class="boss-name">Wintertodt</div>
     <div class="boss-tags">
       <span class="boss-tag phase2">Phase 2</span>
@@ -1316,6 +1339,7 @@
     <div class="boss-tags">
       <span class="boss-tag phase2">Phase 2</span>
       <span class="boss-tag shortcut">Catacombs Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Dark claws, Jar of darkness, Skotos pet. <strong>Strategy:</strong> Catacombs drops dark totem fragments → Skotizo kill = task points.</p>
   </div>
@@ -1330,11 +1354,12 @@
   </div>
 
   <div class="boss-card">
-    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra.png" alt=""></div>
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra_%28serpentine%29.png" alt=""></div>
     <div class="boss-name">Alchemical Hydra</div>
     <div class="boss-tags">
       <span class="boss-tag phase2">Phase 2</span>
       <span class="boss-tag shortcut">Karuulm Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Hydra leather, hydra eye/fang/heart, Brimstone ring. <strong>Strategy:</strong> 95 Slayer required. Late Phase 2/3. Dragon Hunter Wand makes this much easier.</p>
   </div>
@@ -1347,12 +1372,13 @@
 <div class="skill-grid">
 
   <div class="boss-card priority">
-    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Tombs_of_Amascut.png" alt=""></div>
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Tumeken%27s_Warden_%28level-544%29.png" alt=""></div>
     <div class="boss-name">Tombs of Amascut</div>
     <div class="boss-tags">
       <span class="boss-tag phase3">Phase 3</span>
       <span class="boss-tag essential">Essential</span>
       <span class="boss-tag shortcut">Stepping Stones 60</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Tumeken's Shadow, Elidinis' Ward, Masori armor, Lightbearer ring. <strong>Strategy:</strong> Scalable invocations. Start at entry mode, push to expert. Evil Eye teleports you here (or Reloaded grab).</p>
   </div>
@@ -1371,6 +1397,7 @@
     <div class="boss-name">Kalphite Queen</div>
     <div class="boss-tags">
       <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Fire_Surge.png" alt="">Fire weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Dragon chainbody, Dragon 2h, KQ head (diary). <strong>Strategy:</strong> Mid-tier task boss. Mage form / melee form swap.</p>
   </div>
@@ -1389,6 +1416,7 @@
       <span class="boss-tag phase4">Phase 4</span>
       <span class="boss-tag essential">Essential</span>
       <span class="boss-tag shortcut">Crash Site Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Zenyte shards, Heavy/Light/Light frame ballista pieces, Hydrix. <strong>Strategy:</strong> PRIORITY #1 in Phase 4. Need zenytes for Confliction Gauntlets. Switch combat styles to bypass prayer flicks.</p>
   </div>
@@ -1400,6 +1428,7 @@
       <span class="boss-tag phase4">Phase 4</span>
       <span class="boss-tag essential">Essential</span>
       <span class="boss-tag shortcut">Smoke Dungeon Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Wind_Surge.png" alt="">Air weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Occult Necklace (BIS mage neck), Smoke battlestaff. <strong>Strategy:</strong> 93 Slayer needed. Use Culling Spree to choose Smoke Devil tasks. Get the echo orb here for Echo Thermy.</p>
   </div>
@@ -1419,6 +1448,7 @@
     <div class="boss-name">Kraken</div>
     <div class="boss-tags">
       <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Drops:</strong> Trident of the Seas, Kraken tentacle, Jar of dirt. <strong>Strategy:</strong> 87 Slayer. Trident is a fun mage swap, also nice for ornament kit goal.</p>
   </div>
@@ -1435,6 +1465,7 @@
     <div class="boss-name">Inferno (Push)</div>
     <div class="boss-tags">
       <span class="boss-tag phase4">Phase 5</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
     </div>
     <p class="boss-info"><strong>Goal:</strong> Infernal Cape. Flask of Fervour makes learning much more forgiving. Hard practice goal you can finally complete with full BIS.</p>
   </div>
@@ -1444,6 +1475,7 @@
     <div class="boss-name">ToA High Invocations</div>
     <div class="boss-tags">
       <span class="boss-tag phase4">Phase 5</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Goal:</strong> Push invocation levels for points + Shadow farming. Flask handles survivability.</p>
   </div>
@@ -1462,6 +1494,7 @@
     <div class="boss-name">CoX Challenge Mode</div>
     <div class="boss-tags">
       <span class="boss-tag phase4">Phase 5</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
     </div>
     <p class="boss-info"><strong>Goal:</strong> Harder CoX runs. Better drop rates. Twisted ancestral kit.</p>
   </div>
@@ -1679,11 +1712,6 @@
     <p class="boss-info">From ToA + ornament kit. You're farming ToA. Need both fang and OR kit drops.</p>
   </div>
 </div>
-
-<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 24px 8px 12px;">Locked Tasks (Skip)</h3>
-<p class="body-medium" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 16px;">
-  These require regions you don't have. Don't waste time chasing: Awakened Whisperer/Leviathan/Duke Sucellus (DT2 — Fremennik), Phantom Muspah (Misthalin), Royal Titans (Asgarnia), Magus/Bellator/Venator Rings (Fremennik), Corrupted Gauntlet (Tirannwn), Blowpipe (Tirannwn), ToB 25 (Morytania), Phosani's Nightmare (Morytania), Zalcano (Tirannwn), Corp Beast (Wilderness), Voidwaker (Wilderness), Imbue God Cape (Wilderness Mage Arena), Nex (Wilderness GWD), Godsword (Wilderness GWD or quest unlocks).
-</p>
 
 <div class="footnote">
   <p>Full docs at <a href="https://github.com/JaredEzz/leagues-vi">github.com/JaredEzz/leagues-vi</a></p>
