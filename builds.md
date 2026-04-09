@@ -276,4 +276,108 @@ L2, L3, L4, L6
 
 ---
 
+## Option 4 — Virtus DPS Variant (40/40, Reset #2 target post-Virtus drop)
+
+**Identity:** Option 3 with the L5/L7/L8 spell-type conversions added back. Designed to be activated via **Reset #2** once Virtus pieces drop from Leviathan in Phase 3-4. Pivots from "Surge + Ancestral" single-target casting to **"Barrage + L conversion + Virtus"** for every elemental weakness.
+
+**When to switch from Option 3 to Option 4:** as soon as you have full Virtus (mask + top + bottom) in hand. Until then, stay on Option 3.
+
+### Loadout (40 pacts) — verified connected
+
+```
+AA, B1,
+BA, BC,
+C1, C2, C3, C4,
+CA, CB, CC,
+F1, F3, F4, F5, F6, F7, F8, F9, F10,
+FA, FB, FC, FD,
+H8, H9,
+I1, I2, I3, I4,
+IA, IB, IC, ID,
+L3, L4, L5, L6, L7, L8
+```
+
+### What changed from Option 3
+
+| Action | Pact | Why |
+|---|---|---|
+| **Drop** | `L2` (water bounce heal large) | Heal sustain — Virtus + Devil's Element makes you kill so fast the heal matters less |
+| **Drop** | `F2` (overheal cap +30%) | Sustain — keeping H9 for 1 stack is enough |
+| **Drop** | `BB` (+5% regen leaf) | Regen still capped at 90%+ via AA + BA + BC + F3 |
+| **Add** | **`L5`** (Smoke spells → air) | Smoke Barrage now triggers I1/L1 air payloads. AoE air-weak targets |
+| **Add** | **`L7`** (Blood spells → fire) | Blood Barrage now triggers I3/L3 fire payloads. AoE fire-weak targets |
+| **Add** | **`L8`** (Shadow spells → earth) | Shadow Barrage now triggers I4/L4 earth payloads. AoE earth-weak targets |
+
+### Damage math: why this is worth it
+
+**Setup comparison** with full endgame mage stack (Pact stacks +8%, Confliction +7%, Devil's Element +6%, Occult +5%, Avernic Treads +1% = +27% accessories), targeting weakness-tagged content with Devil's Element doubling weakness:
+
+| Target | Setup A: Surge + Ancestral | Setup B: Barrage + L conversion + Virtus | Δ per cast |
+|---|---|---|---|
+| **Fire-weak** (Vespula 50%, doubled to 100%) | Fire Surge max ~65 | Blood Barrage + L7 max ~82 | **+26%** |
+| **Earth-weak** (Olm 50%, doubled to 100%) | Earth Surge max ~71 | Shadow Barrage + L8 max ~80 | **+12%** |
+| **Air-weak** (Thermo 20%, doubled to 40%) | Air Surge max ~42 | Smoke Barrage + L5 max ~54 | **+28%** |
+| **Water-weak** (Yama 50%, doubled to 100%) | Water Surge max ~65 | Ice Barrage + L6 max ~85 | **+30%** |
+
+**Two damage levers compound:**
+1. **Barrages have higher base max hit** (Smoke 27, Shadow 28, Blood 29, Ice 30) than Surges (Air 22, Fire 24, Water 24, Earth 26)
+2. **Virtus on Ancients = +15%** mage damage vs Ancestral's +9% on Standard — a +6% damage modifier swing
+
+The smallest gain is on Earth (only +12%) because Earth Surge already has the highest Surge max hit. The biggest gains are on Air and Water where Surges are weakest base.
+
+Plus AoE multi-target (3×3) on every Barrage cast, which Surges don't get at all.
+
+### Headline totals
+
+| Stat | Value | vs Option 3 |
+|---|---|---|
+| Magic damage | +8% | same |
+| Accuracy | +80% | same |
+| Regen chance | 90% (still effectively capped) | −5% (dropped BB) |
+| Spell speed | F7 + F8 | same |
+| Prayer pen | 0% | same |
+| Defence levels | +20 | same |
+| Overheal cap | +30% HP (1 stack) | −30% (dropped F2) |
+| Heal payloads | C2 only | dropped L2 |
+| **Spell conversions** | **L5 + L6 + L7 + L8 (all 4)** | **+L5/L7/L8** |
+| **Effective DPS on weakness content** | **+12-30% per cast** | **major upgrade** |
+
+### Boss matrix (Option 4 endgame)
+
+| Boss element | Best spell | Why |
+|---|---|---|
+| **Earth** (Olm, Wardens, Hueycoatl, Hydra, Kraken, Dark beast) | **Shadow Barrage + L8** | Virtus +15% + I4 (drain mage def) + L4 (+1 dmg/12 def) + AoE on trash |
+| **Water** (Yama, Inferno, Hellhounds, DGorillas, Skotizo) | **Ice Barrage + L6** | Virtus +15% + I2 (+20% @ full HP) + AoE freeze |
+| **Fire** (Ice Demon, Vespula, Kephri, KQ, Amoxliatl) | **Blood Barrage + L7** | Virtus +15% + I3 (burn boost) + L3 (burn + bounce) + heal 25% + AoE |
+| **Air** (Thermo, Smoke devils, Ankou) | **Smoke Barrage + L5** | Virtus +15% + I1 (+7% per active prayer) + Smoke poison + AoE |
+| **No weakness** (Sol, Doom, Echos, ToA Akkha/Ba-Ba/Zebak) | **Eye of Ayak built-in** | Powered staff F8 1-tick + Ancestral robes (powered staves don't get Virtus's Ancients bonus) |
+
+### Robe swap reminder
+
+Even with Option 4 unlocked, you still **swap robes** based on weapon:
+- **Eye of Ayak / Tumeken's Shadow** (powered staves) → **Ancestral** (Virtus bonus doesn't apply to non-spellbook spells)
+- **Kodai Wand + any Barrage** → **Virtus** (where the +15% pays off)
+
+Option 4 is built around the Kodai+Virtus loadout. Eye of Ayak still uses Ancestral.
+
+### Caveats
+
+- **Conditional on Virtus.** If Virtus doesn't drop, this build is worse than Option 3 (Virtus +6% advantage on Ancients flips to a +3% disadvantage if forced to use Virtus on Standard, OR you stay on Ancestral and the Ancients spell type conversions still trigger I/L payloads at +9% which is fine but not as good as +15% with Virtus).
+- **Less sustain than Option 3.** Lose L2 heal + F2 overheal stack. You're trading sustain for ~25% damage on every cast. With higher damage, fights end faster — sustain matters less, but punishment for mistakes matters more.
+- **Reset #2 cost.** This consumes one of your 3 league resets. Plan it carefully — switch when full Virtus is in hand, not before.
+- **Phase 3-4 is the right window.** Phase 5 endgame Inferno may want Reset #3 anyway for content-specific tuning, so don't burn both resets early.
+
+### Decision tree
+
+```
+Have full Virtus set?
+├── Yes → Switch to Option 4 via Reset #2
+└── No  → Stay on Option 3
+            └── Got Virtus pieces in late Phase 4?
+                ├── Yes → Reset #2 → Option 4
+                └── No  → Stay Option 3, save Reset #2 for Inferno tuning
+```
+
+---
+
 <!-- Future options below -->

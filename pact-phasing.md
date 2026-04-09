@@ -290,7 +290,7 @@ Every accessible combat task paired with the next pact in topological-value orde
 
 **End of Phase 4:** 38 pacts unlocked. The endgame build is essentially complete. You have all 8 mage damage stacks, full F+C+I+L payloads, full charge-regen chain, accuracy + spell speed + powered staff burst. Now wearing: Eye of Ayak/Shadow + Confliction Gauntlets + Devil's Element + Ancestral + Augury + Lightbearer.
 
-**🔄 Use Reset #2** here — Optional. Final restructure to commit to the endgame layout before pushing hardest content.
+**🔄 Use Reset #2 here IF you have full Virtus by now.** Switch from Option 3 → **Option 4 (Virtus DPS Variant)** in [builds.md](builds.md). Drop L2/F2/BB, add L5/L7/L8 to enable all 4 spell-type conversions. With Virtus equipped and Ancients spellbook, Barrage spells now trigger elemental payloads at +15% mage damage (vs +9% Ancestral on Surge), giving **+12% to +30% damage per cast** depending on element. If Virtus hasn't dropped yet, save Reset #2 for later — switching to Option 4 without Virtus is worse than staying on Option 3.
 
 ### Phase 5 — Endgame Inferno push (tasks 39-40)
 
