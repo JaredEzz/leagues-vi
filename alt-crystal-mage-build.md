@@ -20,49 +20,151 @@
 
 ---
 
+## Region Unlock Strategy (Adaptive)
+
+### Pre-Region: Varlamore + Karamja
+
+```
+Day 1 — Varlamore
+  ├─ AFK fly fishing at Ortus Farm (EH infinite, Hotfoot auto-cooks)
+  ├─ Mine calcified rocks + gem rocks (EH 2x, auto-bank)
+  ├─ Hunter Guild rumours (46+ Hunter)
+  ├─ Doom of Mokhaiotl → Eye of Ayak + Avernic Treads
+  ├─ Hueycoatl → Dragon Hunter Wand (1/105)
+  ├─ Amoxliatl → Echo Amoxliatl → Infernal Tecpatl
+  ├─ Moons of Peril → Blue Moon set (early mage gear)
+  ├─ Mixology (Herblore, 60+ real)
+  ├─ Sunfire RC (23+ real)
+  │
+Karamja (auto-unlock)
+  ├─ TWW Trio quest → karambwan fishing (65+)
+  ├─ AFK crabs for combat stats
+  ├─ Fight Caves → Fire Cape
+  ├─ Gem rocks at Shilo Village (EH 2x gems → transmute → Crafting/GP)
+  └─ Inferno attempts when ready (huge points)
+```
+
+### 1st Pick: TIRANNWN (always)
+
+```
+Tirannwn unlocks
+  ├─ CG immediately → crystal armor + blessing (BIS mage)
+  │   └─ Blessing at 1/15 from Echo CG — farm until it drops
+  ├─ Crystal tools: pickaxe, axe, harpoon (upgrade entire EH engine)
+  ├─ Prifddinas Agility course (start training here)
+  ├─ Prifddinas elf pickpocketing (GP + crystal shards)
+  ├─ Zalcano (d-pick at 1/500 with 5x, Mining + Smithing XP)
+  ├─ Zulrah (blowpipe, Magic Fang, GP)
+  └─ Red chins at Gwenith (Ranged training)
+```
+
+**EoA at 1-tick + crystal = ~25 DPS.** Every boss fight from this point forward is at maximum power.
+
+### 2nd Pick: ADAPTIVE (T6 check)
+
+```
+    ┌── Reached T6 (Culling Spree)? ──┐
+    │                                   │
+    ▼ NO                                ▼ YES
+  KOUREND                            KANDARIN
+    │                                   │
+    ├─ Wintertodt (FM, supply           ├─ Culling Spree → force
+    │   crates, Pyromancer)             │   Thermy tasks on demand
+    ├─ Catacombs (Slayer XP             ├─ Echo Thermy → SQ + DE
+    │   engine, dust devils,            │   (2-tick Slayer weapon)
+    │   nechs, smoke devils)            ├─ Thermy → Occult Necklace
+    ├─ Anglerfish 82+ (best             ├─ Gorillas → zenyte →
+    │   Cooking XP w/ Hotfoot)          │   Confliction Gauntlets
+    ├─ Blood/Soul RC 77+               ├─ Monkfish (zero-bait
+    │   (MoA shortcut loop)             │   S-tier AFK fishing)
+    ├─ Farming Guild +                  ├─ Ardy Knights (Thieving)
+    │   Hespori (Nature's               ├─ Barb fishing (Agi/Str)
+    │   Accord T5 herbs)                ├─ Fishing Trawler (angler)
+    ├─ Redwoods 90 WC                  ├─ Rangers Guild
+    ├─ CoX (Ancestral bonus)            │   (broad bolts)
+    │                                   │
+    ├─ Grind to T6 with                │
+    │   massive XP sources              │
+    │                                   │
+    ▼                                   ▼
+  3rd: KANDARIN                      3rd: KOUREND
+  (now have Culling Spree)           (endgame skilling)
+```
+
+### Why the T6 gate matters
+
+Culling Spree = "choose Slayer task from 3 options." Without it:
+- Getting a Thermy task is random luck (~1/30+ chance per task)
+- Echo Thermy needs a smoke devil task (or echo orb to bypass)
+- SQ + DE sit in your bank unusable until you luck into the right task
+
+With Culling Spree:
+- Force Thermy tasks on demand
+- Farm SQ + DE immediately
+- Then force any barrage task for Slayer XP
+
+**No Culling Spree = no point rushing Kandarin for Thermy.** Kourend gives you way more value (XP engine to reach T6) in that scenario.
+
+### Reaching T6 before 2nd pick
+
+Main point sources from Varlamore + Karamja + Tirannwn:
+
+| Source | Points potential | Notes |
+|---|---|---|
+| **Inferno completion** | Very high | Single biggest point drop in the game |
+| **Fire Cape** | High | Prerequisite for Inferno |
+| **CG completions** | High | Boss kills + unique drops = tasks |
+| **Echo CG (blessing drop)** | High | Echo boss tasks are high-value |
+| **Zulrah uniques** | High | Blowpipe, Magic Fang, Serp helm |
+| **Echo Amoxliatl** | High | Echo boss task |
+| **Varlamore bossing** (Doom, Hueycoatl, Moons, Sol Heredit) | High | Multiple boss tasks |
+| **Prifddinas skilling** | Medium | Agility, Thieving, Zalcano tasks |
+| **AFK gathering tasks** | Medium | Mining, Fishing, WC milestone tasks |
+| **Combat milestones** | Medium | Slayer levels, combat stats |
+
+**Realistic assessment:** If you clear Inferno + CG + Echo CG + Zulrah + all Varlamore bosses + AFK skilling tasks, T6 before 2nd pick is achievable. It's aggressive but your skill level at CG + willingness to attempt Inferno early makes it doable.
+
+**Fallback:** If you're at T5 but not T6, Kourend is the clear 2nd pick — Catacombs Slayer + anglerfish + WT will push you to T6 fast.
+
+---
+
 ## Gear Progression
 
-### Phase 1: Varlamore (Day 1)
+### Phase 1: Varlamore + Karamja (Pre-Region Picks)
 
 | Slot | Item | Source |
 |---|---|---|
 | Weapon | **Eye of Ayak** | Doom of Mokhaiotl |
-| Offhand | Elidinis' Ward (base) or book | Quest rewards |
-| Head | Mystic hat | Shops/drops |
-| Body | Mystic robe top | Shops/drops |
-| Legs | Mystic robe bottom | Shops/drops |
+| Offhand | Book of darkness / god book | Quest rewards |
+| Head/Body/Legs | Mystic / Blue Moon set | Shops / Moons of Peril |
 | Boots | **Avernic Treads** | Doom of Mokhaiotl (delve 4+) |
 | Gloves | Combat bracelet | Crafting |
 | Neck | Amulet of magic | Crafting |
 | Ring | Explorer's ring | Achievement diary |
 
-### Phase 2: Karamja + Kourend
-
-| Slot | Upgrade | Source |
-|---|---|---|
-| Body | Ahrim's robe top (if lucky) | Barrows? No — Morytania locked. Skip. |
-| Head/Body/Legs | Mystic → any CoX drops | CoX |
-| Weapon | Dragon Hunter Wand (for dragons) | Hueycoatl (Varlamore, 1/105) |
-
-### Phase 3: Tirannwn Unlocks — THE BIG UPGRADE
+### Phase 2: Tirannwn (1st Pick) — THE BIG UPGRADE
 
 | Slot | Item | Source | Stats |
 |---|---|---|---|
-| **Head** | **Crystal helm** | Crystal shards + seed (CG) | -10 mage atk base + blessing: **+10 net mage atk, +2% dmg** |
+| **Head** | **Crystal helm** | Crystal shards + seed (CG) | -10 base + blessing: **+10 net mage atk, +2% dmg** |
 | **Body** | **Crystal body** | Crystal shards + seed (CG) | ~-15 base + blessing: **+5 net, +2% dmg** |
 | **Legs** | **Crystal legs** | Crystal shards + seed (CG) | ~-11 base + blessing: **+9 net, +2% dmg** |
 | **Ammo** | **Crystal blessing** | Echo CG (1/15) | Enables all crystal bonuses for magic. +5 prayer |
 | **Set bonus** | — | — | **1.3x accuracy, 1.15x damage (multiplicative)** |
 | **Total from crystal** | — | — | **+24 mage atk, +6% magic dmg, 1.3x acc, 1.15x dmg** |
 
-### Phase 4: Kandarin (Echo Thermy)
+### Phase 3: Kandarin or Kourend (2nd Pick)
+
+**If Kandarin (have T6):**
 
 | Slot | Item | Source | Stats |
 |---|---|---|---|
-| **Weapon (Slayer)** | **Shadowflame Quadrant** | Echo Thermy (Kandarin) | +25 mage atk, +15% dmg, 5-tick (2-tick w/ F8), spell echo, auto-weakness, infinite runes |
-| **Offhand** | **Devil's Element** | Echo Thermy (Kandarin) | +20 mage atk, +6% dmg, 2x weakness, infinite runes |
-| **Neck** | **Occult Necklace** | Thermy (Kandarin, 93 Slayer) | +12 mage atk, +5% dmg |
-| **Gloves** | **Confliction Gauntlets** | Zenyte (Gorillas, Kandarin) + Mokhaiotl Cloth | +20 mage atk, +7% dmg, accuracy re-roll passive |
+| **Weapon (Slayer)** | **Shadowflame Quadrant** | Echo Thermy | +25 mage atk, +15% dmg, spell echo, auto-weakness, infinite runes |
+| **Offhand** | **Devil's Element** | Echo Thermy | +20 mage atk, +6% dmg, 2x weakness, infinite runes |
+| **Neck** | **Occult Necklace** | Thermy (93 Slayer) | +12 mage atk, +5% dmg |
+| **Gloves** | **Confliction Gauntlets** | Zenyte (Gorillas) + Mokhaiotl Cloth | +20 mage atk, +7% dmg, accuracy re-roll |
+
+**If Kourend (need T6):** No immediate gear upgrades — Kourend is for XP/points. CoX Ancestral drops are bonus.
 
 ### Endgame BIS (Two-Weapon System)
 
