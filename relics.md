@@ -65,36 +65,24 @@ EH + Flow State wins because:
 
 ---
 
-## Tier 2 — CHOOSE: Hotfoot vs Woodsman
+## Tier 2 — PICK: Hotfoot
 
-| Relic | Key Effects |
-|-------|------------|
-| **Hotfoot** | Searing boots: auto-cook caught fish, auto-smelt mined ore, Agility XP while running (based on Agility level, every 10 ticks). 100% success on Agility + Cooking. Agility courses give double completion + 25% bonus XP. |
-| **Woodsman** | All Fletching items process simultaneously (stackable capped at 10x). Chopped logs auto-burn for full FM XP. Hunter: 100% success, 2x loot/XP, auto herb/tree seed drops from traps. Implings drop 2x noted loot, jars don't break. Rumour loot sacks 2x. |
+See **[t2-comparison.md](t2-comparison.md)** for the full analysis with every gathering method and skill-by-skill breakdown.
 
-### Analysis for Our Build
+| Relic | Effect | Verdict |
+|-------|--------|---------|
+| **Hotfoot** | Searing boots: auto-cook caught fish, auto-smelt mined ore (coal-free). Passive Agility XP while running. 100% Agility + Cooking success. Double Agility course completions + 25% bonus XP. Guaranteed marks of grace. | **PICK** — coal-free auto-smelt is irreplaceable (enables AFK runite GP loop), Cooking is completely free during Fishing, Agility grind cut from ~10 hrs to ~4.5 hrs. Saves ~10.5-13.5 hrs total. |
+| Woodsman | Logs auto-burn for FM XP. Hunter: 100% success, 2x loot/XP, auto seeds. Fletching 10x batch. Implings 2x noted. Rumour sacks 2x. | Best runner-up. Hunter 4x XP/hr (stacks 2x loot with Flow State 2-tick) is the strongest single argument against Hotfoot. But FM savings are redundant with WT plan, and Hunter at 2x (Flow State only) is still ~4.5 hrs. Saves ~8.25-12 hrs. |
+| Friendly Forager | Forager's pouch finds herbs while gathering. 90% Herblore secondary save. 4-dose pots. Herblore batch processing. | Saves ~3-5 hrs. Herblore is a hard grind but 90% secondary save alone doesn't compete with Hotfoot's multi-skill solves. |
 
-**Hotfoot pros:**
-- Auto-cook fish = Fishing + Cooking trained simultaneously (huge for Karambwan AFK)
-- Auto-smelt ore = Mining + Smithing overlap (smelts ores into bars while mining — bars feed Giants' Foundry)
-- Passive Agility XP while running everywhere = Agility practically trains itself
-- 100% Agility success = Colossal Wyrm course becomes effortless
-- Stacks with our Fishing plan (Trawler → Karambwans → Tempoross)
+### Why Hotfoot over Woodsman (the close call)
 
-**Woodsman pros:**
-- Auto-burn logs = WC + FM trained simultaneously (Redwoods at 90 would give FM XP too)
-- Hunter 100% success + 2x XP/loot = Hunters' Rumours become insane
-- Auto herb/tree seeds from traps = free Farming seeds (less need for contracts?)
-- Implings doubled + noted = great passive loot
-- Fletching processes all at once (10x stackable) = near-instant Fletching
+1. **Coal-free auto-smelt is build-defining.** Enables AFK runite → rune bars → platelegs → alch GP loop. Nothing else provides this.
+2. **Cooking is free** during Fishing (~3.5 hrs saved). FM is also "free" during WC with Woodsman, but you're doing WT anyway for points/clog — FM savings are partially redundant.
+3. **Agility: ~10 hrs → ~4.5 hrs.** 2.25x course XP (double completions + 25% bonus). Barb fishing Agi XP trickles in regardless of T2 choice, but it's too slow to replace courses (~160-240k/hr at 16x vs Hotfoot Ardougne at ~2.52M/hr).
+4. **Hunter at Flow State 2-tick only = ~4.5 hrs.** With Woodsman it'd be ~2.25 hrs. Saving ~2.25 hrs on Hunter doesn't outweigh losing coal-free smelting + free Cooking + halved Agility.
 
-**Verdict:** Both are strong. **Hotfoot** covers 3 skills passively (Cooking, Agility, partial Smithing) and the passive Agility while running is always active. **Woodsman** covers WC+FM+Hunter+Fletching overlap and makes Hunter rumours broken (2x XP + 100% success + seed drops).
-
-For a maxing goal, **Woodsman** probably covers more skill-hours — it makes Hunter effortless (our weakest gathering skill), auto-trains FM through WC (skipping Wintertodt), and turbo-charges Fletching. But **Hotfoot** means never thinking about Cooking or Agility again.
-
-**Leaning: Woodsman** — Hunter 2x XP + 100% success + auto seeds is massive. WC auto-burning logs means FM is passive. Fletching batch processing saves tons of time. We'd need to train Cooking and Agility separately, but both are easy (Karambwans + Colossal Wyrm).
-
-*Open question — could go either way. Revisit based on how you value AFK Agility XP vs Hunter speed.*
+*Re-evaluate if: a pact grants coal-free smelting or auto-cooking (making Hotfoot's main perks redundant), or Hunter turns out harder than expected.*
 
 ---
 
