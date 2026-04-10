@@ -100,30 +100,20 @@ For a maxing goal, **Woodsman** probably covers more skill-hours — it makes Hu
 
 ## Tier 3 — PICK: Map of Alacrity
 
+See **[t3-comparison.md](t3-comparison.md)** for the full analysis with boss teleport reference table.
+
 | Relic | Effect | Verdict |
 |-------|--------|---------|
-| **Map of Alacrity** | Teleport to Agility shortcuts across all regions. Ignores Agility level requirements for shortcuts. Ignores wilderness restrictions | **PICK** — unique travel coverage fairy rings don't hit. Pairs with Nature's Accord for comprehensive map access |
-| Evil Eye | Evil eye item for instant teleportation to any boss, raid, or Barrows entrance. Ignores wilderness restrictions | Strong for bossing-heavy builds. Could grab via Reloaded if we had it, but Flow State won T7 |
-| Bank Heist | Banker's briefcase: teleport to any bank, bank chest, or deposit box. Ignores wilderness restrictions | Nice QoL but banks are already accessible via fairy rings (Nature's Accord T5). EH auto-banks gathering, further reducing the need |
+| **Map of Alacrity** | Teleport to Agility shortcuts across all regions. Ignores Agility level requirements. Ignores wilderness restrictions | **PICK** — Zeah RC shortcut loop (eliminates return run), Hydra pipe shortcut (88 Agi bypassed, saves ~15-20s/kill), ToA fairy ring AKP obstacle (62 Agi bypassed). Unique travel coverage fairy rings can't replicate. |
+| Evil Eye | Instant teleportation to any boss, raid, or Barrows entrance. Ignores wilderness restrictions | Most bosses already have near-instant teleports (Xeric's Honour, Ring of Dueling, fairy rings) or drop their own teleport item within a few kills (Mokhaiotl Waystone, Ring of Shadows tablets). Savings are ~10-25s per trip. |
+| Bank Heist | Teleport to any bank, bank chest, or deposit box. Ignores wilderness restrictions | EH auto-banks gathering. Nature's Accord fairy rings cover bank access. Redundant. |
 
-### Evil Eye Analysis
-- Instant teleport to: ToA, CoX, Doom of Mokhaiotl, Hydra, Sol Heredit, Inferno, every boss
-- Saves huge amounts of travel time for boss farming
-- Best for bossing-heavy builds
+### Why Map of Alacrity over Evil Eye
 
-### Map of Alacrity Analysis
-- Agility shortcut network access across all regions
-- Bypasses Agility level reqs for shortcuts
-- Unique travel options (specific locations only reachable via shortcuts)
-- Pairs with Nature's Accord's fairy mushroom for comprehensive travel coverage
-
-### Leaning
-
-**Map of Alacrity** tentatively — the shortcut teleport network adds coverage that Nature's Accord (fairy rings/spirit trees) doesn't hit. Evil Eye's boss teleports are huge for bossing, but:
-- You can grab Evil Eye via Reloaded (T7) as a backup
-- Sepulchre/other Agility-gated shortcuts are locked anyway (Morytania)
-
-*Open decision. Could swap based on whether bossing frequency or unique shortcut access matters more.*
+1. **Zeah RC:** Shortcut teleports eliminate the return run in the Blood/Soul rune loop — directly accelerates a stated hard grind. Evil Eye does nothing for RC.
+2. **Hydra:** 88 Agility pipe shortcut bypassed from T3. Saves ~15-20s per Hydra kill — the single best bossing shortcut since Hydra is farmed repeatedly on task with no direct teleport item.
+3. **ToA:** 62 Agility obstacle at fairy ring AKP bypassed — makes the Necropolis fairy ring usable from day 1.
+4. **Evil Eye's value evaporates:** Most bosses have good existing teleports or drop their own within a few kills (5x drop rates from T4 passive accelerate this).
 
 ---
 
