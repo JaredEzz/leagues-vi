@@ -158,7 +158,7 @@ Roe/caviar chance scales with Cooking level (1/80 at level 1, guaranteed at leve
 | **Equipment** | Karambwan vessel + raw karambwanji as bait |
 | **Bait availability** | Raw karambwanji: catch with small net at Holy Lake (5 Fishing, stackable, 2-20 per catch based on level). Also buyable from Tiadeche's shop for 10 gp each (50 stock, infinite in leagues). Easy to stock up. |
 | **AFK-friendly** | **Extremely AFK.** Spot NEVER moves. One of the most AFK fishing methods in the game. |
-| **Quest requirement** | Tai Bwo Wannai Trio (auto-completed in leagues) |
+| **Quest requirement** | Tai Bwo Wannai Trio (**NOT auto-completed** — must complete manually; needs 15 Agility, 30 Cooking, 5 Fishing; Jungle Potion prereq IS auto-completed) |
 | **Base catch rate** | Good. ~600/hr at 80, ~875/hr at 99 (main game with banking). |
 | **Base XP/hr (main game)** | ~42,000 |
 
@@ -330,21 +330,40 @@ In main game, 2-tick swordfish harpooning at Port Piscarilius is the fastest fis
 
 ---
 
-### Varlamore Fishing -- NEGLIGIBLE
+### Varlamore Fishing -- UPDATED: Has Real Spots
 
-| Attribute | Value |
-|-----------|-------|
-| **Location** | Civitas illa Fortis park pond |
-| **Method** | Big net fishing |
-| **Fish caught** | Not real fish. Broken glass, old boots, caskets, house keys. Rare jade/topaz. |
-| **Fishing XP** | 7.5 per catch |
-| **AFK-friendly** | Extremely AFK (spot never moves) |
+**Contrary to initial assumptions, Varlamore has legitimate fishing spots** added in 2024-2025 updates.
 
-**Two fishing shops in Varlamore:**
-- Picaria's Fishing Shop (Sunset Coast)
-- Sulisal's Superb Fishing Store (Kastori)
+#### Fly Fishing (Lure/Bait — Trout/Salmon/Pike)
+- North of Ortus Farm (near Civitas illa Fortis)
+- East of Nemus Retreat (Auburn Valley, fairy ring AIS)
+- South-East of Auburnvale (Auburn Valley)
+- North-East of Tal Teklan (Tlati Rainforest)
+- All mainland, no Sailing required
+- **Trout (20 Fishing, 50 XP), Salmon (30 Fishing, 70 XP), Pike (25 Fishing, 60 XP)**
 
-**Verdict:** Varlamore has NO meaningful fishing training. The Civitas pond gives house keys and trash at 7.5 XP/catch. The fishing shops are useful for buying equipment. **Do all real fishing in other regions.**
+#### Net/Bait (Shrimps/Anchovies/Sardine/Herring)
+- South-West of Kastori
+- Northern & North-Western coast of Aldarin (island, charter ship access)
+
+#### Big Net/Harpoon (Mackerel/Cod/Bass/Shark)
+- Salvager Overlook (north of Civitas illa Fortis)
+- Tal Teklan (Tlati Rainforest, 2 spots)
+
+#### Cage/Harpoon (Lobster/Tuna/Swordfish)
+- Southern coast of Mistrock, Aldarin
+
+#### Civitas illa Fortis Park Pond (Novelty)
+- Big net: house keys, caskets, jade, red topaz, junk. 7.5 XP/catch. Spot never moves.
+- Only useful for house keys (Stealing Valuables), not fishing training.
+
+**Two fishing shops in Varlamore (both fully stocked with all equipment, bait, feathers):**
+- Picaria's Fishing Shop (Sunset Coast) — 1,000 bait, 1,000 feathers, all rods/nets/harpoons
+- Sulisal's Superb Fishing Store (Kastori) — same inventory
+
+**Verdict:** Varlamore's fly fishing spots let you train trout/salmon from day 1 without leaving the region. The Big Net/Harpoon spots at Salvager Overlook give access to sharks at 76+. However, for serious endgame training, Karamja (karambwan AFK), Kourend (anglerfish), and Kandarin (barbarian/monkfish) are still superior. **Use Varlamore spots for early-game progression (1-35ish) before Karamja spots become optimal.**
+
+See [fishing-spots-research.md](../fishing-spots-research.md) for complete location reference.
 
 ---
 
@@ -377,9 +396,11 @@ In main game, 2-tick swordfish harpooning at Port Piscarilius is the fastest fis
 - +2.5% Fishing XP bonus
 
 ### Phase 2: Early Fishing (1-65)
-- Fly fish trout/salmon at Shilo Village or Barbarian Village (Kandarin)
+- **Levels 1-20:** Net shrimps/anchovies at Kastori (Varlamore) or Musa Point (Karamja)
+- **Levels 20-65:** Fly fish trout/salmon — available in Varlamore (North of Ortus Farm, Nemus Retreat area) from day 1, OR Shilo Village (Karamja, auto-unlocked), OR Hosidius (Kourend)
 - With Hotfoot: auto-cook trout (70 Cooking XP) and salmon (90 Cooking XP) as you catch them
 - Fast with 5x-8x multiplier
+- **Do Tai Bwo Wannai Trio quest ASAP** (15 Agility, 30 Cooking, 5 Fishing) to unlock karambwan for Phase 3
 
 ### Phase 3: Karambwan (65-82, and AFK sessions)
 - Karamja, fairy ring DKP
