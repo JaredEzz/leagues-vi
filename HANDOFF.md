@@ -40,13 +40,13 @@
 
 | Tier | Pick | Why |
 |------|------|-----|
-| T1 | **Abundance** | +10 non-combat skill boost, GP generation, +2 XP per drop |
+| T1 | **Endless Harvest** | 2x resources from Fish/WC/Mining, auto-bank, infinite nodes. Paired with Flow State (T7) for triple synergy with Hotfoot |
 | T2 | **Hotfoot** | Solves Agility (12 hr grind → 0-4 hr), auto-cooks fish during Fishing, auto-smelts ore |
 | T3 | **Map of Alacrity** | Agility shortcut teleports across all regions, especially Zeah RC loop |
 | T4 | **Transmutation** | Item upgrade chains: Crafting (sapphire→dragonstone), Smithing, Farming seeds, infinite nature runes |
 | T5 | **Nature's Accord** | 10x noted farming yield, plants never die, fairy mushroom teleport network, no farming level reqs |
 | T6 | **Culling Spree** | Free Slayer helm effect (wear Ancestral!), choose tasks, 50% superior chaining, elite clue drops |
-| T7 | **Reloaded → Endless Harvest** | Pick another T1-T6 relic. EH stacks 2x gathering yield onto Hotfoot for 2x XP/hr in Fish/WC/Mining/Cook/Smith — perfect AFK post-99 grind for points |
+| T7 | **Flow State** | All gathering/processing/minigame actions at 2-tick (1.2s). Stacks with EH + Hotfoot: 2.5x Fishing speed + 2x fish auto-cooked, 2-tick Herblore/RC/Hunter for active grinds, 2-tick Tempoross/WT for points+clog |
 | T8 | **Flask of Fervour** | Full HP/Prayer/Spec restore on 1-2 min cooldown, 2.4s invulnerability, push hard content |
 
 See [relics.md](relics.md) for full analysis of each tier and the alternatives considered.
