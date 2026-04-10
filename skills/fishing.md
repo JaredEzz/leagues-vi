@@ -388,85 +388,145 @@ See [fishing-spots-research.md](../fishing-spots-research.md) for complete locat
 
 ---
 
-## Recommended Strategy
+## EH Changes Everything: All Spots Are Infinite
 
-### Phase 1: Angler's Outfit (Fishing Trawler, Kandarin)
-- 15 Fishing for rewards, 5-min games, 4x minigame points
-- ~4 games for full outfit with league drop rates
-- +2.5% Fishing XP bonus
+With Endless Harvest, **every fishing spot never depletes and auto-banks**. Your character also chases moving spots. This means the old AFK hierarchy (karambwan > everything else) is wrong. The real differentiators are:
 
-### Phase 2: Early Fishing (1-65)
-- **Levels 1-20:** Net shrimps/anchovies at Kastori (Varlamore) or Musa Point (Karamja)
-- **Levels 20-65:** Fly fish trout/salmon — available in Varlamore (North of Ortus Farm, Nemus Retreat area) from day 1, OR Shilo Village (Karamja, auto-unlocked), OR Hosidius (Kourend)
-- With Hotfoot: auto-cook trout (70 Cooking XP) and salmon (90 Cooking XP) as you catch them
-- Fast with 5x-8x multiplier
-- **Do Tai Bwo Wannai Trio quest ASAP** (15 Agility, 30 Cooking, 5 Fishing) to unlock karambwan for Phase 3
+| Factor | Why it matters |
+|---|---|
+| **Spot movement** | Karambwan spot is static (never moves). All other spots move periodically, but EH auto-chases. Moving spots require slightly more attention to ensure your character follows. |
+| **Bait restock frequency** | No-bait methods (monkfish, sharks, harpoon fish) = true zero-input. Bait methods need periodic restocking from shop. |
+| **Cooking XP per fish** | With Hotfoot auto-cooking both EH fish, higher cooking XP/fish = more passive Cooking XP |
+| **Catch rate** | Higher catch rate = more fish/hr = more XP. Some fish have terrible catch rates (sharks) despite high cooking XP |
 
-### Phase 3: Karambwan (65-82, and AFK sessions)
-- Karamja, fairy ring DKP
-- Spot never moves = maximum AFK
-- 190 Cooking XP per fish with Hotfoot auto-cook
-- Buy karambwanji bait from Tiadeche's shop (10 gp each, infinite stock)
-- **Best for WFH AFK sessions** -- click once, anti-logout every 5 min
+**AFK tier list (with EH):**
 
-### Phase 4: Anglerfish (82-99, and active sessions)
-- Port Piscarilius, Kourend
-- 230 Cooking XP per fish = highest in your regions
-- Buy sandworms from Tynan's (90 gp, infinite stock)
-- With diabolic worms (from Yama boss): massively increased catch rate
-- **Best for maximizing both Fishing AND Cooking XP simultaneously**
+| Tier | Method | Why | Input needed |
+|---|---|---|---|
+| **S (zero input)** | Monkfish, Sharks | No bait. EH infinite + auto-bank. Just click spot and anti-logout. | Anti-logout every 20 min |
+| **A (near-zero)** | Karambwan | Static spot (no movement). Needs bait but huge stacks from shop. | Anti-logout every 20 min. Restock bait occasionally |
+| **A (near-zero)** | Anglerfish | Needs bait (sandworms from shop). EH chases spot. | Anti-logout every 20 min. Restock bait occasionally |
+| **B (light attention)** | Trout/Salmon | Needs feathers (huge stacks from shop). EH chases spot. | Restock feathers. Spot chasing |
+| **C (active)** | Barbarian | Feathers. No Hotfoot auto-cook (leaping fish). | Active for best rates. No cooking synergy |
 
-### Phase 5: Tempoross (Desert, anytime after 35)
-- Do for rewards: dragon harpoon, tome of water, spirit flakes, Spirit Angler outfit
-- Flow State 2-tick makes runs very fast
-- 8x minigame points at T4 = quick completion
+## Progression Tree
 
-### When to Barbarian Fish
-- If you need Str/Agi XP and don't care about Cooking XP
-- Good for early game before Hotfoot (T2) when auto-cook isn't available yet
-- At T7 with Flow State: ~400k raw Fishing XP/hr is highest available
-- But you get ZERO cooking XP, so Anglerfish is usually better overall
+### Prerequisites
+- **Tai Bwo Wannai Trio** (Karamja): 15 Agility, 30 Cooking, 5 Fishing. NOT auto-completed. Do ASAP to unlock karambwan fishing + Tiadeche's shop. Jungle Potion (prereq) IS auto-completed.
+- **Angler's Outfit** (Fishing Trawler, Kandarin): 15 Fishing for rewards. 4x minigame points = ~4 games for full set. +2.5% Fishing XP. Do when Kandarin unlocks.
+- **Dragon Harpoon** (Tempoross, Desert): faster harpoon fishing. Do when Desert unlocks.
+- **Diabolic Worms** (Yama boss, Kourend): massively boost anglerfish catch rate. Get from Yama when ready.
+
+### Phase 1: Varlamore Only (Day 1, T1 5x, EH active)
+
+| Level | Method | Location | Bait | Hotfoot cooks? | Cooking XP/fish | Notes |
+|---|---|---|---|---|---|---|
+| 1-15 | Net shrimp/anchovies | Kastori coast (Varlamore) | None (net) | Yes (shrimp 30, anchovy 34) | 30-34 | Buy small net from Picaria's |
+| 15-20 | Bait sardine/herring | Kastori coast | Fishing bait (Picaria's, 1000 stock) | Yes (sardine 70, herring 50) | 50-70 | |
+| 20-48 | **Fly fish trout/salmon** | **North of Ortus Farm** or Nemus Retreat (Varlamore) | Feathers (Picaria's, 1000 stock) | Yes (trout 70, salmon 90) | 70-90 | EH: 2x fish auto-cooked. Best early method. Available Day 1 in Varlamore! |
+
+**Key:** You can fly fish in Varlamore from level 20 without leaving the starting region. Buy fly rod + feathers from Picaria's Fishing Shop (Sunset Coast).
+
+### Phase 2: Karamja Unlocks (auto, still T1 5x)
+
+| Level | Method | Location | Bait | Hotfoot cooks? | Cooking XP/fish | Notes |
+|---|---|---|---|---|---|---|
+| 20-48 | Fly fish trout/salmon | Shilo Village (Karamja, 4 spots) | Feathers | Yes (70/90) | 70-90 | Bank right there. But EH auto-banks anyway |
+| 35-65 | Cage lobster | Musa Point or Aldarin (Varlamore) | None (cage) | Yes (120) | 120 | No bait! EH infinite spots. Good bridge to karambwan |
+| 40-65 | Harpoon tuna/swordfish | Musa Point (Karamja) | None (harpoon) | Yes (tuna 100, sword 140) | 100-140 | No bait needed. Decent cooking XP |
+| **65+** | **Karambwan** | **Fairy ring DKP** (Karamja) | Karambwanji (Holy Lake CKR: free, or Tiadeche's: 10 gp) | **Yes (190)** | **190** | **Complete TWW Trio first!** Static spot. Best early-game cooking XP. Stock up bait at Holy Lake (stackable, 2-20 per catch) |
+
+**Do TWW Trio as soon as you have 15 Agility + 30 Cooking + 5 Fishing** — Cooking levels come free from Hotfoot auto-cooking during fly fishing.
+
+### Phase 3: First Region Pick (Kourend recommended first)
+
+| Level | Method | Location | Bait | Hotfoot cooks? | Cooking XP/fish | Notes |
+|---|---|---|---|---|---|---|
+| 65+ | Karambwan (WFH AFK) | Fairy ring DKP | Karambwanji (shop) | Yes (190) | 190 | Keep running this during work hours |
+| **82+** | **Anglerfish** | **Port Piscarilius** (Kourend) | Sandworms (Tynan's, 90 gp, infinite) | **Yes (230)** | **230** | **Highest cooking XP in your regions!** Switch to this as primary when you hit 82 |
+| 82+ | Anglerfish + diabolic worms | Port Piscarilius | Diabolic worms (Yama drops) | Yes (230) | 230 | ~2.8x catch rate over sandworms. Get worms when you farm Yama |
+
+### Phase 4: Kandarin Unlocks
+
+| Level | Method | Location | Bait | Hotfoot cooks? | Cooking XP/fish | Notes |
+|---|---|---|---|---|---|---|
+| 62+ | **Monkfish** | Piscatoris (Kandarin) | **None** | Yes (150) | 150 | **Best zero-bait method.** Highest catch rate. True zero-input AFK with EH. |
+| 76+ | Shark | Fishing Guild (Kandarin) | None (harpoon) | Yes (210) | 210 | High cooking XP but terrible catch rate. Only if you want zero-bait + high cook XP/fish |
+| 48+ | Barbarian fishing | Otto's Grotto (Kandarin) | Feathers | **NO** (leaping fish not cookable) | **0** | Best raw Fishing XP/hr. +Agi/Str. No cooking. Use when you only care about Fishing XP |
+
+**Angler's Outfit:** Do Fishing Trawler (Port Khazard, Kandarin) when you unlock. ~4 games for full set at 4x minigame points.
+
+### Phase 5: Desert Unlocks + Tempoross
+
+| Level | Method | Location | Bait | Notes |
+|---|---|---|---|---|
+| 35+ | **Tempoross** | Ruins of Unkah (Desert) | N/A (minigame) | Do for: dragon harpoon, spirit flakes, tome of water, Spirit Angler outfit. Flow State 2-tick = fast clears. 8x minigame pts at T4 |
+
+### Phase 6: Flow State (T7, 16x) — Endgame
+
+All methods now at 2-tick. Pick based on your goal:
+
+| Goal | Method | Where | Why |
+|---|---|---|---|
+| **200m Fishing XP** | Barbarian fishing | Kandarin | ~6.4M Fish XP/hr. No cooking but fastest raw XP |
+| **200m Cooking XP while fishing** | Anglerfish + diabolic worms | Kourend | ~8.7M Cook XP/hr. Also ~3.0M Fish XP/hr |
+| **Max combined XP/hr** | Monkfish | Kandarin | ~4.1M Fish + ~5.2M Cook = ~9.3M total XP/hr. No bait |
+| **WFH AFK (minimal input)** | Monkfish OR Karambwan | Kandarin / Karamja | Monkfish: zero bait, EH infinite. Karambwan: static spot, needs bait |
+| **Points + clog** | Tempoross | Desert | 2-tick minigame, fast clears, 8x pts |
+| **Passive Agi/Str + Fishing** | Barbarian | Kandarin | Only option for passive combat stats. No cooking |
+
+## When to Fish What (Quick Reference)
+
+```
+Day 1 (Varlamore)     → Fly fish trout/salmon at Ortus Farm (feathers from Picaria's)
+Karamja unlocks        → Do TWW Trio → Karambwan at DKP for 190 cook XP
+Kourend unlocks (82+)  → Anglerfish at Piscarilius for 230 cook XP (best in regions)
+Kandarin unlocks (62+) → Monkfish at Piscatoris for zero-bait AFK
+Kandarin unlocks (48+) → Barbarian fishing for max Fish XP (no cooking)
+Desert unlocks (35+)   → Tempoross for dragon harpoon + clog
+T7 Flow State          → Everything at 2-tick. Pick goal from table above.
+
+WFH AFK default: Karambwan (65+) → Monkfish (62+, no bait) → Anglerfish (82+, best cook XP)
+Active sessions: Anglerfish + diabolic worms (82+) → Barbarian (48+, Fish XP only)
+```
 
 ---
 
-## Summary Comparison Table (All at 99 Fishing, with EH + Hotfoot + Flow State)
+## Summary Comparison Table (All at 99 Fishing, with EH + Hotfoot + Flow State at 16x)
 
-| Method | Raw Fish XP/hr | Raw Cook XP/hr | Bait Needed | AFK? | Region | Notes |
-|--------|---------------|----------------|-------------|------|--------|-------|
-| **Barbarian** | ~400,000 | **0** | Feathers | No | Kandarin | Best Fishing XP. +Str/Agi. No Cooking. |
-| **Anglerfish (diabolic)** | ~188,000 | **~545,000** | Diabolic worms | Very | Kourend | BEST Cooking XP/hr by far. Need Yama drops. |
-| **Anglerfish (sandworm)** | ~104,000 | **~200,000** | Sandworms (shop) | Very | Kourend | Great Cooking XP. Easy bait. |
-| **Monkfish** | ~259,000 | ~324,000 | None | Yes | Kandarin | Strong all-rounder. No bait! |
-| **Karambwan** | ~75,000 | ~285,000 | Karambwanji (shop) | ULTRA | Karamja | Best AFK. Spot never moves. |
-| **Shark** | ~55,000 | ~105,000 | None | Very | Kandarin | Low catch rate hurts. No bait is nice. |
-| **Infernal eel** | ~? | **0** | Bait + oily rod | Yes | Karamja | Not cookable. For supplies only. |
-| **Minnow** | ~56,000* | **0** | None | No | Kandarin | Not cookable. Skip. |
+All spots are infinite with EH. AFK rating is based on bait restocking + spot movement.
 
-*Minnow XP rates are main-game numbers; Flow State interaction with spot rotation is uncertain.
+| Method | Fish XP/hr (16x) | Cook XP/hr (16x) | Total XP/hr | Bait | Spot Moves? | AFK Tier | Region |
+|--------|------------------|-------------------|-------------|------|-------------|----------|--------|
+| **Barbarian** | **~6.4M** | **0** | 6.4M | Feathers | Yes (EH chases) | C (no cooking) | Kandarin |
+| **Anglerfish (diabolic)** | ~3.0M | **~8.7M** | **11.7M** | Diabolic worms (Yama) | Yes (EH chases) | A | Kourend |
+| **Anglerfish (sandworm)** | ~1.7M | ~3.2M | 4.9M | Sandworms (90 gp shop) | Yes (EH chases) | A | Kourend |
+| **Monkfish** | ~4.1M | ~5.2M | **9.3M** | **None** | Yes (EH chases) | **S (zero input)** | Kandarin |
+| **Karambwan** | ~1.2M | ~4.6M | 5.8M | Karambwanji (10 gp shop) | **No (static)** | A | Karamja |
+| **Shark** | ~0.9M | ~1.7M | 2.6M | **None** | Yes (EH chases) | **S (zero input)** | Kandarin |
+| **Infernal eel** | ~1.5M | **0** | 1.5M | Bait + oily rod + ice gloves | No (static) | B | Karamja |
+| **Minnow** | ~0.9M | **0** | 0.9M | None | Rotates every 15s | D (active) | Kandarin |
 
-**At 16x league multiplier:**
-- Anglerfish (diabolic): ~3.0M Fishing + ~8.7M Cooking XP/hr
-- Anglerfish (sandworm): ~1.7M Fishing + ~3.2M Cooking XP/hr
-- Monkfish: ~4.1M Fishing + ~5.2M Cooking XP/hr
-- Karambwan: ~1.2M Fishing + ~4.6M Cooking XP/hr
-- Barbarian: ~6.4M Fishing XP/hr + 0 Cooking
+### Key Takeaways
 
-**Surprise winner for TOTAL combined XP/hr: Monkfish.** High catch rate + no bait + 120 fishing XP + 150 cooking XP = enormous combined throughput. But for pure Cooking XP, anglerfish (230 each) with diabolic worms is unmatched.
+- **Best total XP/hr: Anglerfish + diabolic worms (11.7M combined).** Requires Yama farming for worms.
+- **Best zero-input AFK: Monkfish (9.3M combined).** No bait, no restock, EH handles everything. Click and forget.
+- **Best raw Fishing XP: Barbarian (6.4M).** But zero Cooking XP — leaping fish can't be cooked.
+- **Karambwan is overrated with EH.** Static spot is nice but low Fish XP (1.2M) and needs bait. Monkfish is zero-bait with 3.4x more Fishing XP.
+- **Sharks are bad.** Terrible catch rate tanks both skills despite high cook XP per fish.
 
----
+### Decision Framework
 
-## Decision Framework
-
-| Goal | Best Method |
-|------|-------------|
-| **Max Fishing XP/hr only** | Barbarian fishing (Kandarin) |
-| **Max Cooking XP/hr** | Anglerfish with diabolic worms (Kourend) |
-| **Max combined Fish+Cook XP/hr** | Monkfish (Kandarin) or Anglerfish with diabolic worms |
-| **Best AFK (WFH)** | Karambwan (Karamja) -- spot never moves |
-| **No bait, low effort** | Sharks or Monkfish (Kandarin) |
-| **Fastest to 99 Cooking while fishing** | Anglerfish with diabolic worms, then top off if needed |
-| **Early game (pre-62)** | Fly fish trout/salmon with Hotfoot auto-cook |
-| **Rewards/collection log** | Tempoross (Desert) |
+| Goal | Best Method | Why |
+|------|-------------|-----|
+| **Max total XP/hr** | Anglerfish + diabolic worms | 11.7M combined. Nothing else is close |
+| **Max Fishing XP/hr** | Barbarian fishing | 6.4M Fish. No Cooking though |
+| **Max Cooking XP/hr** | Anglerfish + diabolic worms | 8.7M Cook. Highest cookable fish (230 each) |
+| **True zero-input AFK** | Monkfish | No bait, no restock. EH infinite. 9.3M combined |
+| **Early AFK (before Kandarin)** | Karambwan | Static spot, available from Karamja. 5.8M combined |
+| **Early game (pre-62)** | Fly fish trout/salmon | Available in Varlamore Day 1. Hotfoot auto-cooks |
+| **Passive Agi/Str XP** | Barbarian fishing | Only method that gives combat stats. No cooking |
+| **Points + clog** | Tempoross | 2-tick minigame, 8x pts at T4 |
 
 ---
 
