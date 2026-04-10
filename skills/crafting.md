@@ -1,8 +1,8 @@
 # Crafting — Skill Guide
 
-**Target:** 99 (need 73 real / 83 eff for Confliction Gauntlets) | **Region:** Varlamore (Toci's from start!)
+**Target:** 99 (need 73 real / 83 eff for Confliction Gauntlets) | **Region:** Varlamore (Toci's from start!), Karamja (gem rocks)
 
-**Key relic: Transmutation (T4)** — turns Crafting into the fastest GP-positive 99 in the league.
+**Key relics:** Endless Harvest (T1) + Transmutation (T4) + Flow State (T7)
 
 ## Key Insight: The Transmutation Gem Chain is NOT in Tier Order
 
@@ -10,157 +10,116 @@ The chain is: **Sapphire ↔ Emerald ↔ Ruby ↔ Diamond ↔ Opal ↔ Jade ↔ 
 
 You can't skip. To go from Ruby to Dragonstone you pass through Diamond → Opal → Jade → Red Topaz → Dragonstone = **5 transmute steps**.
 
-This means **Dragonstone is expensive to reach via transmutation** — way more casts than going to Diamond.
+This means **lower gems from Toci's are expensive to transmute to dragonstone** — but gem rocks naturally drop opal/jade/red topaz which are only 1-3 steps away.
 
 ### Transmute Rate
 
 **1 cast per 5 ticks (3 seconds), 10 items per cast = 12,000 items/hour throughput.**
 
-This is both active casting and auto-cast on noted items. The rate is fixed — the only question is whether auto-cast runs in parallel with other skilling or blocks you.
+This is both active casting and auto-cast on noted items. The rate is fixed — auto-cast runs in parallel with other skilling.
 
-## Time Estimates (Buy Rubies → Transmute → Cut)
+## Primary Method: EH Gem Rocks → Transmute → Cut → Alch
 
-Toci's has 1 ruby in base stock = infinite in leagues. **Skip sapphires/emeralds, start directly from rubies.**
+### Why Gem Rocks Beat Toci's
 
-### Option A: Ruby → Diamond (1 transmute step) — RECOMMENDED
+Gem rocks (Shilo Village, Karamja) mostly drop opal/jade/red topaz — the **close end** of the transmute chain:
 
-| Multiplier | Sequential Time | Parallel Time | GP via Toci's Sellback |
-|-----------|-------------|----------------|------------------------|
-| T1 (5x) | ~10.8 hrs | ~8.7 hrs | +9.8M |
-| T2 (8x) | ~6.8 hrs | ~5.4 hrs | +9.8M |
-| T5 (12x) | ~4.5 hrs | ~3.6 hrs | +9.8M |
-| **T7 (16x)** | **~3.4 hrs** | **~2.7 hrs** | **+9.8M** |
+| Gem drop | Steps to Dragonstone | Frequency |
+|---|---|---|
+| **Red Topaz** | **1 step** | Common |
+| **Jade** | **2 steps** | Common |
+| **Opal** | **3 steps** | Common |
+| Diamond | 4 steps | Rare |
+| Ruby | 5 steps | Uncommon |
+| Emerald | 6 steps | Uncommon |
+| Sapphire | 7 steps | Uncommon |
+
+**Average: ~2-3 transmute steps per gem** vs **5 steps per ruby from Toci's** or **7 steps per sapphire**.
+
+### The Triple Relic Stack
+
+| Relic | Effect on gem rock mining |
+|---|---|
+| **Endless Harvest** | 2x gems auto-banked, infinite gem rocks (never deplete), no banking trips |
+| **Flow State** | 2-tick mining (~2x gems/hr), 2-tick gem cutting (~2x cut speed), 2-tick Magic (faster alching) |
+| **Transmutation** | Upgrade any gem → dragonstone, infinite nature runes for alching |
+
+### The Loop
+
+1. **AFK mine gem rocks** during work hours (2-tick + 2x + auto-bank + infinite rocks). Accumulate massive mixed gem pile. Also earns Mining XP passively.
+2. **Transmute in background** during Slayer/bossing — auto-cast on noted gems. Average ~2-3 casts per dragonstone (vs 5+ from shop gems).
+3. **Cut dragonstones at 2-tick** — 137.5 Crafting XP each. Flow State doubles cutting speed.
+4. **Footpedal alch at 2-tick** — 6,000 gp each with infinite nature runes.
+
+### Advantages Over Toci's Shop Method
+
+| | EH Gem Rocks | Toci's Rubies (old method) |
+|---|---|---|
+| **GP cost** | **Free** | 100 gp/ruby |
+| **Transmute steps to dragonstone** | **~2-3 avg** | 5 per ruby |
+| **Supply generation** | AFK during work (EH auto-bank, infinite rocks) | Must click through shop interface |
+| **Bonus XP** | Mining XP while gathering | None |
+| **Bottleneck** | Mining time (but AFK + 2-tick + 2x) | Shop stock (infinite but requires buying) |
+| **Flow State benefit** | 2-tick mining + 2-tick cutting + 2-tick alching | 2-tick cutting + 2-tick alching only |
+
+### Time Estimate at T7 (16x)
+
+Harder to estimate precisely because gem rock drops are random, but:
+- At 2-tick mining + 2x drops: ~1,000-1,500 mixed gems/hr (conservative)
+- Need ~5,900 dragonstones for 99 Crafting
+- Average ~2-3 gems needed per dragonstone (some drop as opal/jade/topaz, some as sapphire)
+- Mining time: ~8-12 hrs of AFK gathering to stockpile enough gems
+- Transmute time: ~2-3 hrs of background auto-cast (runs during other activities)
+- Cutting time: ~1-1.5 hrs at 2-tick speed
+- Alching: parallel via footpedal
+
+**Active Crafting time: ~1-1.5 hrs.** Mining is AFK during work, transmuting runs in background. The actual time you sit and train Crafting is just cutting.
+
+**GP profit: ~35M** (5,900 dragonstones × 6,000 gp alch = ~35.4M, zero cost)
+
+### Pre-T7 Strategy
+
+Before Flow State (T7), gem rock mining is slower (normal tick speed) but EH is available from T1. Start stockpiling gems early — by the time you reach T7, you may already have enough for 99.
+
+**Early levels (1-45 real):** Cut lower gems from Toci's or your gem rock stockpile. Sapphires (10 real), emeralds (17), rubies (24), diamonds (33). These take minutes at any multiplier.
+
+**Confliction Gauntlets (73 real):** Prioritize hitting this milestone. At 12x (T5) or higher, you can cut transmuted dragonstones to get there in ~1.3 hrs even without Flow State.
+
+## Toci's Shop Fallback
+
+If you don't want to mine gem rocks (or need gems before reaching Karamja), Toci's still works:
+
+### Option A: Ruby → Diamond (1 transmute step)
+
+| Multiplier | Time | GP via Toci's Sellback |
+|-----------|------|------------------------|
+| T1 (5x) | ~8.7 hrs (parallel) | +9.8M |
+| T7 (16x) | ~2.7 hrs (parallel) | +9.8M |
 
 ### Option B: Ruby → Dragonstone (5 transmute steps)
 
-| Multiplier | Sequential Time | Parallel Time | GP via High Alch |
-|-----------|-------------|----------------|------------------|
-| T1 (5x) | ~14.8 hrs | ~6.8 hrs | +112M |
-| T2 (8x) | ~9.2 hrs | ~4.3 hrs | +70M |
-| T5 (12x) | ~6.1 hrs | ~2.9 hrs | +47M |
-| **T7 (16x)** | **~4.6 hrs** | **~2.1 hrs** | **+35M** |
+| Multiplier | Time | GP via High Alch |
+|-----------|------|------------------|
+| T1 (5x) | ~6.8 hrs (parallel) | +112M |
+| T7 (16x) | ~2.1 hrs (parallel) | +35M |
 
-## Verdict: Dragonstones (Parallel Confirmed)
-
-**Plan: Ruby → Dragonstone → Cut → High Alch via Footpedal**
-
-Parallel execution is confirmed — Jared has a **footpedal for auto-alching** and can run transmutation in the background on noted items while doing Slayer/Hunter/etc.
-
-| | Diamond (1 step) | **Dragonstone (5 steps) ✅** |
-|---|------------------|----------------------------|
-| Sequential time at 16x | ~3.4 hrs | ~4.6 hrs |
-| **Parallel time at 16x** | ~2.7 hrs | **~2.1 hrs** |
-| GP | +9.8M | **+34.8M** |
-| Alching needed | No (Toci's sellback) | Yes (footpedal handles it) |
-| Transmute casts (99) | 756 | 2,950 |
-
-**Why dragonstones win:**
-- **Parallel transmute** (~2.5 hrs of casts) runs in the background during Slayer/Hunter — effectively free time
-- **Parallel alching** via footpedal automates disposal
-- **Effective crafting time: ~2.1 hrs** (just the cutting itself)
-- **+25M extra GP** vs diamond path
-- 36 min faster than diamonds
-
-**Workflow:**
-1. Bulk-buy rubies from Toci's (build stockpile over time since base stock is 1)
-2. Note them and let Transmutation ledger auto-cast them up to dragonstones in background
-3. While transmute is running: Slayer, Hunter, whatever
-4. Come back, cut dragonstones (2.1 hrs at 16x)
-5. Footpedal auto-alches cut dragonstones for ~6,000 gp each
-6. +34.8M GP profit, 99 Crafting done
-
-## The Method: Transmuted Diamonds → Dragonstones
-
-### Phase 1: Level 1-33 real (Lower Gems)
-
-Cut sapphires/emeralds/rubies from Toci's (all GP positive). This takes only a couple minutes at any multiplier — you'll breeze through.
-
-| Gem | Crafting (real/eff) | XP each | Buy | Sell back |
-|-----|---------------------|---------|-----|-----------|
-| Sapphire | 10 / 20 | 50 | 25 | 175 (+150) |
-| Emerald | 17 / 27 | 67.5 | 50 | 350 (+300) |
-| Ruby | 24 / 34 | 85 | 100 | 700 (+600) |
-
-### Phase 2: Level 33-45 real (Transmuted Diamonds)
-
-**Cut diamonds.** Toci's has 0 diamond stock, but **Transmutation solves this:**
-
-```
-Buy sapphire (25 gp, Toci's has 3 base stock = infinite)
-→ Transmute → Emerald
-→ Transmute → Ruby
-→ Transmute → Diamond
-→ Cut (107.5 Crafting XP)
-→ Sell at Toci's (+1,200 gp profit)
-```
-
-- 298,850 base XP/hr → **4.8M/hr at 16x**
-- Each transmute = 1 free nature rune + 10 Magic XP (passive)
-- **GP positive** via Toci's sellback
-
-Phase 2 is ~43k XP, takes minutes at any tier. Rush through it.
-
-### Phase 3: Level 45-99 real (Transmuted Dragonstones)
-
-**Cut dragonstones** — fastest available gem. 137.5 XP per cut.
-
-```
-Buy sapphire (25 gp)
-→ Transmute up 4 tiers → Dragonstone
-→ Cut (137.5 Crafting XP)
-→ High Alch (6,000 gp) — Transmutation gives infinite nature runes!
-```
-
-- 382,250 base XP/hr → **6.12M/hr at 16x**
-- Each cut dragonstone: high alch for 6,000 gp (net profit ~5,975 gp per stone)
-- **No shop buys cut dragonstones** — high alch is the disposal + profit method
-- Infinite nature runes from Transmutation ledger = free alch
-
-## Full Phase Breakdown at 16x
-
-| Phase | Level Range (real) | XP Needed | Method | Time |
-|-------|-------------------|----------|--------|------|
-| 1 | 1 → 33 | ~18k | Lower gems at Toci's | ~1 min |
-| 2 | 33 → 45 | ~43k | Transmuted diamonds | ~1 min |
-| 3 | 45 → 99 | ~12.97M | Transmuted dragonstones | ~2.1 hrs |
-| | | | **Total** | **~2.1 hrs** |
+**Toci's stock:** sapphire (3), emerald (2), ruby (1), diamond (0), dragonstone (never stocked). All non-depleting in leagues.
 
 ## Magic XP Bonus
 
-Each transmute gives 10 base Magic XP. For dragonstones, you do 4 transmutes per final gem (sapphire → emerald → ruby → diamond → dragonstone).
+Each transmute gives 10 base Magic XP. With gem rocks averaging ~2-3 transmutes per dragonstone (vs 5 from rubies), you get less passive Magic XP per dragonstone but process more total gems.
 
-At 16x with ~2,780 dragonstones/hr:
-- 4 transmutes × 2,780 × 10 × 16 = **~1.78M Magic XP/hr passive**
-- Over ~2.1 hours = **~3.7M Magic XP** side gains
-
-Nice passive boost to a combat skill while training Crafting.
+Over ~5,900 dragonstones at 16x: ~1.5-3M passive Magic XP depending on gem distribution.
 
 ## GP Analysis
 
-**Cost per dragonstone:** 25 gp (sapphire from Toci's)
+**Cost per dragonstone:** 0 gp (mined gems are free)
 **High alch value:** 6,000 gp
-**Net profit:** +5,975 gp per dragonstone
+**Net profit:** +6,000 gp per dragonstone
 
-At 16x, need ~5,900 dragonstones for 99 → **~+35M GP profit**
+At 16x, need ~5,900 dragonstones for 99 → **~+35.4M GP profit**
 
-Cheaper to cut at lower multipliers (more dragonstones = more profit), but time efficiency wins. Grind at 16x unless you desperately need GP.
-
-## Alternative: Stop at Diamonds (Maybe Better Sequential)
-
-Staying on diamonds (3 transmute steps) may actually be better when transmute overhead is factored in:
-
-| | Diamonds (3 transmutes) | Dragonstones (4 transmutes) |
-|---|------------------------|----------------------------|
-| XP/hr base | 299k | 382k |
-| Auto-cast time to 99 at 16x | 2.7 hrs | **2.1 hrs** |
-| Sequential time to 99 at 16x | **~3.5 hrs** | 5.4 hrs |
-| GP per cut | +1,200 (sell at Toci's) | +5,975 (high alch) |
-| GP for 99 | +9.6M | +35M |
-| Flow complexity | Simple (sell) | Requires alching |
-
-**Dragonstones win if auto-cast works well. Diamonds win if you have to transmute sequentially.**
-
-For now, **plan for dragonstones at T7** and fall back to diamonds if transmute overhead kills the rate.
+This is your primary GP engine. Combined with AFK runite mining → rune platelegs → alch (~4.5-6.4M GP/hr), GP without Abundance is solved.
 
 ## 83 Crafting Milestone (Confliction Gauntlets)
 
@@ -182,17 +141,19 @@ Prioritize getting to 73 real Crafting before trying to craft the gauntlets.
 
 ## Recommended Plan
 
-**Pre-T7:** Casually cut transmuted diamonds from Toci's to hit 73 real for Confliction Gauntlets. GP positive.
+**Prerequisite:** Dragon pickaxe from Kalphite Queen (Desert). Get this before committing to AFK gem rock mining — the speed difference is massive, especially with 2-tick Flow State. Use Toci's shop method for early Crafting levels until you have the d pick.
 
-**At T7 (16x multiplier):** Rush remaining levels to 99 at dragonstones. ~2.1 hours total, +35M GP from alching.
+1. **Early game:** Cut lower gems from Toci's for levels 1-33. Farm KQ for dragon pickaxe.
+2. **Post d-pick:** Start AFK mining gem rocks at Shilo Village (Karamja) whenever you have downtime. EH auto-banks + infinite rocks. Stockpile gems.
+3. **T4 (Transmutation):** Begin transmuting stockpiled gems to dragonstones in background during Slayer/bossing.
+4. **Pre-T7:** Cut transmuted dragonstones casually to hit 73 real (Confliction Gauntlets). Alch via footpedal for GP.
+5. **T7 (Flow State):** Rush remaining levels to 99. 2-tick cutting + 2-tick mining if you need more supply. ~1-1.5 hrs active cutting time. +35M GP from alching.
 
 ## Notes
 
-- Toci's stock: sapphire (3), emerald (2), ruby (1), diamond (0), dragonstone (never stocked)
-- Transmutation bypasses the stock problem entirely
-- All shops are non-depleting in leagues
-- Al Kharid gem trader (Desert) has same gems, buys at 65% (worse than Toci's 70%)
-- TzHaar gem store (Karamja) accepts uncut dragonstones for Tokkul (not useful for us)
-- **Only Toci's in Varlamore is needed** — Crafting never requires a region unlock
-- Abundance +10 → diamonds at 33 real, dragonstones at 45 real
+- Gem rocks at Shilo Village require starting Shilo Village quest (Karamja)
+- Toci's Gem Store (Varlamore) available from start as fallback
 - Transmutation ledger = infinite nature runes (key for high alching)
+- Flow State 2-tick applies to: gem cutting, High Alchemy, gem rock mining
+- EH 2x applies to gem rock drops (2x gems per successful mine)
+- Footpedal alching runs parallel with other activities
