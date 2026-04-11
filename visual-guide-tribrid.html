@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leagues VI — Visual Skill Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+<style>
+  /* Material 3 — Dark theme tokens (custom scheme: purple/mage) */
+  :root {
+    --md-sys-color-primary: #d0bcff;
+    --md-sys-color-on-primary: #381e72;
+    --md-sys-color-primary-container: #4f378b;
+    --md-sys-color-on-primary-container: #eaddff;
+    --md-sys-color-secondary: #ccc2dc;
+    --md-sys-color-on-secondary: #332d41;
+    --md-sys-color-secondary-container: #4a4458;
+    --md-sys-color-on-secondary-container: #e8def8;
+    --md-sys-color-tertiary: #efb8c8;
+    --md-sys-color-on-tertiary: #492532;
+    --md-sys-color-tertiary-container: #633b48;
+    --md-sys-color-on-tertiary-container: #ffd8e4;
+    --md-sys-color-error: #f2b8b5;
+    --md-sys-color-background: #141218;
+    --md-sys-color-on-background: #e6e0e9;
+    --md-sys-color-surface: #141218;
+    --md-sys-color-surface-variant: #49454f;
+    --md-sys-color-on-surface: #e6e0e9;
+    --md-sys-color-on-surface-variant: #cac4d0;
+    --md-sys-color-outline: #938f99;
+    --md-sys-color-outline-variant: #49454f;
+    --md-sys-color-surface-container-lowest: #0f0d13;
+    --md-sys-color-surface-container-low: #1d1b20;
+    --md-sys-color-surface-container: #211f26;
+    --md-sys-color-surface-container-high: #2b2930;
+    --md-sys-color-surface-container-highest: #36343b;
+
+    /* Custom status colors */
+    --color-fast: #a5d6a7;
+    --color-medium: #ffd54f;
+    --color-slow: #ef9a9a;
+    --color-free: #80deea;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--md-sys-color-background);
+    color: var(--md-sys-color-on-background);
+    line-height: 1.5;
+    padding: 24px 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* Typography — Material 3 type scale */
+  .display-large {
+    font-size: 57px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    line-height: 64px;
+  }
+
+  .headline-large {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  .headline-medium {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+
+  .title-large {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .title-medium {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+  }
+
+  .body-large {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+
+  .body-medium {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+  }
+
+  .body-small {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+  }
+
+  .label-large {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+  }
+
+  .label-small {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+
+  /* Header */
+  header {
+    padding: 48px 24px;
+    text-align: center;
+    background: linear-gradient(135deg, var(--md-sys-color-primary-container) 0%, var(--md-sys-color-surface-container-high) 100%);
+    border-radius: 28px;
+    margin-bottom: 32px;
+  }
+
+  header h1 {
+    color: var(--md-sys-color-on-primary-container);
+    margin-bottom: 12px;
+  }
+
+  header p {
+    color: var(--md-sys-color-on-primary-container);
+    opacity: 0.87;
+  }
+
+  /* Relic strip */
+  .relic-strip {
+    background: var(--md-sys-color-surface-container);
+    border-radius: 24px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .relic-strip h2 {
+    color: var(--md-sys-color-primary);
+    margin-bottom: 16px;
+  }
+
+  .relic-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px 6px 6px;
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .chip img.relic-icon {
+    width: 32px;
+    height: 32px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 8px;
+    padding: 4px;
+    image-rendering: pixelated;
+  }
+
+  .chip .tier {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  /* Section headers */
+  .category-header {
+    margin: 48px 0 20px 0;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .category-header h2 {
+    color: var(--md-sys-color-primary);
+  }
+
+  .category-header::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--md-sys-color-outline-variant);
+  }
+
+  /* Card grid */
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+  }
+
+  /* Skill cards */
+  .skill-card {
+    background: var(--md-sys-color-surface-container-low);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    transition: background 0.2s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .skill-card:hover {
+    background: var(--md-sys-color-surface-container);
+    transform: translateY(-2px);
+  }
+
+  .skill-card.highlight {
+    border-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-surface-container);
+  }
+
+  .skill-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .skill-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--md-sys-color-surface-container-high);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    flex-shrink: 0;
+  }
+
+  .skill-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    image-rendering: pixelated;
+  }
+
+  .skill-title {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .skill-title h3 {
+    color: var(--md-sys-color-on-surface);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .time-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+
+  .time-badge.fast { background: rgba(165, 214, 167, 0.15); color: var(--color-fast); }
+  .time-badge.medium { background: rgba(255, 213, 79, 0.15); color: var(--color-medium); }
+  .time-badge.slow { background: rgba(239, 154, 154, 0.15); color: var(--color-slow); }
+  .time-badge.free { background: rgba(128, 222, 234, 0.2); color: var(--color-free); }
+
+  .method {
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .items-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 4px;
+  }
+
+  .item-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px 4px 4px;
+    background: var(--md-sys-color-surface-container-high);
+    border-radius: 20px;
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface);
+    border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .item-chip img {
+    width: 20px;
+    height: 20px;
+    image-rendering: pixelated;
+  }
+
+  .relic-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: auto;
+    align-self: flex-start;
+  }
+
+  .boss-source {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 10px;
+    margin-top: auto;
+    border: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .boss-source img {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    background: var(--md-sys-color-surface-container);
+    flex-shrink: 0;
+  }
+
+  .boss-source .source-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .boss-source .source-label {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+
+  .boss-source .source-name {
+    font-size: 13px;
+    color: var(--md-sys-color-on-surface);
+    font-weight: 500;
+  }
+
+  /* Boss progression cards */
+  .boss-card {
+    background: var(--md-sys-color-surface-container-low);
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease;
+  }
+
+  .boss-card:hover {
+    transform: translateY(-2px);
+    background: var(--md-sys-color-surface-container);
+  }
+
+  .boss-card.priority {
+    border-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-surface-container);
+  }
+
+  .boss-img-wrap {
+    width: 100%;
+    height: 140px;
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boss-img-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+
+  .boss-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface);
+  }
+
+  .boss-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .boss-tag {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boss-tag.phase1 { background: rgba(165, 214, 167, 0.18); color: var(--color-fast); }
+  .boss-tag.phase2 { background: rgba(128, 222, 234, 0.18); color: var(--color-free); }
+  .boss-tag.phase3 { background: rgba(255, 213, 79, 0.18); color: var(--color-medium); }
+  .boss-tag.phase4 { background: rgba(208, 188, 255, 0.2); color: var(--md-sys-color-primary); }
+  .boss-tag.shortcut { background: rgba(239, 184, 200, 0.18); color: var(--md-sys-color-tertiary); }
+  .boss-tag.essential { background: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container); }
+  .boss-tag.weakness {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--md-sys-color-on-surface-variant);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-transform: none;
+    letter-spacing: 0.2px;
+  }
+  .boss-tag.weakness img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  }
+
+  .boss-info {
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface-variant);
+    line-height: 1.45;
+  }
+
+  .boss-info strong {
+    color: var(--md-sys-color-on-surface);
+    font-weight: 500;
+  }
+
+  .footnote {
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 13px;
+  }
+
+  .footnote a {
+    color: var(--md-sys-color-primary);
+    text-decoration: none;
+  }
+
+  .footnote a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    header { padding: 32px 16px; }
+    .display-large { font-size: 40px; line-height: 48px; }
+    .skill-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="display-large">Leagues VI: Crystal Tribrid Mage</h1>
+  <p class="title-medium">Alternative Build — Crystal Universal Tribrid + Pure Mage Pacts</p>
+  <p class="body-medium" style="margin-top: 8px;">Varlamore + Karamja + <strong>Tirannwn</strong> + Kandarin + Kourend</p>
+  <p class="body-medium" style="margin-top: 4px; opacity: 0.8;">Region order: <strong>Tirannwn (1st) → Kandarin (2nd) → Kourend (3rd)</strong></p>
+</header>
+
+<div class="relic-strip">
+  <h2 class="title-large">Relic Plan</h2>
+  <div class="relic-chips">
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Endless_Harvest_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T1</span>Endless Harvest
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Hotfoot_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T2</span>Hotfoot
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Map_of_Alacrity_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T3</span>Map of Alacrity
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Transmutation_%28Demonic_Pacts_League%29.png" alt="">
+      <span class="tier">T4</span>Transmutation
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Nature%27s_Accord_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T5</span>Nature's Accord
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Culling_Spree_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T6</span>Culling Spree
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Flow_State_%28Demonic_Pacts_League%29.png" alt="">
+      <span class="tier">T7</span>Flow State
+    </div>
+    <div class="chip">
+      <img class="relic-icon" src="https://oldschool.runescape.wiki/images/Flask_of_Fervour_%28Demonic_Pacts_League%29_icon.png" alt="">
+      <span class="tier">T8</span>Flask of Fervour
+    </div>
+  </div>
+</div>
+
+<!-- COMBAT -->
+<div class="category-header">
+  <h2 class="headline-medium">Combat</h2>
+</div>
+
+<div class="skill-grid">
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Attack_icon.png" alt="Attack"></div>
+      <div class="skill-title">
+        <h3>Attack</h3>
+        <span class="time-badge fast">~3.5 hrs passive</span>
+      </div>
+    </div>
+    <p class="method">Sulphur Naguas (Varlamore) early, then trained passively through Catacombs barrage Slayer. Swap style during tasks.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Eye_of_Ayak.png" alt="">Eye of Ayak</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Sulphur_nagua.png" alt="">Sulphur Naguas</div>
+    </div>
+    <span class="relic-tag">Culling Spree</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Strength_icon.png" alt="Strength"></div>
+      <div class="skill-title">
+        <h3>Strength</h3>
+        <span class="time-badge fast">~3.5 hrs passive</span>
+      </div>
+    </div>
+    <p class="method">Same as Attack — Sulphur Naguas early, then passive from Slayer. Barb Fishing also gives passive Strength XP.</p>
+    <span class="relic-tag">Culling Spree</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Defence_icon.png" alt="Defence"></div>
+      <div class="skill-title">
+        <h3>Defence</h3>
+        <span class="time-badge fast">~3 hrs passive</span>
+      </div>
+    </div>
+    <p class="method">Defensive casting Ice Barrage in Catacombs. Trains Defence + Magic + Slayer simultaneously. Best XP route for all three.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Ancient_staff.png" alt="">Ancient Magicks</div>
+    </div>
+    <span class="relic-tag">Culling Spree</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Hitpoints_icon.png" alt="Hitpoints"></div>
+      <div class="skill-title">
+        <h3>Hitpoints</h3>
+        <span class="time-badge free">0 hrs — passive</span>
+      </div>
+    </div>
+    <p class="method">Trained automatically through all combat. No dedicated time needed — will hit 99 naturally.</p>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Ranged_icon.png" alt="Ranged"></div>
+      <div class="skill-title">
+        <h3>Ranged</h3>
+        <span class="time-badge medium">~7 hrs</span>
+      </div>
+    </div>
+    <p class="method">Chinchompas in MM2 tunnels (Kandarin). AoE on stacked monkeys. Best Ranged XP in the game.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Red_chinchompa.png" alt="">Red Chins</div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Magic_icon.png" alt="Magic"></div>
+      <div class="skill-title">
+        <h3>Magic</h3>
+        <span class="time-badge fast">~6 hrs passive</span>
+      </div>
+    </div>
+    <p class="method">EoA + crystal armor + F8 (1-tick) for single-target. Ice Barrage in Catacombs (Dust Devils 65 → Nechs 80 → Smoke Devils 93) for AoE Slayer XP. Crystal armor's set bonus carries powered staff DPS.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Eye_of_Ayak.png" alt="">EoA + crystal</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Kodai_wand.png" alt="">Kodai (AoE)</div>
+    </div>
+    <span class="relic-tag">Crystal Blessing + F8 + Transmutation (free runes)</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Prayer_icon.png" alt="Prayer"></div>
+      <div class="skill-title">
+        <h3>Prayer</h3>
+        <span class="time-badge free">~1 hr</span>
+      </div>
+    </div>
+    <p class="method">Ralos' Rise (Varlamore). Flow State 2-tick altar offerings. EH 2x blessed bone shards from Calcified Rocks (auto-banked during Mining). Transmute wyrmling bones → superior dragon bones. Shards bank passively while AFK mining.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Blessed_bone_shards.png" alt="">2x Shards (EH)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Sunfire_splinters_4.png" alt="">Sunfire</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Superior_dragon_bones.png" alt="">Transmuted Bones</div>
+    </div>
+    <span class="relic-tag">EH (2x shards) + Flow State (2-tick altar) + Transmutation</span>
+  </div>
+
+</div>
+
+<!-- GATHERING -->
+<div class="category-header">
+  <h2 class="headline-medium">Gathering</h2>
+</div>
+
+<div class="skill-grid">
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Mining_icon.png" alt="Mining"></div>
+      <div class="skill-title">
+        <h3>Mining</h3>
+        <span class="time-badge fast">~3.5 hrs (AFK)</span>
+      </div>
+    </div>
+    <p class="method">EH infinite rocks + 2-tick + 2x output + auto-bank. Calcified Rocks for 2x Prayer shards. Gem rocks (Shilo Village) for 2x gems → Transmute to dragonstone. Runite rocks for 2x rune bars (Hotfoot coal-free auto-smelt) → smith platelegs → alch for GP. D-pick from KQ first.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Dragon_pickaxe.png" alt="">D-Pick (KQ)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Blessed_bone_shards.png" alt="">2x Shards</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Runite_bar.png" alt="">2x Rune Bars</div>
+    </div>
+    <span class="relic-tag">EH + Hotfoot (auto-smelt) + Flow State (2-tick)</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Fishing_icon.png" alt="Fishing"></div>
+      <div class="skill-title">
+        <h3>Fishing</h3>
+        <span class="time-badge fast">~3-5 hrs</span>
+      </div>
+    </div>
+    <p class="method">EH infinite spots + 2-tick + 2x fish + auto-bank. Hotfoot auto-cooks BOTH fish = free Cooking XP. Fly fish (Varlamore Day 1) → Karambwan 65+ (static spot, AFK) → Anglerfish 82+ (230 cook XP, best) → Monkfish 62+ (zero bait, S-tier AFK). Also trains Cooking to 99 for free.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Raw_anglerfish.png" alt="">Anglerfish (230 cook)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Raw_monkfish.png" alt="">Monkfish (no bait)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Raw_karambwan.png" alt="">Karambwan (static)</div>
+    </div>
+    <span class="relic-tag">EH + Hotfoot (auto-cook) + Flow State (2-tick)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Woodcutting_icon.png" alt="Woodcutting"></div>
+      <div class="skill-title">
+        <h3>Woodcutting</h3>
+        <span class="time-badge fast">~4 hrs (AFK)</span>
+      </div>
+    </div>
+    <p class="method">EH infinite trees + 2-tick + 2x logs + auto-bank. Forestry → WT for Dragon Axe → Redwoods at 90 real. 2x logs feed Fletching + Construction. Need 90 real without Abundance boost.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Dragon_axe.png" alt="">Dragon Axe (WT)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Redwood_logs.png" alt="">Redwoods</div>
+    </div>
+    <span class="relic-tag">EH + Flow State (2-tick)</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Farming_icon.png" alt="Farming"></div>
+      <div class="skill-title">
+        <h3>Farming</h3>
+        <span class="time-badge free">~0.5 hrs</span>
+      </div>
+    </div>
+    <p class="method">Nature's Accord = 10x noted yield, plants never die, no level reqs. Tithe Farm (Varlamore) + Farming Guild contracts + Hespori. Transmutation upgrades seeds. WT carts opened at high Farming for best seed rewards.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Golovanova_fruit.png" alt="">Tithe Farm</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Seed_pack.png" alt="">Seed Pack</div>
+    </div>
+    <span class="relic-tag">Nature's Accord + Transmutation</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Hunter_icon.png" alt="Hunter"></div>
+      <div class="skill-title">
+        <h3>Hunter</h3>
+        <span class="time-badge slow">~6.5-7.5 hrs (slowest skill)</span>
+      </div>
+    </div>
+    <p class="method">Hunter Guild Rumours (Varlamore). Guild at 46 real, Master rumours at 91 real (no +10 boost). Flow State 2-tick helps trap resets (~20-30% faster) but catch rate is NPC-limited. Moonlight Moths/Antelope endgame.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Moonlight_moth.png" alt="">Moths</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Sunlight_antelope.png" alt="">Antelope</div>
+    </div>
+    <span class="relic-tag">Flow State (2-tick trap resets)</span>
+  </div>
+
+</div>
+
+<!-- ARTISAN -->
+<div class="category-header">
+  <h2 class="headline-medium">Artisan</h2>
+</div>
+
+<div class="skill-grid">
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Cooking_icon.png" alt="Cooking"></div>
+      <div class="skill-title">
+        <h3>Cooking</h3>
+        <span class="time-badge free">0 hrs — FREE during Fishing</span>
+      </div>
+    </div>
+    <p class="method">Hotfoot auto-cooks BOTH EH fish (2x). 100% success, no burns ever. Anglerfish = 230 cook XP each (~8.7M/hr at 16x). 99 Cooking reached passively in ~1.5 hrs of anglerfish fishing. Never cook separately.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Anglerfish.png" alt="">Anglerfish (230 XP)</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Cooked_karambwan.png" alt="">Karambwan (190 XP)</div>
+    </div>
+    <span class="relic-tag">EH (2x fish) + Hotfoot (auto-cook both)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Smithing_icon.png" alt="Smithing"></div>
+      <div class="skill-title">
+        <h3>Smithing</h3>
+        <span class="time-badge medium">~3.3-6 hrs</span>
+      </div>
+    </div>
+    <p class="method">Free bars from EH mining + Hotfoot coal-free auto-smelt + 2-tick anvil (Flow State). Zalcano (Tirannwn) for Smithing XP + d-pick + ores. No Giants' Foundry — bars are free anyway.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Runite_bar.png" alt="">Free Rune Bars</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Adamant_platelegs.png" alt="">Shop Platelegs</div>
+    </div>
+    <span class="relic-tag">EH + Hotfoot (coal-free smelt) + Transmutation GP</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Crafting_icon.png" alt="Crafting"></div>
+      <div class="skill-title">
+        <h3>Crafting</h3>
+        <span class="time-badge fast">~1.5 hrs active + 35M GP</span>
+      </div>
+    </div>
+    <p class="method">AFK mine gem rocks (Shilo Village) with EH 2-tick 2x gems → Transmute to dragonstone (avg 2-3 steps vs 5 from shop) → Cut at 2-tick → Footpedal alch for 6,000 gp each. D-pick from KQ first. Toci's fallback for early levels.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Uncut_dragonstone.png" alt="">Gem Rocks → Dragonstone</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Dragonstone.png" alt="">Cut → Alch</div>
+    </div>
+    <span class="relic-tag">EH (2x gems) + Transmutation + Flow State (2-tick cut/alch)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Fletching_icon.png" alt="Fletching"></div>
+      <div class="skill-title">
+        <h3>Fletching</h3>
+        <span class="time-badge fast">~2-4 hrs</span>
+      </div>
+    </div>
+    <p class="method">Broad bolts from Rangers Guild (Kandarin, easy buyable) + Vale Totems (Varlamore). EH 2x logs supply magic bows if needed. Flow State 2-tick + fletching knife stacking.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Broad_bolts_5.png" alt="">Broad Bolts</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Magic_longbow.png" alt="">Magic Bows</div>
+    </div>
+    <span class="relic-tag">Flow State (2-tick + knife stacking)</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Herblore_icon.png" alt="Herblore"></div>
+      <div class="skill-title">
+        <h3>Herblore</h3>
+        <span class="time-badge medium">~3-4 hrs (hard grind)</span>
+      </div>
+    </div>
+    <p class="method">Mastering Mixology at 60 real (Aldarin, Varlamore). Nature's Accord 10x herb yield covers supply. Flow State 2-tick mixing. Transmutation upgrades herbs/secondaries. No Abundance +10 = Mixology at 60 not 50.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Aldarium.png" alt="">Mixology</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Grimy_ranarr_weed.png" alt="">10x Herbs</div>
+    </div>
+    <span class="relic-tag">Nature's Accord + Transmutation + Flow State (2-tick)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Construction_icon.png" alt="Construction"></div>
+      <div class="skill-title">
+        <h3>Construction</h3>
+        <span class="time-badge fast">~2 hrs</span>
+      </div>
+    </div>
+    <p class="method">Vale Totems early (trains Fletching too) → planks with Transmutation GP (dragonstone alching). EH 2x logs supply planks. Auburnvale sawmill.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Mahogany_plank.png" alt="">Planks</div>
+    </div>
+    <span class="relic-tag">Transmutation GP + EH (2x logs)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Firemaking_icon.png" alt="Firemaking"></div>
+      <div class="skill-title">
+        <h3>Firemaking</h3>
+        <span class="time-badge fast">~2.5 hrs</span>
+      </div>
+    </div>
+    <p class="method">Wintertodt (Kourend) for FM XP + points + clog. Flow State 2-tick minigame actions = fast clears. Bank carts, open at Farming 67+ / Herblore 56+ real for best rewards. Need 50 FM real (no Abundance boost).</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Pyromancer_hood.png" alt="">Pyromancer</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Tome_of_fire.png" alt="">Tome of Fire</div>
+    </div>
+    <span class="relic-tag">Flow State (2-tick WT)</span>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Runecraft_icon.png" alt="Runecraft"></div>
+      <div class="skill-title">
+        <h3>Runecraft</h3>
+        <span class="time-badge medium">~3-4 hrs (hard grind)</span>
+      </div>
+    </div>
+    <p class="method">Sunfire (Varlamore) to 77 real → Zeah Blood/Soul (Kourend). Map of Alacrity teleports to mine shortcuts, eliminates return run. EH possibly 2x dense essence + Flow State 2-tick mining/chiseling (needs Day 1 testing). 77 real for Bloods (no +10 boost).</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Blood_rune.png" alt="">Blood Runes</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Soul_rune.png" alt="">Soul Runes</div>
+    </div>
+    <span class="relic-tag">Map of Alacrity (Zeah shortcuts) + EH + Flow State</span>
+  </div>
+
+</div>
+
+<!-- SUPPORT -->
+<div class="category-header">
+  <h2 class="headline-medium">Support</h2>
+</div>
+
+<div class="skill-grid">
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Agility_icon.png" alt="Agility"></div>
+      <div class="skill-title">
+        <h3>Agility</h3>
+        <span class="time-badge medium">~4.5 hrs</span>
+      </div>
+    </div>
+    <p class="method">Hotfoot 2.25x course XP (100% success + double completions + 25% bonus). Ardougne Rooftop at 90 real → ~2.52M/hr at 16x. Passive running XP always active. Barb fishing adds Agi/Str trickle. No Abundance = Ardougne at 90 real not 80.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Graceful_hood.png" alt="">Graceful</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Mark_of_grace.png" alt="">Marks (guaranteed)</div>
+    </div>
+    <span class="relic-tag">Hotfoot (2.25x courses + passive running)</span>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Thieving_icon.png" alt="Thieving"></div>
+      <div class="skill-title">
+        <h3>Thieving</h3>
+        <span class="time-badge fast">~3 hrs</span>
+      </div>
+    </div>
+    <p class="method">Prifddinas elves (Tirannwn) for crystal shards + GP. Ardy Knights (Kandarin). Bazaar pickpocketing (Varlamore) for early GP source before Transmutation T4.</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Ardougne_cloak_4.png" alt="">Ardy Cloak</div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Slayer_icon.png" alt="Slayer"></div>
+      <div class="skill-title">
+        <h3>Slayer</h3>
+        <span class="time-badge fast">~5-6 hrs</span>
+      </div>
+    </div>
+    <p class="method">Culling Spree task choice = always barrage tasks (Dust Devils, Nechs, Smoke Devils). Catacombs of Kourend. Free Slayer helm effect = wear Ancestral Hat for +3% mage dmg!</p>
+    <div class="items-row">
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Nechryael.png" alt="">Nechs</div>
+      <div class="item-chip"><img src="https://oldschool.runescape.wiki/images/Dust_devil.png" alt="">Dust Devils</div>
+    </div>
+    <span class="relic-tag">Culling Spree (free helm + task choice)</span>
+  </div>
+
+</div>
+
+<!-- KEY GEAR -->
+<div class="category-header">
+  <h2 class="headline-medium">Mage Build — BIS Gear</h2>
+</div>
+
+<div class="skill-grid">
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Eye_of_ayak.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Eye of Ayak</h3>
+        <span class="time-badge fast">Varlamore — Day 1</span>
+      </div>
+    </div>
+    <p class="method">1H powered staff, 3-tick (fastest). Built-in spell, drains target magic defence on spec. Core mage weapon.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Doom of Mokhaiotl (delve 3+)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Confliction_gauntlets.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Confliction Gauntlets</h3>
+        <span class="time-badge medium">Kandarin (Phase 4)</span>
+      </div>
+    </div>
+    <p class="method">+20 mage atk, +7% mage dmg. Passive re-rolls accuracy on miss. Only works with 1H weapons — perfect with Eye of Ayak.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Crafted From</span>
+        <span class="source-name">Zenyte (Demonic Gorillas) + Mokhaiotl Cloth</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Kodai_wand.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Kodai Wand</h3>
+        <span class="time-badge medium">CoX + MTA</span>
+      </div>
+    </div>
+    <p class="method">+28 mage atk, +15% mage dmg. Autocasts Ancients. Unlimited water runes. 15% chance to negate rune cost. Barrage Slayer swap.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Chambers of Xeric (Kodai Insignia)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Dragon_hunter_wand.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Dragon Hunter Wand</h3>
+        <span class="time-badge fast">Varlamore — Day 1</span>
+      </div>
+    </div>
+    <p class="method">+16 mage atk, +10% mage dmg. <strong>+75% accuracy, +40% damage vs dragons.</strong> 1H, autocasts Ancients. Stacks with Slayer helm. HUGE for CoX and Hydra.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/The_Hueycoatl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Hueycoatl (1/105)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Ancestral_hat.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Ancestral Set</h3>
+        <span class="time-badge medium">Chambers of Xeric</span>
+      </div>
+    </div>
+    <p class="method">+69 mage atk, +9% mage dmg total. BIS mage armor. Wear the hat instead of Slayer helm (Culling Spree gives helm effect free).</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Chambers of Xeric (Great Olm)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Avernic_treads.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Avernic Treads</h3>
+        <span class="time-badge fast">Varlamore — Day 1</span>
+      </div>
+    </div>
+    <p class="method">+11 mage atk, +1% mage dmg. Hybrid boots. From Doom of Mokhaiotl delve 4+. Eternal upgrade locked (Cerberus/Asgarnia).</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Doom of Mokhaiotl (delve 4+)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Occult_necklace.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Occult Necklace</h3>
+        <span class="time-badge medium">Kandarin (93 Slayer)</span>
+      </div>
+    </div>
+    <p class="method">+12 mage atk, +5% mage dmg. Only necklace with magic damage %. Drops from Thermonuclear Smoke Devil.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Thermonuclear Smoke Devil</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Devil%27s_element.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Devil's Element</h3>
+        <span class="time-badge medium">Echo Thermy (Kandarin)</span>
+      </div>
+    </div>
+    <p class="method">+20 mage atk, +6% mage dmg. Doubles NPC elemental weaknesses. Unlimited elemental runes. Potential BIS offhand.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Echo Thermonuclear Smoke Devil</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Toxic_blowpipe.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Toxic Blowpipe</h3>
+        <span class="time-badge medium">Zulrah (Tirannwn)</span>
+      </div>
+    </div>
+    <p class="method">Best ranged DPS for non-crystal-set content. Backup ranged option to Bowfa. Use for chinning, dragons, anywhere ranged is preferred. From Tanzanite + Magma fang from Zulrah.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Zulrah.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Zulrah (Tirannwn)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Crystal_helm.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Crystal Armor + Blessing</h3>
+        <span class="time-badge fast">Tirannwn (Phase 2)</span>
+      </div>
+    </div>
+    <p class="method"><strong>BIS for tribrid.</strong> Set bonus: 1.3x accuracy + 1.15x damage on melee weapons + magic powered staves (EoA). Crystal blessing adds +20 mage atk + +2% mage dmg per piece equipped (+60 atk, +6% dmg total). Single armor set covers melee, mage, and ranged content.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Crafted From</span>
+        <span class="source-name">Corrupted Gauntlet (Tirannwn)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Brimstone_ring.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Brimstone Ring</h3>
+        <span class="time-badge medium">Slayer Ring</span>
+      </div>
+    </div>
+    <p class="method">+6 magic atk, all-style attack/defence bonuses. Best raw mage stats ring in your regions. Use for barrage Slayer where you don't spec.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra_%28serpentine%29.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Crafted From</span>
+        <span class="source-name">Alchemical Hydra (95 Slayer)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Bow_of_Faerdhinen.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Bow of Faerdhinen</h3>
+        <span class="time-badge medium">Ranged Flex (Phase 2)</span>
+      </div>
+    </div>
+    <p class="method"><strong>BIS ranged with crystal armor.</strong> Designed natively for crystal set bonus (1.3x acc, 1.15x dmg). Use for ranged-mandatory bosses (Vorkath if Fremennik, Inferno Zuk phase, magic-resistant content) WITHOUT spending any ranged pacts.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Crafted From</span>
+        <span class="source-name">Enhanced crystal weapon seed (CG)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card highlight">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Dual_macuahuitl.png" alt=""></div>
+      <div class="skill-title">
+        <h3>Dual Macuahuitl</h3>
+        <span class="time-badge fast">Melee Flex (Phase 1)</span>
+      </div>
+    </div>
+    <p class="method"><strong>BIS melee with crystal armor.</strong> From Sol Heredit. Crystal set bonus (1.3x acc, 1.15x dmg) applies to melee. Use for melee-mandatory bosses (Sol Heredit, Echo Sol Heredit, magic-resistant content) WITHOUT spending any melee pacts.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Drops From</span>
+        <span class="source-name">Sol Heredit (Varlamore Day 1)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <div class="skill-icon"><img src="https://oldschool.runescape.wiki/images/Ring_of_suffering_(i).png" alt=""></div>
+      <div class="skill-title">
+        <h3>Ring of Suffering (i)</h3>
+        <span class="time-badge medium">Tank Ring</span>
+      </div>
+    </div>
+    <p class="method">+20 def all styles, +4 prayer, recoil damage. Craft from zenyte ring → Lvl-7 Enchant → imbue at NMZ (Kandarin) or Soul Wars. Recoil scales with leagues damage modifiers.</p>
+    <div class="boss-source">
+      <img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt="">
+      <div class="source-info">
+        <span class="source-label">Base Ring From</span>
+        <span class="source-name">Zenyte (Demonic Gorillas)</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- BOSS PROGRESSION -->
+<div class="category-header">
+  <h2 class="headline-medium">Boss Progression</h2>
+</div>
+
+<p class="body-medium" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 16px; max-width: 720px;">
+  Bosses you'll farm, ordered by phase availability. <strong style="color: var(--md-sys-color-primary);">Highlighted = essential for build</strong>. Shortcut tags mean Map of Alacrity gives you teleport access nearby.
+</p>
+
+<!-- Phase 1 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 12px;">Phase 1 — Varlamore + Karamja (Day 1)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png" alt=""></div>
+    <div class="boss-name">Doom of Mokhaiotl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Pillar Shortcut 75</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Eye of Ayak, Avernic Treads, Mokhaiotl Cloth. <strong>Strategy:</strong> Casual KCs early for tasks. Hard farm at T4 (5x drops). Higher delves = better drop rates.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Hueycoatl.png" alt=""></div>
+    <div class="boss-name">Hueycoatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dragon Hunter Wand (1/105), Sunfire Splinters (17-350 per drop). <strong>Strategy:</strong> Farm for splinters (Prayer training). DHW is huge for CoX/Hydra.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt=""></div>
+    <div class="boss-name">Sol Heredit (Colosseum)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dizana's Quiver, Sunfire Fanatic set, splinters. <strong>Strategy:</strong> Hard practice content. Late Phase 1 with decent gear. You already practice this — keep doing it.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Vardorvis.png" alt=""></div>
+    <div class="boss-name">Vardorvis</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Fire_Surge.png" alt="">Fire weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Ultor ring (melee), Executioner's Axe. <strong>Strategy:</strong> Less relevant for mage build. Do for KC tasks + points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Blood_Moon.png" alt=""></div>
+    <div class="boss-name">Moons of Peril</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Blood/Eclipse/Blue Moon sets, moon keys (250 splinters each). <strong>Strategy:</strong> Easy early farm. Splinters feed Prayer training.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Amoxliatl.png" alt=""></div>
+    <div class="boss-name">Amoxliatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Fire_Surge.png" alt="">Fire weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tonalztics of Ralos (throwing). <strong>Strategy:</strong> Easy farm for KC tasks. Echo orb for Echo Amoxliatl.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Amoxliatl.png" alt=""></div>
+    <div class="boss-name">Echo Amoxliatl</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Four-pronged echo weapon (TBD). <strong>Strategy:</strong> Need echo orb from normal Amoxliatl first. Easy farm.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Gemstone_Crab.png" alt=""></div>
+    <div class="boss-name">Gemstone Crab</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Uncut gems. <strong>Strategy:</strong> Crafting supply backup. Toci's diamonds via Transmutation is better, but useful early.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzTok-Jad.png" alt=""></div>
+    <div class="boss-name">TzTok-Jad (Fight Caves)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Fire Cape, Tzrek-jad pet. <strong>Strategy:</strong> Easy with leagues buffs. Quick task completion.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzKal-Zuk.png" alt=""></div>
+    <div class="boss-name">TzKal-Zuk (Inferno)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase1">Phase 1</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Infernal Cape, Jal-nib-rek pet. <strong>Strategy:</strong> Very hard. Save for Phase 5 with full BIS + Flask of Fervour. Big practice goal.</p>
+  </div>
+
+</div>
+
+<!-- Phase 2 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 2 — + Tirannwn (1st pick)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt=""></div>
+    <div class="boss-name">Corrupted Gauntlet</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Crystal armor seed, Crystal weapon seed, Enhanced crystal weapon seed (Bowfa/Blade), Crystal shards. <strong>Strategy:</strong> THE foundation of the build. Farm aggressively for full crystal armor + Enhanced seed → Bowfa. You're good at CG so this is fast.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt=""></div>
+    <div class="boss-name">Echo Corrupted Gauntlet</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Crystal blessing (1/15). <strong>Strategy:</strong> THE most important drop in the build. Activates crystal set bonus on melee + powered staves AND adds +20 mage atk + +2% mage dmg per crystal piece. Farm until it drops.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Zulrah.png" alt=""></div>
+    <div class="boss-name">Zulrah</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tanzanite/Magma fang (Toxic Blowpipe), Magic Fang (Trident upgrade), Serpentine helm, Onyx, herb drops. <strong>Strategy:</strong> Consistent GP and ranged unique drops. Blowpipe is a backup ranged option to Bowfa.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Zalcano.png" alt=""></div>
+    <div class="boss-name">Zalcano</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Crystal tool seed, Crystal shards, ores, gems, Dragon pickaxe (1/2,500 → 1/500 at 5x). <strong>Strategy:</strong> Mining + Smithing XP per kill + d-pick farm. Replaces KQ as d-pick source.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Crystal_pickaxe.png" alt=""></div>
+    <div class="boss-name">Crystal Tools (Make Set)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+      <span class="boss-tag essential">Build Item</span>
+    </div>
+    <p class="boss-info">Combine crystal tool seeds + crystal shards at Singing Bowl. Crystal pickaxe (faster mining), crystal axe (faster WC), crystal harpoon (faster fishing). Upgrades entire EH + Flow State gathering engine.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Dark_beast.png" alt=""></div>
+    <div class="boss-name">Iorwerth Slayer Dungeon</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase2">Phase 2</span>
+    </div>
+    <p class="boss-info">Dark beasts, Iorwerth warriors, elves. New Slayer variety in Prifddinas. Dark beasts are nechryael-tier task XP.</p>
+  </div>
+
+</div>
+
+<!-- Phase 3 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 3 — + Kandarin (2nd pick)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt=""></div>
+    <div class="boss-name">Demonic Gorillas</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Crash Site Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Zenyte shards, Heavy/Light frame ballista, Hydrix. <strong>Strategy:</strong> PRIORITY in Phase 3. Need zenytes for Confliction Gauntlets. Switch combat styles to bypass prayer flicks (your tribrid gear stack handles this naturally).</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt=""></div>
+    <div class="boss-name">Thermonuclear Smoke Devil</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Smoke Dungeon Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Wind_Surge.png" alt="">Air weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Occult Necklace (BIS mage neck), Smoke battlestaff. <strong>Strategy:</strong> 93 Slayer needed. Use Culling Spree to force Smoke Devil tasks. Get echo orb for Echo Thermy.</p>
+  </div>
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png" alt=""></div>
+    <div class="boss-name">Echo Thermonuclear Smoke Devil</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag essential">Essential</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Shadowflame Quadrant (1H autocaster), Devil's Element (offhand). <strong>Strategy:</strong> Need echo orb first. SQ + DE = secondary mage weapon for Slayer / barrage AoE content where EoA is overkill. DE adds 30% elemental weakness universally.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Cave_kraken.png" alt=""></div>
+    <div class="boss-name">Kraken</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase3">Phase 3</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Trident of the Seas, Kraken tentacle, Jar of dirt. <strong>Strategy:</strong> 87 Slayer. Trident is a powered staff that benefits from crystal set bonus + F8 1-tick.</p>
+  </div>
+
+</div>
+
+<!-- Phase 4 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 4 — + Kourend (3rd pick)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt=""></div>
+    <div class="boss-name">Chambers of Xeric</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag essential">Essential</span>
+      <span class="boss-tag shortcut">Mt Quidamortem Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Kodai Insignia, Ancestral set (bonus), Augury, Dragon Hunter Crossbow, Twisted Bow. <strong>Strategy:</strong> Crystal armor handles mage already, but Kodai for AoE Slayer + Twisted Bow lottery. T4 5x drops accelerates farming.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Wintertodt_%281%29.png" alt=""></div>
+    <div class="boss-name">Wintertodt</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Pyromancer outfit, Tome of Fire, Dragon Axe (backup if no crystal axe), Phoenix pet, supply crates. <strong>Strategy:</strong> Bank carts, open at high Farming/Herblore for best rewards. Flow State 2-tick makes runs fast.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Hespori.png" alt=""></div>
+    <div class="boss-name">Hespori</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Tree seeds (magic, celastrus, redwood), bottomless compost bucket, Crystal acorn. <strong>Strategy:</strong> Plant Hespori → 1-min ticks → kill → repeat. Crystal acorns for Nature's Accord crystal trees (passive shard supply!).</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Hespori.png" alt=""></div>
+    <div class="boss-name">Echo Hespori</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Nature's Reprisal (3-style weapon, 1/15, guaranteed at 30 KC). <strong>Strategy:</strong> Easy farm. Tribrid weapon synergizes with crystal armor flexibility.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Skotizo.png" alt=""></div>
+    <div class="boss-name">Skotizo</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag shortcut">Catacombs Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Dark claws, Jar of darkness, Skotos pet. <strong>Strategy:</strong> Catacombs dark totem fragments → Skotizo. Pact task points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sarachnis.png" alt=""></div>
+    <div class="boss-name">Sarachnis</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Sarachnis cudgel, Giant egg sac. <strong>Strategy:</strong> Easy mid-game boss. Cudgel is melee — fits crystal armor melee loadout.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Alchemical_Hydra_%28serpentine%29.png" alt=""></div>
+    <div class="boss-name">Alchemical Hydra</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag shortcut">Karuulm Shortcut</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Hydra leather, hydra eye/fang/heart, Brimstone ring, Hydra tail (for bonecrusher necklace). <strong>Strategy:</strong> 95 Slayer required. Dragon Hunter Wand makes this much easier.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Yama.png" alt=""></div>
+    <div class="boss-name">Yama (Chasm of Fire)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 4</span>
+      <span class="boss-tag shortcut">MoA Chasm Shortcuts</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Drops:</strong> Diabolic worms (massively boost anglerfish catch rate), other Yama uniques. <strong>Strategy:</strong> Map of Alacrity bypasses 73/83 Agility shortcuts inside the chasm for faster access.</p>
+  </div>
+
+</div>
+
+<!-- Phase 5 -->
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 32px 8px 12px;">Phase 5 — Endgame (T8 Flask of Fervour)</h3>
+
+<div class="skill-grid">
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzKal-Zuk.png" alt=""></div>
+    <div class="boss-name">Inferno (Push)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Water_Surge.png" alt="">Water weakness</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Infernal Cape. Flask of Fervour makes learning much more forgiving. Hard practice goal you can finally complete with full BIS.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt=""></div>
+    <div class="boss-name">CG Mastery (Speed Runs)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Speedrun CG for collection log + crystal shard income. With full crystal armor + blessing in hand, optimize for fastest clears + Echo CG farming.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt=""></div>
+    <div class="boss-name">Sol Heredit (Sweat)</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Colosseum at higher modifiers. Flask + Eye of Ayak max DPS. Big sweat content for points.</p>
+  </div>
+
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt=""></div>
+    <div class="boss-name">CoX Challenge Mode</div>
+    <div class="boss-tags">
+      <span class="boss-tag phase4">Phase 5</span>
+      <span class="boss-tag weakness"><img src="https://oldschool.runescape.wiki/images/Earth_Surge.png" alt="">Earth weakness</span>
+    </div>
+    <p class="boss-info"><strong>Goal:</strong> Harder CoX runs. Better drop rates. Twisted ancestral kit.</p>
+  </div>
+
+</div>
+
+<!-- DEMONIC PACT TASKS -->
+<div class="category-header">
+  <h2 class="headline-medium">Demonic Pact Tasks (Combat)</h2>
+</div>
+
+<p class="body-medium" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 16px; max-width: 760px;">
+  Combat tasks that grant Demonic Pact points. <strong>40 pacts total + 3 resets.</strong> Filtered to tasks accessible in your regions (Varlamore, Karamja, <strong>Tirannwn</strong>, Kandarin, Kourend). Locked tasks omitted.
+</p>
+
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 0 8px 12px;">10 Points</h3>
+<div class="skill-grid">
+  <div class="boss-card">
+    <div class="boss-name">Defeat a Hill Giant</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info"><strong>Where:</strong> Karamja Volcano hill giants area, or Hill Giants in any accessible region. Trivial day 1.</p>
+  </div>
+</div>
+
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 24px 8px 12px;">30 Points</h3>
+<div class="skill-grid">
+  <div class="boss-card">
+    <div class="boss-name">Reach Combat Level 50</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Natural during Sulphur Naguas / early Slayer training.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Use Protect from Melee</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Need 43 Prayer (33 real). Easy after Ralos' Rise dump.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Defeat a Steel Dragon on Karamja</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Brimhaven Dungeon. Karamja autounlock. Mid-combat task.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Defeat a TzHaar</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Mor Ul Rek (Karamja). Trivial.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">150 Lizardmen Shaman Kills</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Lizardman Settlement (Kourend). Slayer task.</p>
+  </div>
+</div>
+
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 24px 8px 12px;">80 Points</h3>
+<div class="skill-grid">
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Hueycoatl.png" alt=""></div>
+    <div class="boss-name">1 Hueycoatl Kill</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">Already in your priority list (Dragon Hunter Wand). One kill = 80 pact points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzTok-Jad.png" alt=""></div>
+    <div class="boss-name">Tzhaar-Ket-Rek's 3rd Challenge</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Fight Caves (TzTok-Jad). Easy with leagues buffs. Same kill as Fire Cape task.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Skotizo.png" alt=""></div>
+    <div class="boss-name">1 Skotizo Kill</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Need dark totem from Catacombs. Kourend.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Great_Olm.png" alt=""></div>
+    <div class="boss-name">25 Chambers of Xeric</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">You're farming CoX anyway for Ancestral/Kodai/Augury. Stack pact points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Assemble a Slayer Helm</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Standard Slayer unlock. Easy after first few tasks.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Demonic_gorilla.png" alt=""></div>
+    <div class="boss-name">Defeat a Demonic Gorilla</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">Zenytes for Confliction Gauntlets. One kill = 80 pact points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Defeat the Kraken Boss 50 Times</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span></div>
+    <p class="boss-info">Kraken Cove (Kandarin). 50 kills, but profitable + Trident drops along the way.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Equip a Trident of the Seas</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span></div>
+    <p class="boss-info">Drops from Kraken (1/512). Pairs with the 50 Kraken kills task.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Amulet_of_blood_fury.png" alt=""></div>
+    <div class="boss-name">Create an Amulet of Blood Fury</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span></div>
+    <p class="boss-info">Amulet of Fury + blood shard. Blood shards from vyrewatch (Morytania - LOCKED) — may be unobtainable. Skip.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Kill 1 unique Echo Boss</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span><span class="boss-tag essential">+Reset</span></div>
+    <p class="boss-info">Echo Amoxliatl is your earliest. One kill = 80 points + a free pact reset.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Zulrah.png" alt=""></div>
+    <div class="boss-name">Defeat Zulrah</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">Tirannwn 1st pick. Already farming for blowpipe / Magic Fang / Serp helm. 80 pact points per task batch.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/The_Corrupted_Hunllef.png" alt=""></div>
+    <div class="boss-name">Complete the Corrupted Gauntlet</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">CG completion task. You're farming this for crystal armor + blessing anyway. Stack pact points naturally.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Zalcano.png" alt=""></div>
+    <div class="boss-name">Defeat Zalcano</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Skilling boss in Prifddinas. Mining + Smithing XP + d-pick. Easy task overlap.</p>
+  </div>
+</div>
+
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 24px 8px 12px;">200 Points</h3>
+<div class="skill-grid">
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzTok-Jad.png" alt=""></div>
+    <div class="boss-name">Equip a Fire Cape</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Fight Caves Karamja. Easy with leagues buffs. 200 points.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Ice_barrage_icon.png" alt=""></div>
+    <div class="boss-name">Cast Ice Barrage</div>
+    <div class="boss-tags"><span class="boss-tag phase3">Phase 3</span><span class="boss-tag essential">Build Spell</span></div>
+    <p class="boss-info">94 Magic. Your main combat spell. 200 points just for one cast.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Crystal_helm.png" alt=""></div>
+    <div class="boss-name">Equip a Crystal Armour Piece</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">From CG (Tirannwn). Crystal helm/body/legs all qualify. You're farming CG for the blessing anyway. Free 200.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Bow_of_Faerdhinen.png" alt=""></div>
+    <div class="boss-name">Equip a Bow of Faerdhinen</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">From Enhanced crystal weapon seed (CG drop, 1/400). Bowfa = BIS ranged with crystal armor. 200 pact points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Toxic_blowpipe.png" alt=""></div>
+    <div class="boss-name">Equip a Toxic Blowpipe</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Tanzanite + Magma fang from Zulrah. Backup ranged weapon. 200 pact points.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Avernic_treads.png" alt=""></div>
+    <div class="boss-name">Equip Avernic Treads</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">From Doom of Mokhaiotl. Already farming. Free 200 once you get them.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Occult_necklace.png" alt=""></div>
+    <div class="boss-name">Equip an Occult Necklace</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">From Thermy. Already in priority. Free 200.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Ancestral_hat.png" alt=""></div>
+    <div class="boss-name">Equip Any Ancestral Piece</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">Build Item</span></div>
+    <p class="boss-info">From CoX. Already in priority. Free 200.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Equip Some Zenyte Jewelry</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span></div>
+    <p class="boss-info">Once you craft any zenyte item (Confliction prerequisite work). Free 200.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Dragon_hunter_lance.png" alt=""></div>
+    <div class="boss-name">Equip a Dragon Hunter Lance</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">Drops from Alchemical Hydra (Kourend, 95 Slayer). Same boss as Brimstone components.</p>
+  </div>
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Sol_Heredit.png" alt=""></div>
+    <div class="boss-name">Complete Wave 12 of Fortis Colosseum</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Colosseum wave 12 (not full Sol Heredit). Achievable mid-game.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Vardorvis.png" alt=""></div>
+    <div class="boss-name">Defeat Awakened Vardorvis</div>
+    <div class="boss-tags"><span class="boss-tag phase1">Phase 1</span></div>
+    <p class="boss-info">Awakened mode of Vardorvis (Varlamore). Hard boss practice content. 200 points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Kill 2 Unique Echo Bosses</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span><span class="boss-tag essential">+Reset</span></div>
+    <p class="boss-info">Echo Amoxliatl + Echo Hespori. Easy combo. 200 points + reset.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Kill 3 Unique Echo Bosses</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span><span class="boss-tag essential">+Reset</span></div>
+    <p class="boss-info">+ Echo Thermy. 200 points + reset. Stack with Devil's Element farm.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-name">Kill 4 Unique Echo Bosses</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 4</span></div>
+    <p class="boss-info">Need a 4th echo boss. Echo Doom of Mokhaiotl if it exists, or Echo Sol Heredit. Verify availability.</p>
+  </div>
+</div>
+
+<h3 class="title-large" style="color: var(--md-sys-color-on-surface-variant); padding: 24px 8px 12px;">400 Points</h3>
+<div class="skill-grid">
+  <div class="boss-card priority">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzKal-Zuk.png" alt=""></div>
+    <div class="boss-name">Equip an Infernal Cape</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 5</span></div>
+    <p class="boss-info">Inferno completion. Hardest task in your list. 400 pact points.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/TzTok-Jad.png" alt=""></div>
+    <div class="boss-name">Tzhaar-Ket-Rek's Special Challenge</div>
+    <div class="boss-tags"><span class="boss-tag phase4">Phase 5</span></div>
+    <p class="boss-info">Inferno-related challenge. Same Inferno completion content.</p>
+  </div>
+  <div class="boss-card">
+    <div class="boss-img-wrap"><img src="https://oldschool.runescape.wiki/images/Blade_of_saeldor.png" alt=""></div>
+    <div class="boss-name">Equip a Blade of Saeldor</div>
+    <div class="boss-tags"><span class="boss-tag phase2">Phase 2</span></div>
+    <p class="boss-info">From Enhanced crystal weapon seed (CG drop). BIS melee with crystal armor. Alternative to Bowfa from same seed.</p>
+  </div>
+</div>
+
+<div class="footnote">
+  <p>Full docs at <a href="https://github.com/JaredEzz/leagues-vi">github.com/JaredEzz/leagues-vi</a></p>
+  <p class="body-small" style="margin-top: 8px;">Assets from <a href="https://oldschool.runescape.wiki/">OSRS Wiki</a>. Material 3 design system.</p>
+</div>
+
+</body>
+</html>
