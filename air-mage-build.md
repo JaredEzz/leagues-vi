@@ -29,27 +29,61 @@ At 56+ prayer bonus × 2 (doubled) = **100% max hit chance on every target in th
 
 ---
 
-## Gear: Max Prayer, Not Mage Armor
+## Gear: Hybrid Prayer/Mage Stack
 
-Mage armor (Ancestral, Virtus, Crystal) is actively WORSE for this build than max prayer gear. The reason is simple: L1's max hit chance scales with prayer bonus, not magic damage. Max prayer gear gives ~60 prayer bonus vs ~20 for crystal or ancestral. The L1 proc rate advantage (80-100% vs 40%) outweighs the max hit advantage from mage armor.
+The optimal setup combines prayer bonus (for L1 proc rate) with mage damage (via Virtus + Confliction). You need enough prayer bonus to trigger L1's doubled mode on every target — with DE making everything air-weak, **~50 prayer bonus is enough** because L1 doubles to ~100% cap on all content.
 
-### The Loadout
+The extra prayer bonus above 50 is wasted (L1 capped), but magic damage % continues scaling your max hit linearly. So once you hit ~50 prayer, prioritize magic damage for the rest of your slots.
+
+### The Loadout (Primary)
 
 | Slot | Item | Prayer | Magic Atk | Magic Dmg % | Source |
 |---|---|---|---|---|---|
-| **Head** | Mitre (Sara/Zam/Guthix) or Zealot's helm | +4 to +6 | 0 | 0% | GWD (Fremennik) or Muspah (if Fremennik) |
-| **Neck** | Dragonbone / Bonecrusher necklace | **+12** | 0 | 0% | Alchemical Hydra (Kourend) — hydra tail needed |
-| **Body** | Zealot's / Sunfire Fanatic / Proselyte | +6 to +8 | 0 | 0% | Varies by region |
-| **Legs** | Zealot's / Sunfire Fanatic / Proselyte | +5 to +6 | 0 | 0% | Varies by region |
-| **Cape** | Ardougne cloak 4 | +4 | 0 | 0% | Elite Ardougne Diary (Kandarin) |
+| **Head** | **Saradomin Mitre** | **+5** | +4 | 0% | Elite clue / shops |
+| **Neck** | **Saradomin Stole** | **+10** | +2 | 0% | Med/Hard clue |
+| **Body** | **Virtus robe top** | **+2** | +35 | +2% (std) / +5% (Ancients) | CoX in leagues OR DT2 OR clue |
+| **Legs** | Virtus robe bottom OR Sunfire chausses | +1 / +8 | varies | varies | Flex slot — see below |
+| **Cape** | **Ardougne cloak 4** | **+6** | +6 | 0% | Elite Ardy Diary (Kandarin) |
 | **Weapon** | **Shadowflame Quadrant (SQ)** | 0 | +25 | **+15%** | Echo Thermy (Kandarin) |
-| **Offhand** | **Devil's Element** | +3 | +20 | +6% | Echo Thermy (Kandarin) |
-| **Ammo** | Holy blessing / Crystal blessing | +5 to +8 | 0 | 0% | Varies |
-| **Ring** | Ring of the gods (i) | **+8** | 0 | 0% | Dagannoth Rex (Fremennik) |
-| **Boots** | Devout boots | **+7** | 0 | 0% | Kourend & Kebos Hard Diary reward |
-| **Gloves** | Holy wraps | +1 | 0 | 0% | Last Man Standing |
+| **Offhand** | **Devil's Element** | **+3** | +20 | +6% | Echo Thermy (Kandarin) |
+| **Ammo** | **Holy blessing** | **+8** | 0 | 0% | Clue scroll reward |
+| **Ring** | **Ring of Suffering (i)** | **+4** | 0 | 0% | NMZ / Soul Wars |
+| **Boots** | **Echo boots** | **+4** | 0 | 0% | Guardian boots + Fortis Colosseum echo crystal |
+| **Gloves** | **Confliction Gauntlets** | 0 | **+20** | **+7%** | Zenyte (Gorillas, Kandarin) + Mokhaiotl cloth (Varlamore) |
 
-**Total prayer bonus: ~55-60** (depending on 3rd region pick and specific items available).
+### Prayer Bonus Math
+
+| Slot | Prayer |
+|---|---|
+| Head (Sara mitre) | +5 |
+| Neck (Sara stole) | +10 |
+| Body (Virtus top) | +2 |
+| Legs (Virtus bot) | +1 |
+| Cape (Ardy 4) | +6 |
+| Offhand (DE) | +3 |
+| Ammo (Holy blessing) | +8 |
+| Ring (Suffering i) | +4 |
+| Boots (Echo) | +4 |
+| **Total** | **~43** |
+
+With Sunfire chausses instead of Virtus bottom: **~50 prayer** (+8 from Sunfire vs +1 Virtus). Either works — Sunfire gives more prayer, Virtus gives mage damage.
+
+### Why 43-50 Prayer Is Enough
+
+L1: +1% max hit chance per prayer bonus, doubled vs air-weak.
+- 43 × 2 = **86%** max hit chance on air-weak
+- 50 × 2 = **100%** max hit chance on air-weak
+
+And with Devil's Element making EVERY enemy air-weak, L1's doubled mode triggers universally. **43-50 prayer bonus = 86-100% max hit chance on every target in the game.**
+
+### The Only Mage Items That Matter
+
+- **Shadowflame Quadrant** (+25 atk, +15% dmg, spell echo, auto-weakness)
+- **Devil's Element** (+20 atk, +6% dmg, +30% universal elemental weakness)
+- **Virtus robe top** (+35 atk, +2-5% dmg, +2 prayer)
+- **Confliction Gauntlets** (+20 atk, +7% dmg, accuracy re-roll passive)
+
+Combined magic damage % from gear: +30% (SQ 15 + DE 6 + Virtus 2 + Confliction 7). Plus pact stacks (+3-8%) + offhand node12 (+2%) = **+35-40% total magic damage**.
 
 ### The Only Mage Items
 
