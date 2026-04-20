@@ -1,0 +1,38 @@
+HUNTER GUILD SESSION (Varlamore, Hunter 46+)
+#389 Build a Quetzal Landing Site
+#404 Create a Quetzal Whistle
+#393 Complete 10 Hunter Rumours
+#395 Complete 25 Hunter Rumours
+#414 Enter a dark cave in Varlamore
+#392 Catch a Pyre fox (Hunter 57, knife + logs)
+#396 Complete At First Light (needs Herb 30 -- train 27->30 first)
+
+SLAYER WITH CULLING SPREE (Tirannwn Iorwerth Dungeon)
+#283 Defeat 25 Superior slayer creatures
+#287 Defeat 75 Superior slayer creatures
+#373 Slay 250 creatures
+#553 Defeat a Kurask in Tirannwn (Slayer 70 -- 5 levels away)
+#418 Equip Sulphur Blades (Varlamore, Att 55)
+
+FLETCHING AFK BATCH (Auburn Vale)
+#77  Complete the Vale totems miniquest (Fletch 20) [EASY 10pt]
+#441 Store bowstrings in a bowstring spool (after Vale totems)
+#429 Fully decorate an Oak totem (Fletch 20)
+#428 Fully decorate a Willow totem (Fletch 35)
+#427 Fully decorate a Maple totem (Fletch 50)
+#431 Make a Greenman statue (Fletch 53)
+#322 Fletch 150 Iron Arrows (Fletch 15)
+#326 Fletch a Willow Shortbow (u) (Fletch 35)
+#325 Fletch 50 Willow longbow (u) (Fletch 40)
+#323 Fletch 25 Maple longbow (u) (Fletch 55)
+#327 Fletch Broad Arrows/Bolts (Fletch 52 + 300 Slayer pts unlock)
+#301 Equip a Yew Shortbow (Ranged 40)
+#300 Equip a Willow Shield (Def 30, Fletch 42)
+
+SMITHING BOLT/ARROW TIPS (while at anvil)
+#376 Smith 150 Iron Arrowtips (Smith 20)
+#375 Smith 10 Steel bolts (unf) (Smith 33)
+#377 Smith 250 Mithril bolts (unf) (Smith 53)
+
+CLEANUP / QUEST
+#399 Complete Shadows of Custodia (Slay 54, Fish 45, Con 41, Hunt 36)
